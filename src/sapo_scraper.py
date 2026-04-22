@@ -1,74 +1,80 @@
 import requests
-import re
 from bs4 import BeautifulSoup
-import json
-import logging
-import os
 from datetime import datetime
 
-# Configure logging as required by the project guidelines [cite: 68]
-logging.basicConfig(
-    filename='logs/extraction.log', 
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+BASE_URL = "https://tek.sapo.pt"
+NUMBER_OF_ARTICLES = 100
 
-def scrape_sapo_tek():
-    url_base = "https://tek.sapo.pt"
-    
+def scrape_sapo_tek() -> list[dict]:
     try:
-        response = requests.get(url_base)
+        response = requests.get(BASE_URL, timeout=10)
         response.raise_for_status()
     except requests.exceptions.RequestException as e:
-        logging.error(f"Error accessing main page: {e}")
-        return []
+        raise RuntimeError(f"Error accessing SAPO TEK: {e}")
 
     soup = BeautifulSoup(response.text, 'html.parser')
     new_articles = []
+    seen_urls = set()
 
-    article_links = soup.select('a[href*="/artigos/"]') 
-    print(f"Number of links found: {len(article_links)}")
+    article_links = soup.select('a[href*="/artigos/"]')
 
-    for link in article_links[:1]:
+    for link in article_links[:NUMBER_OF_ARTICLES]:
         article_url = link.get('href')
+        if not article_url:
+            continue
+
         if not article_url.startswith('http'):
-            article_url = url_base + article_url
+            article_url = BASE_URL + article_url
+
+        # Avoid processing the same URL twice in the same batch
+        if article_url in seen_urls:
+            continue
+        seen_urls.add(article_url)
 
         try:
-            article_resp = requests.get(article_url)
+            article_resp = requests.get(article_url, timeout=10)
+            article_resp.raise_for_status()
             article_soup = BeautifulSoup(article_resp.text, 'html.parser')
-            
-            # 1. Title 
+
+            # 1. Title
             title_tag = article_soup.select_one('.wp-block-post-title')
             title = title_tag.get_text(strip=True) if title_tag else "No title"
-            
+
             # 2. Summary
             excerpt_tag = article_soup.select_one('.wp-block-post-excerpt__excerpt')
             excerpt = excerpt_tag.get_text(strip=True) if excerpt_tag else ""
-            
-            # 3. Author 
+
+            # 3. Author (Multiple fallback selectors)
             author = "Unknown"
-            for strong in article_soup.find_all("strong"):
-                text = strong.get_text(" ", strip=True)
-                print(repr(text))
-                if "Por " in text and "(*)" in text:
-                    author = text.replace("(*)", "").replace("Por ", "", 1).strip()
-                    print(f"Author found: {author}")
-                    break
-            
+            author_tag = article_soup.select_one('h3.wp-block-heading')
+            if author_tag:
+                text = author_tag.get_text(strip=True)
+                if "By " in text and "(*)" in text or "Por " in text:
+                    author = text.replace("(*)", "").replace("Por ", "").replace("By ", "").strip()
+
+            if author == "Unknown":
+                for strong in article_soup.find_all("strong"):
+                    text = strong.get_text(" ", strip=True)
+                    if ("Por " in text or "By " in text) and "(*)" in text:
+                        author = text.replace("(*)", "").replace("Por ", "").replace("By ", "").strip()
+                        break
+
             # 4. Date
             date_tag = article_soup.select_one('.article-date, time')
             pub_date = date_tag.get_text(strip=True) if date_tag else "Unknown"
-            
-            # 5. Full Text 
+
+            # 5. Full Text
             content_div = article_soup.select_one('.entry-content')
-            full_text = " ".join([p.get_text(strip=True) for p in content_div.find_all('p')]) if content_div else ""
-            
+            full_text = (
+                " ".join([p.get_text(strip=True) for p in content_div.find_all('p')])
+                if content_div else ""
+            )
+
             # 6. Tags
             tags_elements = article_soup.select('a[rel="tag"]')
             tags = [tag.get_text(strip=True) for tag in tags_elements]
 
-            article_data = {
+            new_articles.append({
                 "id_interno": article_url,
                 "fonte": "SAPO Notícias / TEK",
                 "titulo": title,
@@ -77,45 +83,13 @@ def scrape_sapo_tek():
                 "url": article_url,
                 "data_publicacao": pub_date,
                 "data_extracao": datetime.now().isoformat(),
-                "categoria": "Tecnologia",
+                "categoria": "Technology",
                 "tags": tags,
                 "texto_completo": full_text
-            }
-            
-            new_articles.append(article_data)
-            logging.info(f"Successfully extracted: {article_url}")
-            print(json.dumps(article_data, indent=4, ensure_ascii=False))
+            })
 
         except Exception as e:
-            logging.warning(f"Error extracting {article_url}: {e}")
+            # Re-raise to let the main orchestrator log the failure
+            raise RuntimeError(f"Error extracting article {article_url}: {e}")
 
     return new_articles
-
-def save_data(new_articles, json_file='data/sapo.json'):
-    # Load existing data to avoid duplicates
-    if os.path.exists(json_file):
-        try:
-            with open(json_file, 'r', encoding='utf-8') as f:
-                existing_data = json.load(f)
-        except json.JSONDecodeError:
-            existing_data = []
-    else:
-        existing_data = []
-
-    # Filter to only add unique articles
-    existing_ids = {article['id_interno'] for article in existing_data}
-    articles_to_add = [n for n in new_articles if n['id_interno'] not in existing_ids]
-
-    if articles_to_add:
-        existing_data.extend(articles_to_add)
-        with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(existing_data, f, ensure_ascii=False, indent=4)
-        logging.info(f"Saved {len(articles_to_add)} new articles.")
-    else:
-        logging.info("No new articles to save.")
-
-if __name__ == "__main__":
-    logging.info("Starting scraper job.")
-    data = scrape_sapo_tek()
-    save_data(data)
-    logging.info("Scraper job finished.\n---")
