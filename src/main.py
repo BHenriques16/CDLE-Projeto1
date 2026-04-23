@@ -1,7 +1,8 @@
 import json
 import logging
 import os
-from pplware import scrape_pplware
+from pplware_scraper.py import scrape_pplware
+from sapo_scraper.py import scrape_sapo_tek
 
 # Configuration
 JSON_FILE = "data/articles.json"
@@ -25,7 +26,7 @@ logging.getLogger().addHandler(console)
 # Scraper registry - add new sites here
 SCRAPERS = {
     "PPLWARE":  scrape_pplware,
-#   "SAPO TEK": scrape_sapo_tek,
+    "SAPO TEK": scrape_sapo_tek,
 #   "Site 3":   scrape_site3,
 }
 
