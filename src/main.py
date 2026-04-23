@@ -1,9 +1,7 @@
 import json
 import logging
 import os
-from sapo_scraper import scrape_sapo_tek
-#from site2_scraper import scrape_site2
-#from site3_scraper import scrape_site3
+from pplware import scrape_pplware
 
 # Configuration
 JSON_FILE = "data/articles.json"
@@ -26,59 +24,64 @@ logging.getLogger().addHandler(console)
 
 # Scraper registry - add new sites here
 SCRAPERS = {
-    "SAPO TEK":  scrape_sapo_tek,
-#    "Site 2":    scrape_site2,
-#    "Site 3":    scrape_site3,
+    "PPLWARE":  scrape_pplware,
+#   "SAPO TEK": scrape_sapo_tek,
+#   "Site 3":   scrape_site3,
 }
 
-def save_data(new_articles: list[dict], json_file: str = JSON_FILE) -> int:
+def load_existing_data(json_file: str = JSON_FILE) -> list:
+    """Loads the existing JSON file so we know what we already have."""
     if os.path.exists(json_file):
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
-                existing_data = json.load(f)
+                return json.load(f)
         except (json.JSONDecodeError, OSError):
             logging.warning("Invalid existing JSON file — starting from scratch.")
-            existing_data = []
-    else:
-        existing_data = []
+    return []
 
-    existing_ids = {article['id_interno'] for article in existing_data}
-    articles_to_add = []
-    seen_in_batch = set()
-
-    for article in new_articles:
-        url = article['id_interno']
-        if url not in existing_ids and url not in seen_in_batch:
-            articles_to_add.append(article)
-            seen_in_batch.add(url)
-
-    if articles_to_add:
-        existing_data.extend(articles_to_add)
-        with open(json_file, 'w', encoding='utf-8') as f:
-            json.dump(existing_data, f, ensure_ascii=False, indent=4)
-        logging.info(f"Saved {len(articles_to_add)} new articles.")
-    else:
+def save_data(existing_data: list, new_articles: list[dict], json_file: str = JSON_FILE) -> int:
+    """Appends new articles to the existing data and saves the file."""
+    if not new_articles:
         logging.info("No new articles to save.")
-
-    return len(articles_to_add)
+        return 0
+        
+    existing_data.extend(new_articles)
+    with open(json_file, 'w', encoding='utf-8') as f:
+        json.dump(existing_data, f, ensure_ascii=False, indent=4)
+    
+    logging.info(f"Saved {len(new_articles)} new articles.")
+    return len(new_articles)
 
 def run_all():
-    all_articles = []
+    # 1. Load the database ONCE at the very beginning
+    existing_data = load_existing_data()
+    
+    # Create a fast-lookup set of all URLs we already have
+    existing_urls = {article['id_interno'] for article in existing_data if 'id_interno' in article}
+    
+    all_new_articles = []
     results = {}
 
     for name, scraper_fn in SCRAPERS.items():
         logging.info(f"[{name}] Starting extraction...")
         try:
-            articles = scraper_fn()
-            all_articles.extend(articles)
+            # 2. Pass the existing URLs to the scraper so it ignores old news
+            articles = scraper_fn(existing_urls)
+            all_new_articles.extend(articles)
+            
+            # 3. Add the newly found URLs to the set so the next scraper doesn't duplicate them
+            for article in articles:
+                existing_urls.add(article['id_interno'])
+                
             results[name] = {"status": "OK", "count": len(articles)}
-            logging.info(f"[{name}] {len(articles)} articles extracted successfully.")
+            logging.info(f"[{name}] {len(articles)} new articles extracted successfully.")
+            
         except Exception as e:
             results[name] = {"status": "ERROR", "message": str(e)}
             logging.error(f"[{name}] Failed: {e}")
 
-    # Global deduplication before saving
-    total_saved = save_data(all_articles)
+    # 4. Save everything to the JSON file
+    total_saved = save_data(existing_data, all_new_articles)
 
     # Final execution summary
     logging.info("=" * 50)
@@ -86,9 +89,9 @@ def run_all():
     logging.info("=" * 50)
     for name, result in results.items():
         if result["status"] == "OK":
-            logging.info(f" {name}: {result['count']} articles extracted")
+            logging.info(f" {name}: {result['count']} new articles extracted")
         else:
-            logging.error(f"{name}: {result['message']}")
+            logging.error(f" {name}: {result['message']}")
     logging.info(f"  → Total saved: {total_saved} new articles")
     logging.info("=" * 50)
 
@@ -96,7 +99,6 @@ def run_all():
     failed = [n for n, r in results.items() if r["status"] == "ERROR"]
     if failed:
         raise SystemExit(f"The following scrapers failed: {', '.join(failed)}")
-
 
 if __name__ == "__main__":
     logging.info("--- JOB STARTED ---")
