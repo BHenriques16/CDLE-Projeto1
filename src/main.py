@@ -19,13 +19,13 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s'
 )
 
-# Output logs to console for real-time feedback (e.g., GitHub Actions)
+# Output logs to console for real-time feedback 
 console = logging.StreamHandler()
 console.setLevel(logging.INFO)
 console.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 logging.getLogger().addHandler(console)
 
-# Scraper registry - add new sites here
+# Scraper registry
 SCRAPERS = {
     "PPLWARE":  scrape_pplware,
     "SAPO TEK": scrape_sapo_tek,
@@ -54,7 +54,8 @@ def save_data(existing_data: list, new_articles: list[dict], json_file: str = JS
     return len(new_articles)
 
 def run_all():
-    # 1. Load the database ONCE at the very beginning
+
+    # Load the database ONCE at the very beginning
     existing_data = load_existing_data()
     
     # Create a fast-lookup set of all URLs we already have
@@ -66,11 +67,11 @@ def run_all():
     for name, scraper_fn in SCRAPERS.items():
         logging.info(f"[{name}] Starting extraction...")
         try:
-            # 2. Pass the existing URLs to the scraper so it ignores old news
+            # Pass the existing URLs to the scraper so it ignores old news
             articles = scraper_fn(existing_urls)
             all_new_articles.extend(articles)
             
-            # 3. Add the newly found URLs to the set so the next scraper doesn't duplicate them
+            # Add the newly found URLs to the set so the next scraper doesn't duplicate them
             for article in articles:
                 existing_urls.add(article['id_interno'])
                 
@@ -81,7 +82,7 @@ def run_all():
             results[name] = {"status": "ERROR", "message": str(e)}
             logging.error(f"[{name}] Failed: {e}")
 
-    # 4. Save everything to the JSON file
+    # Save everything to the JSON file
     total_saved = save_data(existing_data, all_new_articles)
 
     # Final execution summary

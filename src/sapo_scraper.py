@@ -51,14 +51,14 @@ def scrape_sapo_tek(existing_urls: set = None) -> list[dict]:
             excerpt = excerpt_tag.get_text(strip=True) if excerpt_tag else ""
 
             # Author
-            author = "Unknown"
+            author = "Sapo Tek"
             author_tag = article_soup.select_one('h3.wp-block-heading')
             if author_tag:
                 text = author_tag.get_text(strip=True)
                 if "By " in text and "(*)" in text or "Por " in text:
                     author = text.replace("(*)", "").replace("Por ", "").replace("By ", "").strip()
 
-            if author == "Unknown":
+            if author == "Sapo Tek":
                 for strong in article_soup.find_all("strong"):
                     text = strong.get_text(" ", strip=True)
                     if ("Por " in text or "By " in text) and "(*)" in text:
