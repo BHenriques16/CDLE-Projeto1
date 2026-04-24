@@ -55,10 +55,9 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
                     if link not in article_links and link not in existing_urls:
                         article_links.append(link)
 
-    # Limiting to 100 to match your SAPO TEK logic
     for url in article_links[:100]:
         try:
-            time.sleep(1) # Friendly pause
+            time.sleep(1)
             article_response = requests.get(url, headers=headers, timeout=10)
             article_response.raise_for_status()
             article_soup = BeautifulSoup(article_response.text, 'html.parser')
@@ -105,7 +104,6 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
             })
             
         except Exception as e:
-            # We log and continue so one broken article doesn't crash the whole Pplware scrape
             logging.warning(f"Error extracting article {url}: {e}")
             continue
 
