@@ -1,8 +1,10 @@
 import json
 import logging
 import os
-from pplware_scraper.py import scrape_pplware
-from sapo_scraper.py import scrape_sapo_tek
+
+from exame_informatica_scraper import scrape_exame_informatica
+from pplware_scraper import scrape_pplware
+from sapo_scraper import scrape_sapo_tek
 
 # Configuration
 JSON_FILE = "data/articles.json"
@@ -27,11 +29,10 @@ logging.getLogger().addHandler(console)
 SCRAPERS = {
     "PPLWARE":  scrape_pplware,
     "SAPO TEK": scrape_sapo_tek,
-#   "Site 3":   scrape_site3,
+    "EXAME INFORMATICA": scrape_exame_informatica
 }
 
 def load_existing_data(json_file: str = JSON_FILE) -> list:
-    """Loads the existing JSON file so we know what we already have."""
     if os.path.exists(json_file):
         try:
             with open(json_file, 'r', encoding='utf-8') as f:
@@ -41,7 +42,6 @@ def load_existing_data(json_file: str = JSON_FILE) -> list:
     return []
 
 def save_data(existing_data: list, new_articles: list[dict], json_file: str = JSON_FILE) -> int:
-    """Appends new articles to the existing data and saves the file."""
     if not new_articles:
         logging.info("No new articles to save.")
         return 0

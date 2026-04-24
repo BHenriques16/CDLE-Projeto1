@@ -5,7 +5,11 @@ from datetime import datetime
 BASE_URL = "https://tek.sapo.pt"
 NUMBER_OF_ARTICLES = 100
 
-def scrape_sapo_tek() -> list[dict]:
+def scrape_sapo_tek(existing_urls: set = None) -> list[dict]:
+    # 1. Preparar a função para receber os URLs que já tens na base de dados
+    if existing_urls is None:
+        existing_urls = set()
+
     try:
         response = requests.get(BASE_URL, timeout=10)
         response.raise_for_status()
@@ -14,7 +18,9 @@ def scrape_sapo_tek() -> list[dict]:
 
     soup = BeautifulSoup(response.text, 'html.parser')
     new_articles = []
-    seen_urls = set()
+    
+    # 2. Inicializar os seen_urls com os URLs que já extraíste em runs anteriores
+    seen_urls = set(existing_urls)
 
     article_links = soup.select('a[href*="/artigos/"]')
 
@@ -26,7 +32,7 @@ def scrape_sapo_tek() -> list[dict]:
         if not article_url.startswith('http'):
             article_url = BASE_URL + article_url
 
-        # Avoid processing the same URL twice in the same batch
+        # 3. Agora isto vai ignorar tanto duplicados nesta run como artigos antigos
         if article_url in seen_urls:
             continue
         seen_urls.add(article_url)
@@ -36,15 +42,15 @@ def scrape_sapo_tek() -> list[dict]:
             article_resp.raise_for_status()
             article_soup = BeautifulSoup(article_resp.text, 'html.parser')
 
-            # 1. Title
+            # Title
             title_tag = article_soup.select_one('.wp-block-post-title')
             title = title_tag.get_text(strip=True) if title_tag else "No title"
 
-            # 2. Summary
+            # Summary
             excerpt_tag = article_soup.select_one('.wp-block-post-excerpt__excerpt')
             excerpt = excerpt_tag.get_text(strip=True) if excerpt_tag else ""
 
-            # 3. Author (Multiple fallback selectors)
+            # Author
             author = "Unknown"
             author_tag = article_soup.select_one('h3.wp-block-heading')
             if author_tag:
@@ -59,18 +65,18 @@ def scrape_sapo_tek() -> list[dict]:
                         author = text.replace("(*)", "").replace("Por ", "").replace("By ", "").strip()
                         break
 
-            # 4. Date
+            # Date
             date_tag = article_soup.select_one('.article-date, time')
             pub_date = date_tag.get_text(strip=True) if date_tag else "Unknown"
 
-            # 5. Full Text
+            # Full Text
             content_div = article_soup.select_one('.entry-content')
             full_text = (
                 " ".join([p.get_text(strip=True) for p in content_div.find_all('p')])
                 if content_div else ""
             )
 
-            # 6. Tags
+            # Tags
             tags_elements = article_soup.select('a[rel="tag"]')
             tags = [tag.get_text(strip=True) for tag in tags_elements]
 
@@ -89,7 +95,6 @@ def scrape_sapo_tek() -> list[dict]:
             })
 
         except Exception as e:
-            # Re-raise to let the main orchestrator log the failure
             raise RuntimeError(f"Error extracting article {article_url}: {e}")
 
     return new_articles
