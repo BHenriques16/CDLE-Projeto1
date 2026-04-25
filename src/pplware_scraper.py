@@ -9,61 +9,73 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
         existing_urls = set()
 
     logging.info("Starting web scraping on Pplware...")
+    print("Starting extraction on Pplware...")
     extracted_articles = []
     
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-    target_url = "https://pplware.sapo.pt/"
     
-    try:
-        response = requests.get(target_url, headers=headers, timeout=10)
-        response.raise_for_status()
-    except requests.exceptions.RequestException as e:
-        raise RuntimeError(f"Error accessing Pplware: {e}")
-
-    soup = BeautifulSoup(response.text, 'html.parser')
-    
-    article_links = []
-    suspicious_elements = soup.find_all(['h2', 'h3', 'h4', 'h5', 'article'])
-    
-    allowed_categories = [
-        '/apple/', '/android/', '/smartphones/', '/hardware/', 
-        '/software/', '/inteligencia-artificial/', '/gadgets/', 
-        '/jogos/', '/internet/', '/redes-sociais/'
+    target_urls = [
+        "https://pplware.sapo.pt/",
+        "https://pplware.sapo.pt/smartphones/",
+        "https://pplware.sapo.pt/apple/",
+        "https://pplware.sapo.pt/android/",
+        "https://pplware.sapo.pt/hardware/",
+        "https://pplware.sapo.pt/software/",
+        "https://pplware.sapo.pt/inteligencia-artificial/",
+        "https://pplware.sapo.pt/gadgets/",
+        "https://pplware.sapo.pt/internet/",
+        "https://pplware.sapo.pt/redes_sociais/"
     ]
     
+    article_links = []
+
     forbidden_keywords = [
         'fisco', 'irs', 'imposto', 'multa', 'governo', 
         'financas', 'policia', 'politica', 'transito'
     ]
     
-    for element in suspicious_elements:
-        a_tag = element if element.name == 'a' else element.find('a')
-        
-        if a_tag and a_tag.has_attr('href'):
-            link = a_tag['href'].lower()
-            
-            if ("pplware.sapo.pt" in link and 
-                link != "https://pplware.sapo.pt/" and 
-                "/tag/" not in link and 
-                "/author/" not in link):
-                
-                is_tech_category = any(category in link for category in allowed_categories)
-                contains_bad_words = any(bad_word in link for bad_word in forbidden_keywords)
-                
-                # Check whitelist, blacklist, and global duplicates
-                if is_tech_category and not contains_bad_words:
-                    if link not in article_links and link not in existing_urls:
-                        article_links.append(link)
-
-    for url in article_links[:100]:
+    for target in target_urls:
         try:
-            time.sleep(1) # Friendly pause
+            response = requests.get(target, headers=headers, timeout=10)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, 'html.parser')
+            
+            suspicious_elements = soup.find_all(['h2', 'h3', 'h4', 'h5', 'article'])
+            
+            for element in suspicious_elements:
+                a_tag = element if element.name == 'a' else element.find('a')
+                
+                if a_tag and a_tag.has_attr('href'):
+                    link = a_tag['href'].lower()
+ 
+                    if ("pplware.sapo.pt" in link and 
+                        link not in target_urls and 
+                        "/tag/" not in link and 
+                        "/author/" not in link):
+                        
+                        contains_bad_words = any(bad_word in link for bad_word in forbidden_keywords)
+
+                        if not contains_bad_words:
+                            if link not in article_links and link not in existing_urls:
+                                article_links.append(link)
+                                
+        except requests.exceptions.RequestException as e:
+            logging.error(f"Error accessing {target}: {e}")
+            continue
+
+    print(f"Found {len(article_links)} NEW tech-only links across all categories. Extracting data...")
+
+    for url in article_links:
+        try:
+            time.sleep(1) 
             article_response = requests.get(url, headers=headers, timeout=10)
             article_response.raise_for_status()
             article_soup = BeautifulSoup(article_response.text, 'html.parser')
             
             title_tag = article_soup.find('h1')
             title = title_tag.get_text(strip=True) if title_tag else "Unknown"
+            
+            print(f"   -> Downloading: {title}")
             
             author_tag = article_soup.find('a', href=lambda href: href and '/author/' in href)
             author = author_tag.get_text(strip=True) if author_tag else "Unknown"
@@ -104,8 +116,9 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
             })
             
         except Exception as e:
-            # We log and continue so one broken article doesn't crash the whole Pplware scrape
             logging.warning(f"Error extracting article {url}: {e}")
+            print(f"   Error in link {url}: {e}")
             continue
 
+    print("Pplware extraction completed!")
     return extracted_articles
