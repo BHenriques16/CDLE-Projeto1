@@ -4,16 +4,17 @@ from datetime import datetime
 import time
 import logging
 
+NUMBER_OF_ARTICLES = 100
+
 def scrape_pplware(existing_urls: set = None) -> list[dict]:
     if existing_urls is None:
         existing_urls = set()
 
-    logging.info("Starting web scraping on Pplware...")
-    print("Starting extraction on Pplware...")
     extracted_articles = []
     
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
     
+    # Category pages to scrape for article links
     target_urls = [
         "https://pplware.sapo.pt/",
         "https://pplware.sapo.pt/smartphones/",
@@ -29,11 +30,13 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
     
     article_links = []
 
+    # Skip articles whose URLs contain non-tech/unrelated topics
     forbidden_keywords = [
         'fisco', 'irs', 'imposto', 'multa', 'governo', 
         'financas', 'policia', 'politica', 'transito'
     ]
     
+    # Collect article links from all category pages
     for target in target_urls:
         try:
             response = requests.get(target, headers=headers, timeout=10)
@@ -48,6 +51,7 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
                 if a_tag and a_tag.has_attr('href'):
                     link = a_tag['href'].lower()
  
+                    # Keep only article links, exclude tag/author pages and already-known URLs
                     if ("pplware.sapo.pt" in link and 
                         link not in target_urls and 
                         "/tag/" not in link and 
@@ -63,11 +67,10 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
             logging.error(f"Error accessing {target}: {e}")
             continue
 
-    print(f"Found {len(article_links)} NEW tech-only links across all categories. Extracting data...")
-
-    for url in article_links:
+    # Scrape each article page, up to the defined limit
+    for url in article_links[:NUMBER_OF_ARTICLES]:
         try:
-            time.sleep(1) 
+            time.sleep(1)  # Polite delay to avoid overloading the server
             article_response = requests.get(url, headers=headers, timeout=10)
             article_response.raise_for_status()
             article_soup = BeautifulSoup(article_response.text, 'html.parser')
@@ -75,17 +78,17 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
             title_tag = article_soup.find('h1')
             title = title_tag.get_text(strip=True) if title_tag else "Unknown"
             
-            print(f"   -> Downloading: {title}")
-            
             author_tag = article_soup.find('a', href=lambda href: href and '/author/' in href)
             author = author_tag.get_text(strip=True) if author_tag else "Unknown"
             
             date_tag = article_soup.find('time')
             pub_date = date_tag.get_text(strip=True) if date_tag else "Unknown"
             
+            # Use Open Graph description as the article summary
             summary_meta = article_soup.find('meta', attrs={'property': 'og:description'})
             summary = summary_meta['content'] if summary_meta else ""
             
+            # Try common content wrapper class names, fall back to <article> tag
             content_container = article_soup.find('div', class_=['post-content', 'entry-content', 'article-content', 'content']) 
             if not content_container:
                 content_container = article_soup.find('article') 
@@ -120,5 +123,4 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
             print(f"   Error in link {url}: {e}")
             continue
 
-    print("Pplware extraction completed!")
     return extracted_articles
