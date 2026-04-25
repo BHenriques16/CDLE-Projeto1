@@ -101,8 +101,8 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
             else:
                 full_text = "Article container not found."
                 
-            tags_div = article_soup.find(class_=lambda x: x and 'tag' in x.lower())
-            tags = [a.get_text(strip=True) for a in tags_div.find_all('a')] if tags_div else []
+            tags_elements = article_soup.select('a[rel="tag"]')
+            tags = [tag.get_text(strip=True) for tag in tags_elements]
             
             extracted_articles.append({
                 "id_interno": url,

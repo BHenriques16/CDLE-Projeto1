@@ -1,40 +1,50 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
+import logging
 
 BASE_URL = "https://tek.sapo.pt"
 NUMBER_OF_ARTICLES = 100
+MAX_PAGES = 10
 
 def scrape_sapo_tek(existing_urls: set = None) -> list[dict]:
-    # 1. Preparar a função para receber os URLs que já tens na base de dados
     if existing_urls is None:
         existing_urls = set()
 
-    try:
-        response = requests.get(BASE_URL, timeout=10)
-        response.raise_for_status()
-    except requests.exceptions.RequestException as e:
-        raise RuntimeError(f"Error accessing SAPO TEK: {e}")
-
-    soup = BeautifulSoup(response.text, 'html.parser')
     new_articles = []
-    
-    # 2. Inicializar os seen_urls com os URLs que já extraíste em runs anteriores
     seen_urls = set(existing_urls)
 
-    article_links = soup.select('a[href*="/artigos/"]')
+    # Collect unique article links across multiple listing pages
+    article_links = []
 
-    for link in article_links[:NUMBER_OF_ARTICLES]:
-        article_url = link.get('href')
-        if not article_url:
-            continue
+    for page in range(1, MAX_PAGES + 1):
+        page_url = BASE_URL if page == 1 else f"{BASE_URL}/page/{page}/"
 
-        if not article_url.startswith('http'):
-            article_url = BASE_URL + article_url
+        try:
+            response = requests.get(page_url, timeout=10)
+            response.raise_for_status()
+        except requests.exceptions.RequestException as e:
+            logging.warning(f"[SAPO TEK] Could not access page {page}: {e}")
+            break
 
-        # 3. Agora isto vai ignorar tanto duplicados nesta run como artigos antigos
-        if article_url in seen_urls:
-            continue
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        for a_tag in soup.select('a[href*="/artigos/"]'):
+            article_url = a_tag.get('href', '')
+            if not article_url:
+                continue
+            if not article_url.startswith('http'):
+                article_url = BASE_URL + article_url
+
+            # Deduplicate against already-known URLs and current batch
+            if article_url not in seen_urls and article_url not in article_links:
+                article_links.append(article_url)
+
+        if len(article_links) >= NUMBER_OF_ARTICLES:
+            break
+
+    # Scrape each article page, up to the defined limit
+    for article_url in article_links[:NUMBER_OF_ARTICLES]:
         seen_urls.add(article_url)
 
         try:
@@ -95,6 +105,7 @@ def scrape_sapo_tek(existing_urls: set = None) -> list[dict]:
             })
 
         except Exception as e:
-            raise RuntimeError(f"Error extracting article {article_url}: {e}")
+            logging.warning(f"[SAPO TEK] Error extracting article {article_url}: {e}")
+            continue
 
     return new_articles

@@ -40,7 +40,7 @@ def scrape_exame_informatica(existing_urls: set = None) -> list[dict]:
                 article_links.append(link)
 
     def fetch_article(url):
-        time.sleep(0.3)  # Reduced from 1s
+        time.sleep(0.3)  
         try:
             article_response = requests.get(url, headers=headers, timeout=10)
             article_response.raise_for_status()
