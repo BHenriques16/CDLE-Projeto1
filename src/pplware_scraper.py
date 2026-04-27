@@ -14,7 +14,6 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
     
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
     
-    # 1. THE BIG CHANGE: Scrape the homepage AND all specific tech categories
     target_urls = [
         "https://pplware.sapo.pt/",
         "https://pplware.sapo.pt/smartphones/",
@@ -29,14 +28,12 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
     ]
     
     article_links = []
-    
-    # Keyword Blacklist
+
     forbidden_keywords = [
         'fisco', 'irs', 'imposto', 'multa', 'governo', 
         'financas', 'policia', 'politica', 'transito'
     ]
     
-    # 2. Loop through every single category page
     for target in target_urls:
         try:
             response = requests.get(target, headers=headers, timeout=10)
@@ -58,8 +55,7 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
                         "/author/" not in link):
                         
                         contains_bad_words = any(bad_word in link for bad_word in forbidden_keywords)
-                        
-                        # If it has no bad words and we haven't scraped it before
+
                         if not contains_bad_words:
                             if link not in article_links and link not in existing_urls:
                                 article_links.append(link)
@@ -70,7 +66,6 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
 
     print(f"Found {len(article_links)} NEW tech-only links across all categories. Extracting data...")
 
-    # 3. Extract EVERYTHING found (No slicing limit)
     for url in article_links:
         try:
             time.sleep(1) # Friendly pause to avoid overloading the server
@@ -103,11 +98,7 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
                     full_text = "Content not found inside paragraphs."
             else:
                 full_text = "Article container not found."
-<<<<<<< HEAD
-                
-=======
-         
->>>>>>> 65435710ee6f381408d33848356feb3884171d6e
+
             tags_elements = article_soup.select('a[rel="tag"]')
             tags = [tag.get_text(strip=True) for tag in tags_elements]
             
