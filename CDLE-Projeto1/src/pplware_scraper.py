@@ -13,8 +13,7 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
     extracted_articles = []
     
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'}
-    
-    # 1. THE BIG CHANGE: Scrape the homepage AND all specific tech categories
+
     target_urls = [
         "https://pplware.sapo.pt/",
         "https://pplware.sapo.pt/smartphones/",
@@ -29,14 +28,12 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
     ]
     
     article_links = []
-    
-    # Keyword Blacklist
+  
     forbidden_keywords = [
         'fisco', 'irs', 'imposto', 'multa', 'governo', 
         'financas', 'policia', 'politica', 'transito'
     ]
-    
-    # 2. Loop through every single category page
+
     for target in target_urls:
         try:
             response = requests.get(target, headers=headers, timeout=10)
@@ -51,15 +48,13 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
                 if a_tag and a_tag.has_attr('href'):
                     link = a_tag['href'].lower()
                     
-                    # Ensure it's a valid article link
                     if ("pplware.sapo.pt" in link and 
                         link not in target_urls and 
                         "/tag/" not in link and 
                         "/author/" not in link):
                         
                         contains_bad_words = any(bad_word in link for bad_word in forbidden_keywords)
-                        
-                        # If it has no bad words and we haven't scraped it before
+
                         if not contains_bad_words:
                             if link not in article_links and link not in existing_urls:
                                 article_links.append(link)
@@ -70,7 +65,6 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
 
     print(f"Found {len(article_links)} NEW tech-only links across all categories. Extracting data...")
 
-    # 3. Extract EVERYTHING found (No slicing limit)
     for url in article_links:
         try:
             time.sleep(1) # Friendly pause to avoid overloading the server
