@@ -1,0 +1,86 @@
+2026-04-25 13:38:33,232 - INFO - --- JOB STARTED ---
+2026-04-25 13:38:33,232 - INFO - [PPLWARE] Starting extraction...
+2026-04-25 13:41:41,957 - INFO - [PPLWARE] 100 new articles extracted successfully.
+2026-04-25 13:41:41,957 - INFO - [SAPO TEK] Starting extraction...
+2026-04-25 13:42:08,714 - INFO - [SAPO TEK] 63 new articles extracted successfully.
+2026-04-25 13:42:08,714 - INFO - [EXAME INFORMATICA] Starting extraction...
+2026-04-25 13:42:36,947 - INFO - [EXAME INFORMATICA] 100 new articles extracted successfully.
+2026-04-25 13:42:36,962 - INFO - Saved 263 new articles.
+2026-04-25 13:42:36,962 - INFO - ==================================================
+2026-04-25 13:42:36,962 - INFO - EXECUTION SUMMARY
+2026-04-25 13:42:36,962 - INFO - ==================================================
+2026-04-25 13:42:36,962 - INFO -  PPLWARE: 100 new articles extracted
+2026-04-25 13:42:36,964 - INFO -  SAPO TEK: 63 new articles extracted
+2026-04-25 13:42:36,964 - INFO -  EXAME INFORMATICA: 100 new articles extracted
+2026-04-25 13:42:36,964 - INFO -   \u2192 Total saved: 263 new articles
+2026-04-25 13:42:36,965 - INFO - ==================================================
+2026-04-25 13:42:36,966 - INFO - --- JOB FINISHED ---
+
+2026-04-21 18:24:52,770 - INFO - Starting web scraping on Pplware...
+2026-04-21 18:31:40,801 - INFO - Starting web scraping on Pplware...
+2026-04-23 18:30:20,084 - INFO - --- JOB STARTED ---
+2026-04-23 18:30:20,084 - INFO - [PPLWARE] Starting extraction...
+2026-04-23 18:30:20,084 - INFO - Starting web scraping on Pplware...
+2026-04-23 18:30:37,114 - INFO - [PPLWARE] 9 new articles extracted successfully.
+2026-04-23 18:30:37,116 - INFO - Saved 9 new articles.
+2026-04-23 18:30:37,116 - INFO - ==================================================
+2026-04-23 18:30:37,116 - INFO - EXECUTION SUMMARY
+2026-04-23 18:30:37,116 - INFO - ==================================================
+2026-04-23 18:30:37,116 - INFO -  PPLWARE: 9 new articles extracted
+2026-04-23 18:30:37,117 - INFO -   \u2192 Total saved: 9 new articles
+2026-04-23 18:30:37,117 - INFO - ==================================================
+2026-04-23 18:30:37,117 - INFO - --- JOB FINISHED ---
+
+2026-04-24 23:57:39,231 - INFO - --- JOB STARTED ---
+2026-04-24 23:57:39,248 - INFO - [PPLWARE] Starting extraction...
+2026-04-24 23:57:39,248 - INFO - Starting web scraping on Pplware...
+2026-04-24 23:57:57,063 - INFO - [PPLWARE] 8 new articles extracted successfully.
+2026-04-24 23:57:57,077 - INFO - Saved 8 new articles.
+2026-04-24 23:57:57,077 - INFO - ==================================================
+2026-04-24 23:57:57,077 - INFO - EXECUTION SUMMARY
+2026-04-24 23:57:57,077 - INFO - ==================================================
+2026-04-24 23:57:57,077 - INFO -  PPLWARE: 8 new articles extracted
+2026-04-24 23:57:57,077 - INFO -   \u2192 Total saved: 8 new articles
+2026-04-24 23:57:57,079 - INFO - ==================================================
+2026-04-24 23:57:57,079 - INFO - --- JOB FINISHED ---
+
+2026-04-25 00:09:38,250 - INFO - --- JOB STARTED ---
+2026-04-25 00:09:38,250 - INFO - [PPLWARE] Starting extraction...
+2026-04-25 00:09:38,251 - INFO - Starting web scraping on Pplware...
+2026-04-25 00:09:53,568 - INFO - [PPLWARE] 8 new articles extracted successfully.
+2026-04-25 00:09:53,569 - INFO - Saved 8 new articles.
+2026-04-25 00:09:53,569 - INFO - ==================================================
+2026-04-25 00:09:53,569 - INFO - EXECUTION SUMMARY
+2026-04-25 00:09:53,570 - INFO - ==================================================
+2026-04-25 00:09:53,570 - INFO -  PPLWARE: 8 new articles extracted
+2026-04-25 00:09:53,570 - INFO -   \u2192 Total saved: 8 new articles
+2026-04-25 00:09:53,570 - INFO - ==================================================
+2026-04-25 00:09:53,571 - INFO - --- JOB FINISHED ---
+
+2026-04-25 11:33:39,884 - INFO - --- JOB STARTED ---
+2026-04-25 11:33:39,896 - INFO - [PPLWARE] Starting extraction...
+2026-04-25 11:33:39,897 - INFO - Starting web scraping on Pplware...
+2026-04-25 11:33:51,441 - ERROR - Error accessing https://pplware.sapo.pt/redes-sociais/: 404 Client Error: Not Found for url: https://pplware.sapo.pt/redes-sociais/
+2026-04-25 11:37:35,562 - INFO - [PPLWARE] 107 new articles extracted successfully.
+2026-04-25 11:37:35,570 - INFO - Saved 107 new articles.
+2026-04-25 11:37:35,570 - INFO - ==================================================
+2026-04-25 11:37:35,570 - INFO - EXECUTION SUMMARY
+2026-04-25 11:37:35,570 - INFO - ==================================================
+2026-04-25 11:37:35,571 - INFO -  PPLWARE: 107 new articles extracted
+2026-04-25 11:37:35,571 - INFO -   \u2192 Total saved: 107 new articles
+2026-04-25 11:37:35,571 - INFO - ==================================================
+2026-04-25 11:37:35,572 - INFO - --- JOB FINISHED ---
+
+2026-04-25 13:24:46,374 - INFO - --- JOB STARTED ---
+2026-04-25 13:24:46,374 - INFO - [PPLWARE] Starting extraction...
+2026-04-25 13:24:46,374 - INFO - Starting web scraping on Pplware...
+2026-04-25 13:29:28,967 - INFO - [PPLWARE] 131 new articles extracted successfully.
+2026-04-25 13:29:28,974 - INFO - Saved 131 new articles.
+2026-04-25 13:29:28,975 - INFO - ==================================================
+2026-04-25 13:29:28,975 - INFO - EXECUTION SUMMARY
+2026-04-25 13:29:28,975 - INFO - ==================================================
+2026-04-25 13:29:28,975 - INFO -  PPLWARE: 131 new articles extracted
+2026-04-25 13:29:28,975 - INFO -   \u2192 Total saved: 131 new articles
+2026-04-25 13:29:28,976 - INFO - ==================================================
+2026-04-25 13:29:28,977 - INFO - --- JOB FINISHED ---
+
