@@ -59,7 +59,7 @@ def run_all():
     existing_data = load_existing_data()
     
     # Create a fast-lookup set of all URLs we already have
-    existing_urls = {article['id_interno'] for article in existing_data if 'id_interno' in article}
+    existing_urls = {article['id_interno'].lower().rstrip('/') for article in existing_data if 'id_interno' in article}
     
     all_new_articles = []
     results = {}
