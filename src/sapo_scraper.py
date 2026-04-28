@@ -35,6 +35,7 @@ def scrape_sapo_tek(existing_urls: set = None) -> list[dict]:
                 continue
             if not article_url.startswith('http'):
                 article_url = BASE_URL + article_url
+                article_url = article_url.lower().rstrip('/')
 
             # Deduplicate against already-known URLs and current batch
             if article_url not in seen_urls and article_url not in article_links:
