@@ -46,7 +46,7 @@ def scrape_pplware(existing_urls: set = None) -> list[dict]:
                 a_tag = element if element.name == 'a' else element.find('a')
                 
                 if a_tag and a_tag.has_attr('href'):
-                    link = a_tag['href'].lower()
+                    link = a_tag['href'].lower().rstrip('/')
                     
                     # Ensure it's a valid article link
                     if ("pplware.sapo.pt" in link and 
