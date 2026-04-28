@@ -27,7 +27,7 @@ def scrape_exame_informatica(existing_urls: set = None) -> list[dict]:
     article_links = []
     
     for a_tag in soup.find_all('a', href=True):
-        link = a_tag['href']
+        link = a_tag['href'].lower().rstrip('/')
         
         # Skip navigation and taxonomy links
         if any(x in link for x in ['/tag/', '/author/', '/page/', '/category/']):
