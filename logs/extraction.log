@@ -122,3 +122,62 @@
 2026-04-28 21:48:16,151 - INFO - ==================================================
 2026-04-28 21:48:16,153 - INFO - --- JOB FINISHED ---
 
+2026-04-29 09:18:27,446 - INFO - --- JOB STARTED ---
+2026-04-29 09:18:27,474 - INFO - [PPLWARE] Starting extraction...
+2026-04-29 09:18:27,474 - INFO - Starting web scraping on Pplware...
+2026-04-29 09:18:47,563 - INFO - [PPLWARE] 4 new articles extracted successfully.
+2026-04-29 09:18:47,698 - INFO - [SAPO TEK] Starting extraction...
+2026-04-29 09:19:36,253 - INFO - [SAPO TEK] 65 new articles extracted successfully.
+2026-04-29 09:19:36,253 - INFO - [EXAME INFORMATICA] Starting extraction...
+2026-04-29 09:20:38,470 - WARNING - [Exame Informática] Error extracting article https://visao.pt/exameinformatica/testes/2025-06-05-honor-400-em-teste-um-smartphone-elegante-e-equilibrado/: HTTPSConnectionPool(host='visao.pt', port=443): Read timed out. (read timeout=10)
+2026-04-29 09:20:39,017 - WARNING - [Exame Informática] Error extracting article https://visao.pt/exameinformatica/testes/2025-03-06-honor-magic7-lite-em-analise-um-smartphone-competente-por-e399/: HTTPSConnectionPool(host='visao.pt', port=443): Read timed out. (read timeout=10)
+2026-04-29 09:21:03,468 - INFO - [EXAME INFORMATICA] 98 new articles extracted successfully.
+2026-04-29 09:21:03,508 - INFO - Saved 167 new articles.
+2026-04-29 09:21:03,508 - INFO - ==================================================
+2026-04-29 09:21:03,508 - INFO - EXECUTION SUMMARY
+2026-04-29 09:21:03,508 - INFO - ==================================================
+2026-04-29 09:21:03,508 - INFO -  PPLWARE: 4 new articles extracted
+2026-04-29 09:21:03,508 - INFO -  SAPO TEK: 65 new articles extracted
+2026-04-29 09:21:03,512 - INFO -  EXAME INFORMATICA: 98 new articles extracted
+2026-04-29 09:21:03,512 - INFO -   \u2192 Total saved: 167 new articles
+2026-04-29 09:21:03,512 - INFO - ==================================================
+2026-04-29 09:21:03,512 - INFO - --- JOB FINISHED ---
+
+2026-04-29 09:24:51,057 - INFO - --- JOB STARTED ---
+2026-04-29 09:24:51,080 - INFO - [PPLWARE] Starting extraction...
+2026-04-29 09:24:51,080 - INFO - Starting web scraping on Pplware...
+2026-04-29 09:24:59,861 - INFO - [PPLWARE] 0 new articles extracted successfully.
+2026-04-29 09:24:59,863 - INFO - [SAPO TEK] Starting extraction...
+2026-04-29 09:25:35,332 - INFO - [SAPO TEK] 64 new articles extracted successfully.
+2026-04-29 09:25:35,332 - INFO - [EXAME INFORMATICA] Starting extraction...
+2026-04-29 09:26:04,316 - INFO - [EXAME INFORMATICA] 28 new articles extracted successfully.
+2026-04-29 09:26:04,342 - INFO - Saved 92 new articles.
+2026-04-29 09:26:04,342 - INFO - ==================================================
+2026-04-29 09:26:04,342 - INFO - EXECUTION SUMMARY
+2026-04-29 09:26:04,342 - INFO - ==================================================
+2026-04-29 09:26:04,352 - INFO -  PPLWARE: 0 new articles extracted
+2026-04-29 09:26:04,352 - INFO -  SAPO TEK: 64 new articles extracted
+2026-04-29 09:26:04,352 - INFO -  EXAME INFORMATICA: 28 new articles extracted
+2026-04-29 09:26:04,353 - INFO -   \u2192 Total saved: 92 new articles
+2026-04-29 09:26:04,353 - INFO - ==================================================
+2026-04-29 09:26:04,355 - INFO - --- JOB FINISHED ---
+
+2026-04-29 09:26:51,001 - INFO - --- JOB STARTED ---
+2026-04-29 09:26:51,021 - INFO - [PPLWARE] Starting extraction...
+2026-04-29 09:26:51,021 - INFO - Starting web scraping on Pplware...
+2026-04-29 09:26:57,141 - INFO - [PPLWARE] 0 new articles extracted successfully.
+2026-04-29 09:26:57,141 - INFO - [SAPO TEK] Starting extraction...
+2026-04-29 09:27:01,696 - INFO - [SAPO TEK] 0 new articles extracted successfully.
+2026-04-29 09:27:01,696 - INFO - [EXAME INFORMATICA] Starting extraction...
+2026-04-29 09:27:02,129 - INFO - [EXAME INFORMATICA] 0 new articles extracted successfully.
+2026-04-29 09:27:02,129 - INFO - No new articles to save.
+2026-04-29 09:27:02,129 - INFO - ==================================================
+2026-04-29 09:27:02,129 - INFO - EXECUTION SUMMARY
+2026-04-29 09:27:02,129 - INFO - ==================================================
+2026-04-29 09:27:02,129 - INFO -  PPLWARE: 0 new articles extracted
+2026-04-29 09:27:02,129 - INFO -  SAPO TEK: 0 new articles extracted
+2026-04-29 09:27:02,129 - INFO -  EXAME INFORMATICA: 0 new articles extracted
+2026-04-29 09:27:02,129 - INFO -   \u2192 Total saved: 0 new articles
+2026-04-29 09:27:02,129 - INFO - ==================================================
+2026-04-29 09:27:02,129 - INFO - --- JOB FINISHED ---
+

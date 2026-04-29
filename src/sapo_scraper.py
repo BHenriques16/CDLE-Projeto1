@@ -12,10 +12,12 @@ def scrape_sapo_tek(existing_urls: set = None) -> list[dict]:
         existing_urls = set()
 
     new_articles = []
-    seen_urls = set(existing_urls)
+    # Normalize so comparisons are consistent regardless of trailing slash
+    seen_urls = {u.rstrip('/') for u in existing_urls}
 
     # Collect unique article links across multiple listing pages
     article_links = []
+    seen_article_links = set()  # fast O(1) lookup for the current batch
 
     for page in range(1, MAX_PAGES + 1):
         page_url = BASE_URL if page == 1 else f"{BASE_URL}/page/{page}/"
@@ -35,10 +37,11 @@ def scrape_sapo_tek(existing_urls: set = None) -> list[dict]:
                 continue
             if not article_url.startswith('http'):
                 article_url = BASE_URL + article_url
-                article_url = article_url.lower().rstrip('/')
 
             # Deduplicate against already-known URLs and current batch
-            if article_url not in seen_urls and article_url not in article_links:
+            normalized = article_url.rstrip('/')
+            if normalized not in seen_urls and normalized not in seen_article_links:
+                seen_article_links.add(normalized)
                 article_links.append(article_url)
 
         if len(article_links) >= NUMBER_OF_ARTICLES:
@@ -46,7 +49,7 @@ def scrape_sapo_tek(existing_urls: set = None) -> list[dict]:
 
     # Scrape each article page, up to the defined limit
     for article_url in article_links[:NUMBER_OF_ARTICLES]:
-        seen_urls.add(article_url)
+        seen_urls.add(article_url.rstrip('/'))
 
         try:
             article_resp = requests.get(article_url, timeout=10)

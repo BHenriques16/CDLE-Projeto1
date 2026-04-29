@@ -8789,5 +8789,674 @@
             "WTW"
         ],
         "texto_completo": "Num contexto empresarial marcado por margens cada vez mais pressionadas, com uma concorrência global intensa e ciclos de decisão mais curtos, a Inteligência Artificial deixou definitivamente de ser uma promessa para assumir um papel central na produtividade e na diferenciação das organizações. A rapidez com que está a ser adotada é impressionante, mas é precisamente essa aceleração que expõe uma fragilidade estrutural: a governação da IA não tem evoluído ao mesmo ritmo da inovação. O debate já não se centra na existência de risco, mas sim na capacidade real das empresas para o gerir de forma madura e consistente. Uma das principais dificuldades que hoje se colocam não é de natureza tecnológica, mas organizacional. Muitas empresas continuam sem uma linguagem comum para discutir o risco associado à Inteligência Artificial, o que faz com que áreas como tecnologia, risco, jurídico, compliance, segurança e gestão de topo nem sempre estejam verdadeiramente alinhadas. Esta falta de entendimento partilhado cria inevitavelmente zonas cinzentas, onde decisões críticas são tomadas sem uma visão completa das implicações. É neste contexto que uma taxonomia clara e estruturada se torna essencial, permitindo identificar e enquadrar riscos como enviesamento, toxicidade, desinformação, falhas técnicas, exposição de dados ou lacunas de compliance. Este último ponto ganhou particular relevância com a entrada em cena do EU AI Act, que introduz exigências rigorosas em matéria de documentação, supervisão humana, rastreabilidade e robustez técnica, acompanhadas de sanções que podem atingir até 7% do volume global de negócios. Mais do que um enquadramento regulatório, trata-se de um sinal claro de que o risco associado à IA passou a integrar o núcleo dos grandes riscos corporativos. Depois de clarificar o que está em causa, o verdadeiro desafio passa por integrar estes riscos no modelo de decisão das organizações. A maturidade na gestão da Inteligência Artificial não resulta de políticas isoladas, mas sim de uma abordagem operacional que acompanha todo o ciclo de vida dos sistemas, desde os dados à sua utilização, passando pela validação e monitorização contínua. Isto implica garantir visibilidade total sobre todas as utilizações de IA, incluindo aquelas que surgem de forma informal dentro das equipas, muitas vezes sem conhecimento da organização. Implica também classificar riscos em função da criticidade dos processos, implementar controlos adequados ao longo do ciclo de vida e, sobretudo, desenvolver metodologias que permitam traduzir o impacto técnico em impacto económico. É neste ponto que se percebe verdadeiramente o nível de maturidade de uma organização: quando a IA deixa de ser um elemento à parte e passa a integrar, de forma natural, os mecanismos existentes de governação. À medida que a Inteligência Artificial se torna parte integrante das decisões operacionais, o próprio perímetro de risco das organizações transforma-se. Já não se trata apenas de proteger sistemas, mas de salvaguardar decisões mediadas por esses sistemas. Os modelos podem ser manipulados, explorados ou conduzidos a comportamentos inesperados, o que introduz uma nova dimensão de risco. Fenómenos como o prompt injection demonstram como instruções aparentemente inofensivas podem levar um modelo a contornar políticas internas, enquanto o recurso a ferramentas externas não autorizadas – frequentemente designado como shadow AI – pode resultar na exposição inadvertida de dados sensíveis. A integridade dos próprios modelos pode ainda ser comprometida através da manipulação de dados ou dos processos de treino. Estes riscos, longe de serem teóricos, estão hoje diretamente ligados às exigências do EU AI Act, que eleva conceitos como supervisão humana, rastreabilidade e robustez a requisitos obrigatórios. Neste novo cenário, a segurança deixa de ser exclusivamente tecnológica para passar a ser também cognitiva. Perante este contexto, as organizações enfrentam uma escolha estratégica que não é trivial. Por um lado, podem avançar através de ecossistemas protegidos, que oferecem maior controlo e alinhamento regulatório, mas que tendem a limitar a velocidade de inovação. Por outro, podem explorar o universo aberto da IA, onde a experimentação e o acesso a modelos avançados são mais rápidos, mas onde o risco e a exposição também aumentam significativamente. Esta tensão entre inovação e proteção tem sido amplamente discutida, nomeadamente pelo World Economic Forum, que a identifica como um dos grandes imperativos da Inteligência Artificial: não é possível inovar sem segurança, nem garantir segurança bloqueando a inovação. As organizações mais maduras têm vindo, por isso, a adotar modelos híbridos, combinando ambientes protegidos com espaços controlados de experimentação que permitem testar soluções abertas sem comprometer a integridade do negócio. A Inteligência Artificial é um tema incontornável nas agendas dos conselhos de administração. O seu potencial é inegável, mas a sua adoção exige disciplina, visão estratégica e uma governação capaz de responder aos desafios regulatórios e operacionais emergentes. O equilíbrio entre velocidade e segurança tornou-se um fator crítico: excesso de controlo pode travar a inovação, enquanto uma abordagem demasiado permissiva pode expor a organização a riscos difíceis de antecipar e gerir. No fundo, a IA deixou de ser um tema exclusivamente tecnológico para se afirmar como um verdadeiro teste à maturidade da liderança. E será precisamente essa maturidade que distinguirá, nos próximos anos, as organizações mais resilientes daquelas que ficarão mais expostas num contexto de transformação acelerada."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/internet/grupo-burlou-o-spotify-em-1-milhao-de-dolares-e-tudo-dentro-da-lei",
+        "fonte": "Pplware",
+        "titulo": "Grupo burlou o Spotify em 1 milhão de dólares, e tudo dentro da lei",
+        "resumo": "Um grupo na Bulgária desviou cerca de um milhão de dólares do Spotify, explorando uma falha no sistema de pagamentos da plataforma.",
+        "autor": "Ana Sofia Neto",
+        "url": "https://pplware.sapo.pt/internet/grupo-burlou-o-spotify-em-1-milhao-de-dolares-e-tudo-dentro-da-lei",
+        "data_publicacao": "29 Abr 2026",
+        "data_extracao": "2026-04-29T09:18:39.405603",
+        "categoria": "Tecnologia",
+        "tags": [
+            "Esquema Fraudulento",
+            "Spotify"
+        ],
+        "texto_completo": "29 Abr 2026·InternetComentar Um grupo na Bulgária conseguiu desviar cerca de um milhão de dólares em royalties do Spotify, explorando uma falha no sistema de pagamentos da plataforma. O mais surpreendente é que não violou uma única lei.   A história parece impossível, mas é real. Uma entidade búlgara, cuja identidade permanece desconhecida, podendo ser uma pessoa ou um grupo, descobriu uma forma engenhosa deexplorar o modelo de pagamentos do Spotify, por forma a gerar receitas milionárias sem infringir qualquer legislação em vigor. O esquema não é recente, tendo sido revelado, em 2018, peloMusic Business Worldwide, com base em fontes de alto nível da indústria musical. Contudo, na altura, foi um dos casos mais comentados do setor. Os responsáveisfizeramupload para o Spotify de duas playlists com cerca de 500 músicas cada, todas com músicas de apenas 30 segundos, precisamente o tempo mínimo necessário para que a plataforma registasse uma reprodução válida e contabilizasse o respetivo pagamento. De seguida,criaram 1200 contas pagas na plataformaecolocaram as playlists em loop automático, 24 horas por dia, 7 dias por semana. Esta operaçãocustou-lhes cerca de 12.000 dólarespor mês em subscrições, masrendeu-lhes aproximadamente 415.000 dólaresmensais, tendo em conta que o pagamento médio do Spotify por reprodução é de 0,004 dólares. Com 500 músicas em loop contínuo ao longo de um mês, oesquema gerava cerca de 72 milhões de reproduções, com os pagamentos a chegarem pontualmente.  A atividade suspeita foi detetada pela primeira vez em setembro de 2017 por um executivo de uma grande editora discográfica, ao analisar os resumos de receitas que o Spotify envia regularmente à indústria. A esse ponto, contudo, o esquema já estava empleno funcionamento há meses. Segundo contado pela imprensa, na altura, as playlists chegaram mesmo a figurar nos gráficos semanais globais da plataforma, que listam as playlists com maior receita. Curiosamente, cada playlist tinha pouco mais de 1000 ouvintes, um número irrisório para o destaque que alcançaram. Segundo as fontes do Music Business Worldwide, oesquema terá funcionado durante aproximadamente quatro mesesantes de a indústria alertar a Spotify. A plataforma acabou por eliminar a maioria das músicas das playlists em causa. Perante este esquema, na altura, o Spotify afirmou estar a \"melhorar os métodos de deteção e remoção\". No entanto, a verdade é que o problema é de difícil resolução, especialmente com um catálogo com muitos milhões de músicas. Antes de o esquema ser descortinado, John Seay, advogado de entretenimento especializado em direitos de autor e streaming, játinha alertado para esta tendência, em 2016, numa entrevista àQuartz. É algo que provavelmente vai aumentar. Se isso vai resultar em milhares ou milhões de dólares desviados, não sei. A fraude por cliques é um novo desenvolvimento numa narrativa contínua de oportunistas a tentar obter dinheiro a que não têm direito. O caso búlgaro não se distingue pela criatividade do método, pois esquemas de inflação artificial de reproduções já eram conhecidos. O que o torna verdadeiramente notável é aescala alcançada e a facilidade com que foi executado, expondo as fragilidades de um dos maiores modelos de negócio da música digital. Além disso, se em 2017 bastou uma operação relativamente simples para desviar um milhão de dólares, o que poderá acontecer numa era em que a Inteligência Artificial está ao alcance de qualquer pessoa? Imagem:Gemini Neste artigo:Esquema Fraudulento,Spotify"
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/apple/apple-ja-deixa-pagar-subscricoes-a-prestacoes-mas-cuidado-com-a-fidelizacao",
+        "fonte": "Pplware",
+        "titulo": "Apple já deixa pagar subscrições a prestações, mas cuidado com a fidelização",
+        "resumo": "A Apple acaba de revelar uma nova funcionalidade interessante para o iPhone. Permitirá subscrições mensais na App Store com uma fidelização",
+        "autor": "Pedro Simões",
+        "url": "https://pplware.sapo.pt/apple/apple-ja-deixa-pagar-subscricoes-a-prestacoes-mas-cuidado-com-a-fidelizacao",
+        "data_publicacao": "29 Abr 2026",
+        "data_extracao": "2026-04-29T09:18:40.805061",
+        "categoria": "Tecnologia",
+        "tags": [
+            "App store",
+            "Apple",
+            "fidelização",
+            "subscrições"
+        ],
+        "texto_completo": "29 Abr 2026·AppleComentar A Apple acaba de revelar uma nova funcionalidade interessante para os iPhones, vista pela primeira vez nas versões beta do iOS 26.5, e que vai mudar a forma como subscreve aplicações e serviços. A empresa de Cupertino permitirá que os programadores ativem subscrições mensais na App Store com fidelização, exigindo que os utilizadores paguem uma taxa até 12 meses.   Especificamente, a Apple confirmou aos programadores que esta opção de subscrição mensal com período de fidelização estará disponível em breve na App Store do iPhone. O objetivo é claro: oferecer aos utilizadores uma forma de dividir os planos anuais (que são geralmente mais baratos do que pagar um mês por um ano) em 12 prestações mensais . O período de fidelização da App Store exigirá, portanto, que os utilizadores paguem o plano completo, mas com a vantagem de poderem fracionar o custo mês a mês e, assim, evitar o pagamento da subscrição na totalidade. Ao subscrever esta opção no iPhone, mesmo que se cancele, continuará a pagar até atingir o número de meses acordado e a subscrição permanecerá ativa. No entanto, a Applealertaque \"se cancelar antecipadamente, os seus pagamentos mensais continuarão e a sua subscrição permanecerá ativa até que o período de fidelização esteja concluído\". Mas se \"o seu pagamento falhar, perderá imediatamente o acesso à subscrição\".  Em todo o caso, o plano de pagamento fraccionado mensal com contrato a termo certo para a App Store no seu iPhone tem uma vantagem importante. A Apple afirma que pode “cancelar a sua subscrição a qualquer momento e impedir a renovação automática após ter concluído os pagamentos acordados para cumprir o seu compromisso”. Esta opção pode ser útil para o tipo de pessoa que se esquece de cancelar um plano antes do fim do período. A Apple também irá exibir informações relevantes sobre a subscrição na App Store do iPhone , como o preço mensal, o período de renovação e o número de prestações restantes. Além disso, a empresa enviará e-mails e notificações para relembrar os utilizadores sobre as próximas renovações. Esta nova funcionalidade da App Store começará a ser implementada no iOS 26.5, que será lançado no próximo mês, embora também esteja disponível no iOS 26.4 e versões posteriores. A funcionalidade estará disponível na maioria dos mercados onde a Apple opera."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/smartphones-tablets/android/whatsapp-prepara-novidade-importante-sobre-as-copias-de-seguranca",
+        "fonte": "Pplware",
+        "titulo": "WhatsApp prepara novidade importante sobre as cópias de segurança",
+        "resumo": "O WhatsApp está a trabalhar numa futura atualização que oferecerá aos seus utilizadores um serviço nativo de armazenamento na cloud",
+        "autor": "Pedro Simões",
+        "url": "https://pplware.sapo.pt/smartphones-tablets/android/whatsapp-prepara-novidade-importante-sobre-as-copias-de-seguranca",
+        "data_publicacao": "29 Abr 2026",
+        "data_extracao": "2026-04-29T09:18:43.425776",
+        "categoria": "Tecnologia",
+        "tags": [
+            "armazenamento",
+            "backups",
+            "Cloud",
+            "meta",
+            "WhatsApp"
+        ],
+        "texto_completo": "29 Abr 2026·Android1 Comentário O WhatsApp está a trabalhar numa futura atualização que oferecerá aos seus utilizadores um serviço nativo de armazenamento na nuvem dentro da aplicação de mensagens. Reduzem assim a sua dependência do Google Drive e do iCloud e garantem novos níveis de segurança.   Com 3 mil milhões de utilizadores ativos mensais em todo o mundo, é natural que o WhatsApp receba muita atenção por parte dos seus programadores. A comunidade pede novas funcionalidades e a Meta, proprietária da aplicação de mensagens, tenta responder a essa procura, como fez com a possibilidade de ter duas contas abertas no iOS e facilitando a transferência de conversas entre sistemas operativos. Entre os aspetos que mais preocupam os utilizadores está um que, até então, era partilhado entre o WhatsApp e o serviço de armazenamento onde o utilizador mantinha o seu backup, seja Google Drive ou iCloud. Falamos dos avisos sobre o restante espaço disponível para backups. O WhatsAppplaneiaresolver este problema oferecendo o seu próprio serviço de cópia de segurança na nuvem com encriptação de ponta a ponta. Dada a importância dos serviços de mensagens no nosso dia-a-dia, os backups têm crescido tanto que limitam a usabilidade de serviços como o Google Drive ou o iCloud. Apagar conversas é difícil, e remover outros itens destes serviços só é útil após o aviso inicial de que o armazenamento está a terminar. Após isso, é difícil saber o que apagar. A única opção que resta é pagar para expandir o armazenamento.  A solução proposta pelo WhatsApp de utilizar o seu próprio fornecedor de armazenamento na nuvem parece uma opção satisfatória para a maioria dos utilizadores. Isto também permitiria ao WhatsApp oferecer uma experiência de utilizador mais consistente, garantindo que a encriptação de cópia de segurança não depende de definições externas. Esta nova opção de armazenamento nativo do WhatsApp ainda está a ser finalizada. Há rumores de que será um serviço de armazenamento na nuvem gratuito com 2 GB de espaço livre e a possibilidade de expandir esse espaço para 50 GB com um plano pago, inicialmente divulgado como custando 0,99 dólares. Resta saber se estas opções serão compatíveis com o WhatsApp Plus, anunciado recentemente. O que parece mais definido é o aspecto da segurança. Neste aspeto, o WhatsApp deixa claro que estabelecerá uma encriptação de ponta a ponta obrigatória para os backups armazenados na sua nuvem nativa. A opção predefinida será a encriptação utilizando uma chave de acesso, embora os utilizadores também possam definir uma palavra-passe ou uma chave de encriptação de 64 dígitos."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/motores/meta-aposta-em-tecnologia-solar-espacial-capaz-de-gerar-energia-mesmo-no-escuro",
+        "fonte": "Pplware",
+        "titulo": "Meta aposta em tecnologia solar espacial capaz de gerar energia mesmo no escuro",
+        "resumo": "A Meta assinou um acordo com a startup Overview Energy para receber até 1 GW de energia solar captada em órbita geossíncrona...",
+        "autor": "Vítor M.",
+        "url": "https://pplware.sapo.pt/motores/meta-aposta-em-tecnologia-solar-espacial-capaz-de-gerar-energia-mesmo-no-escuro",
+        "data_publicacao": "28 Abr 2026",
+        "data_extracao": "2026-04-29T09:18:47.426903",
+        "categoria": "Tecnologia",
+        "tags": [
+            "energia solar",
+            "espaço",
+            "meta"
+        ],
+        "texto_completo": "28 Abr 2026·High TechComentar A Meta assinou um acordo com a startup americana para receber até 1 GW de energia solar captada em órbita geossíncrona e transmitida para o solo sob a forma de luz infravermelha, para alimentar os seus centros de dados de forma contínua. Está prevista uma demonstração orbital em 2028 e uma entrega comercial, no mínimo, em 2030.    A IA generativa requer capacidades de cálculo gigantescas para funcionar, e o consumo de energia dos centros de dados nos Estados Unidos deverá praticamente triplicar entre 2023 e 2030. Em 2024, oscentros de dados da Meta, por si só,absorveram mais de 18.000 gigawatts-hora de eletricidade, o equivalente ao consumo anual de 1,7 milhões de lares americanos, segundo o comunicado oficial do grupo. As centrais solares param ao pôr do sol, e o grupo tem, até agora, multiplicado acordos para compensar:nuclear com TerraPower, Vistra e Oklo para 6,6 GW até 2035, geotermia, eólica. Oacordo assinado com a Overview Energy, fundada em 2022 em Ashburn, na Virgínia,permitirá captar energia solar em órbita geossíncrona, onde o sol brilha permanentemente. Meta explora uma tecnologia solar capaz de funcionar no escuropic.twitter.com/RAWGYg2Eqv — Pplware (@pplware)April 28, 2026  Os satélites da Overview Energy recolhem continuamente energia solar em órbita geossíncrona eretransmitem-na para centrais solares no solo sob a forma de luz no infravermelhopróximo, invisível e com uma intensidade inferior à da luz solar direta, considerada segura para humanos, animais e aeronaves. Ospainéis no solo convertem este feixeexatamente como tratam aluz solar normal. As centrais inativas durante a noite passam assim a produzir eletricidade de forma contínua, maximizando o seu rendimento sem exigir nova infraestrutura de rede. Cerca de 12 gigawatts de capacidade de centros de dados são esperados nos Estados Unidos em 2026, mas apenas um terço está em construção ativa, nomeadamente devido a uma escassez de equipamentos elétricos e a uma procura de ligação à rede que literalmente explodiu em poucos anos.  As centrais solares já ligadas à rede não precisam de qualquer novo processo de ligação para receber energia orbital:recebem um feixe de luz e produzem corrente, como em pleno dia. Marc Berte, CEO da Overview Energy, vê nesta flexibilidade uma vantagem estratégica fundamental, pois o sistema poderá, a prazo, cobrir um terço do planeta, desde a costa oeste americana até à Europa Ocidental. O que é a órbita geossíncrona:A cerca de 35.786 km de altitude, um satélite acompanha a rotação da Terra. Visto do solo, fica “parado” sobre o mesmo ponto. Nessa posição, recebe luz solar quase contínua ao longo do ano, com eclipses curtos apenas em períodos específicos. Como a energia é captada:Os satélites usam células fotovoltaicas de alta eficiência (multi-junção), melhores do que as usadas em telhados. No espaço não há nuvens, poeiras nem atmosfera a dispersar a luz, o que aumenta o rendimento. A energia elétrica gerada é contínua e previsível. Como funciona à noite:As centrais solares terrestres deixam de produzir após o pôr do sol. Com energia enviada do espaço, esses mesmos parques podem continuar a gerar eletricidade à noite, como se fosse dia, sem novas ligações à rede. AOverview Energy introduziu uma nova unidade de medida, o “megawatt-fóton”, para descrever a potência luminosa necessária à produção de um megawatt de eletricidade. Um contrato tradicional de compra de energia refere-se a quilowatt-hora entregues numa data específica. Aqui, a Meta reserva capacidade junto de uma startup cujo primeiro satélite ainda não foi lançado, sem garantia de entrega nem condições financeiras divulgadas, segundo o comunicado oficial. Mas, independentemente destas incógnitas, Marc Berte defende a ideia de colocar a fonte de energia no espaço em vez dos próprios centros de cálculo, mesmo ocupando uma posição minoritária face aos projetos de centros de dados orbitais promovidos pela Blue Origin ou por startups como a Starcloud. Omegawatt-fótoné uma unidade conceptual criada para descrever energia transmitida sob a forma de luz. Em termos simples, refere-se à quantidade de potência luminosa necessária para gerar 1 megawatt de eletricidade quando esse feixe é convertido no solo. Ou seja, em vez de medir apenas a eletricidade produzida (como no quilowatt-hora), mede-se primeiro a “energia em forma de luz” enviada do espaço. Não é uma unidade padrão da física, mas sim uma forma prática de quantificar sistemas de transmissão energética por feixes luminosos, como no caso da energia solar captada em órbita e enviada para a Terra. Omegawatt-fótoné uma unidade conceptual criada para descrever energia transmitida sob a forma de luz. Em termos simples, refere-se à quantidade de potência luminosa necessária para gerar 1 megawatt de eletricidade quando esse feixe é convertido no solo. Ou seja, em vez de medir apenas a eletricidade produzida (como no quilowatt-hora), mede-se primeiro a “energia em forma de luz” enviada do espaço. Não é uma unidade padrão da física, mas sim uma forma prática de quantificar sistemas de transmissão energética por feixes luminosos, como no caso da energia solar captada em órbita e enviada para a Terra. Para a Overview, enviar apenas a fonte de energia para a órbita é suficiente, sem deslocar os servidores. Aprimeira demonstração por satélite está prevista para janeiro de 2028, e a entrega comercial à rede americana é esperada a partir de 2030, no mínimo. A Meta assinou ainda com a Noon Energy um acordo para até 1 GW / 100 GWh de armazenamento de muito longa duração, graças apilhas de combustível de óxido sólido capazes de durar mais de 100 horas, contra algumas horas das baterias de iões de lítio. Um primeiro piloto de 25 MW / 2,5 GWh deverá também ser demonstrado em 2028. Tanto a Overview Energy como a Noon Energy têm as suas primeiras demonstrações previstas para 2028, e a Meta aposta na sua maturidade comercial antes de 2030."
+    },
+    {
+        "id_interno": "https://tek.sapo.pt/multimedia/artigos/2025-foi-o-3o-ano-mais-quente-desde-que-ha-registo-limites-dos-acordos-de-paris-estao-mais-proximos/",
+        "fonte": "SAPO Notícias / TEK",
+        "titulo": "2025 foi o 3º ano mais quente desde que há registo. Limites dos Acordos de Paris estão mais próximos",
+        "resumo": "O ano de 2024 ainda tem o recorde mas os dados do Copernicus mostram que 2025 foi o terceiro ano mais quente desde que há registo. E que a tendência é para continuar a aquecer.",
+        "autor": "Sapo Tek",
+        "url": "https://tek.sapo.pt/multimedia/artigos/2025-foi-o-3o-ano-mais-quente-desde-que-ha-registo-limites-dos-acordos-de-paris-estao-mais-proximos/",
+        "data_publicacao": "29 Abr 2026 03:00",
+        "data_extracao": "2026-04-29T09:19:08.866421",
+        "categoria": "Technology",
+        "tags": [
+            "Multimédia",
+            "aquecimento",
+            "aquecimento global",
+            "clima",
+            "Copernicus",
+            "Europa",
+            "planeta",
+            "relatório",
+            "satélite",
+            "terra"
+        ],
+        "texto_completo": "Os últimos 11 anos bateram todos os recordes de temperatura e foram os mais quentes da lista de registos apurados pelos cientistas. 2024 continua a ser o mais quente de sempre, com o ano de 2025 a aproximar-se perigosamente. Em conjunto com 2023, os últimos três anos estão, em média, 1,5 graus acima dos níveis pré-industriais, o que acontece pela primeira vez. Os dados acabam de ser divulgados no relatório do European Centre for Medium-Range Weather Forecasts (ECMWF), que opera o C3S e o CAMS doCopernicuspara a Comissão Europeia, e revelam uma situação ainda mais preocupante. Com base nos níveis de temperaturas registados,o limite de 1,5º alcançado nos acordos de Paris podem ser alcançados ainda esta década, cerca de 10 anos antes do que foi previsto na altura. “O facto de os últimos onze anos terem sido os mais quentes de que há registo fornece mais provas da tendência inegável para um clima mais quente. O mundo está a aproximar-se rapidamente do limite de temperatura a longo prazo estabelecido pelo Acordo de Paris”, afirma Carlo Buontempo, diretor do serviço de Alterações Climáticas do Copernicus. “Vamos certamente ultrapassá-lo [o limite de Paris], a escolha que temos agora é como gerir da melhor forma esta inevitável ultrapassagem e as suas consequências para as sociedades e os sistemas naturais”, avisa. O crescimento dos gases de estufa é a razão principal do aumento da temperatura. Laurence Rouil, Diretor do Serviço de Monitorização da Atmosfera Copernicus no ECMWF, diz queos gases com efeito de estufa na atmosfera têm aumentado constantemente nos últimos 10 anos. A Europa é uma das regiões do Planeta maia afetadas por este aquecimento global e 2025 foi o terceiro ano mais quente alguma vez registado no continente europeu.A temperatura média foi de 10,41°C, 1,17°C acima da média para o período de referência de 1991-2020 e 0,30°C abaixo do ano mais quente, em 2024. O aquecimento rápido na Europa está a reduzir a cobertura de neve e gelo, enquanto temperaturas do ar perigosamente elevadas e secas, as ondas de calor e temperaturas oceânicas recorde estão a afetar regiões desde o Ártico até ao Mediterrâneo. No relatório indica-se que pelo menos95% da Europa registou temperaturas anuais acima da média em 2025.É apontado o exemplo daonda de calor recorde de três semanas que afetou a região da Península Escandinava, Finlândia, Península de Kola (Rússia) e Carélia, conhecida como Fennoscândia (ou Fino-Escandinávia) , onde foram ultrapassadastemperaturas de 30 °C. Segundo os dados,os glaciares em todas as regiões europeias registaram uma perda líquida de massa, com a Islândia a atingir a sua segunda maior perda de sempre. A cobertura de neve ficou 31% abaixo da média e a camada de gelo da Gronelândia perdeu 139 gigatoneladas (139 mil milhões de toneladas) de gelo. Os impactos fizeram-se sentir também nos incêndios florestais, na redução dos caudais dos rios, e em tempestades e inundações que afetaram milhares de pessoas. Já este ano Portugal foi atingido por um “comboio de tempestades” com danos que ainda estão a ser apurados. De notar ainda que os oceanos absorveram cerca de 90% do excesso de calor causado pelas emissões de gases com efeito de estufa provocadas pelo homem. “Em 2025, a região oceânica europeia registou a temperatura anual da superfície do mar mais elevada de que há registo, marcando o quarto ano consecutivo de calor recorde”, refere o comunicado do estudo. "
+    },
+    {
+        "id_interno": "https://tek.sapo.pt/extras/site-do-dia/artigos/zperiod-a-tabela-periodica-reinventada-com-modelos-3d-e-ferramentas-de-quimica/",
+        "fonte": "SAPO Notícias / TEK",
+        "titulo": "Zperiod: a tabela periódica reinventada com modelos 3D e ferramentas de química",
+        "resumo": "Gratuito, disponível em 16 idiomas e pensado para estudantes do ensino secundário, o Zperiod transforma a tradicional tabela periódica, uma das ferramentas mais antigas da química, num recurso interativo e visualmente apelativo.",
+        "autor": "Sapo Tek",
+        "url": "https://tek.sapo.pt/extras/site-do-dia/artigos/zperiod-a-tabela-periodica-reinventada-com-modelos-3d-e-ferramentas-de-quimica/",
+        "data_publicacao": "29 Abr 2026 08:20",
+        "data_extracao": "2026-04-29T09:19:24.276409",
+        "categoria": "Technology",
+        "tags": [
+            "Site do dia",
+            "animações",
+            "estrutura",
+            "ferramentas",
+            "Química",
+            "Site do Dia",
+            "tabela periódica",
+            "Zperiod"
+        ],
+        "texto_completo": "A tabela periódica é uma daquelas ferramentas de ensino obrigatória que, infelizmente, raramente provoca qualquer tipo de entusiasmo.Foi a pensar nisso que surgiu o Zperiod, uma página criada por Philip Zhao, um estudante do 11.º ano de Toronto. Este projeto gratuito apresenta os 118 elementos químicos numa interface totalmente interativa e visualmente trabalhada, acompanhada de modelos atómicos em três dimensões. Ao clicar em qualquer elemento, o utilizador acede a uma ficha detalhada com dados como a sua configuração eletrónica, massa atómica, estados de oxidação, ponto de fusão e ebulição, raio atómico e até contextos de utilização no dia a dia.O destaque vai para os modelos 3D das camadas eletrónicas, que permitem rodar e explorar a estrutura de cada átomo de forma intuitiva, com a configuração eletrónica apresentada diretamente no painel do modelo. Para além da tabela e dos modelos atómicos, o Zperiod inclui uma área de ferramentas de química com balanceador de equações, calculadora de massa molar, tabela de solubilidade e até um laboratório virtual.Há ainda um gerador de fichas de trabalho com equações balanceadas, com vários níveis de dificuldade e a possibilidade de exportar para PDF, uma ferramenta útil para uma preparação para exames. Só lhe falta experimentar e comprovar as capacidades desta página, emzperiod.app."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/noticias-ei/ciencia-ei/2025-04-16-air4health-o-projeto-portugues-que-pretende-antecipar-o-caos-nas-urgencias",
+        "fonte": "Exame Informática",
+        "titulo": "Air4Health: O projeto português que pretende antecipar o caos nas urgências",
+        "resumo": "A GMV Portugal está a desenvolver um serviço inovador que prevê o risco de aumento da afluência de utentes às urgências, alertando as unidades de saúde. O projeto está a ser desenvolvido em parceria com a Faculdade de Medicina da Universidade de Lisboa e o laboratório +Atlântico CoLAB",
+        "autor": "Tiago Alexandre PereiraJornalista",
+        "url": "https://visao.pt/exameinformatica/noticias-ei/ciencia-ei/2025-04-16-air4health-o-projeto-portugues-que-pretende-antecipar-o-caos-nas-urgencias",
+        "data_publicacao": "16.04.2025 às 10h54",
+        "data_extracao": "2026-04-29T09:25:37.432084",
+        "categoria": "Technology",
+        "tags": [
+            "+Atlàntico CoLAB",
+            "Faculdade Medicina de Lisboa",
+            "FML",
+            "gmv",
+            "GMV Portugal",
+            "Vital Teresa"
+        ],
+        "texto_completo": "A poluição do ar é uma das principais ameaças ambientais à saúde humana, sendo responsável por mihares de mortes prematuras e um aumento significativo de doenças respiratórias e cardiovasculares a nível global. Segundo a Organização Mundial da Saúde (OMS), mais de 90% da população mundial respira ar considerado poluído, sendo que a qualidade do ar é reconhecida como um dos maiores riscos ambientais para a saúde pública. Agora, um projeto português pretende transformar dados da qualidade do ar e das condições meteorológicas, recolhidos por satélite, em alertas precoces para hospitais e serviços de emergência. O Air4Health junta a GMV Portugal, o laboratório colaborativo +Atlântico CoLAB e a Faculdade de Medicina da Universidade de Lisboa, e conta com o financiamento da Agência Espacial Europeia (ESA) e do Governo."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/noticias-ei/internet/2025-04-17-diga-adeus-ao-google-pt",
+        "fonte": "Exame Informática",
+        "titulo": "Diga ‘adeus’ ao google.pt",
+        "resumo": "A Google anunciou que vai deixar de usar os domínios de topo de diferentes países que detém no motor de busca. Todas as pesquisas vão passar a acontecer no domínio google.com, mas com a garantia de que os resultados apresentados continuarão a ser localizados",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/noticias-ei/internet/2025-04-17-diga-adeus-ao-google-pt",
+        "data_publicacao": "17.04.2025 às 10h35",
+        "data_extracao": "2026-04-29T09:25:37.433832",
+        "categoria": "Technology",
+        "tags": [
+            "dominio",
+            "endereço",
+            "Google",
+            "Pais",
+            "pesquisas"
+        ],
+        "texto_completo": "Os endereços do motor de busca Google específicos por país, e que usam os domínios de topo das diferentes nações, como google.pt (para Portugal) ou o google.co.jp (para o Japão), vão deixar de ser mostrados aos utilizadores e vão passar a redirecionar para o domínio principal do serviço, o google.com. A tecnológica revela que vai deixar de usar os domínios de topo para cada país nas pesquisas e passar a disponibilizar todos os serviços de pesquisa no google.com, mas com a garantia de que os resultados localizados continuam a ser mostrados. A estratégia de usar informação de localização para fornecer resultados baseados na geografia começou em 2017. Nessa altura, em qualquer pesquisa que fosse feita num endereço de país ou no google.com o utilizador veria sempre a versão dos resultados para o local onde estava localizado. Com o fim da utilização dos domínios de topo, a Google parece chegar a uma conclusão neste processo, noticia oEngadget. Em comunicado, a gigante explica que “é importante realçar que embora esta atualização vá mudar o que os utilizadores veem na barra de endereços do navegador, não irá afetar a forma como a Pesquisa funciona, nem vai mudar a forma como lidamos com as obrigações a que estamos sujeitos pelas legislações nacionais”."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/testes/2025-04-21-sony-inzone-m9-ii-em-teste-um-monitor-para-jogadores-competitivos",
+        "fonte": "Exame Informática",
+        "titulo": "Sony InZone M9 II em teste: Um monitor para jogadores competitivos",
+        "resumo": "O Sony InZone M9 II é um monitor completo para quem procura tirar o máximo partido dos jogos, sobretudo os que valorizam a resolução. Mas pelo mesmo preço, haverá outras opções mais tentadoras?",
+        "autor": "Rui da Rocha Ferreira",
+        "url": "https://visao.pt/exameinformatica/testes/2025-04-21-sony-inzone-m9-ii-em-teste-um-monitor-para-jogadores-competitivos",
+        "data_publicacao": "21.04.2025 às 10h52",
+        "data_extracao": "2026-04-29T09:25:41.447698",
+        "categoria": "Technology",
+        "tags": [
+            "análise",
+            "Gaming",
+            "inzone m9 ii",
+            "Monitor",
+            "Review",
+            "Sony",
+            "sony inzone",
+            "teste",
+            "vídeojogos"
+        ],
+        "texto_completo": "Comecemos já pelo elefante na loja de cristal. Vale o Sony InZone M9 II os quase mil euros pedidos pela marca? Se acompanha aExame Informáticacom regularidade, sabe que não é comum começarmos pelo tópico do preço. Mas aqui parece-nos importante começar por um enquadramento mais geral. Ainda recentemente encontramos um monitor de gaming de mil euros, mas que tinha um ecrã ultrawide de 42”, taxa de atualização de 240 Hz, painel OLED curvo, tempo de resposta inferior a um milissegundo… Tecnicamente superior e muito apelativo para quem gosta de jogar. ‘Ah, mas os monitores de 27” são mais indicados para jogadores profissionais e competitivos’, dirá. E aceitamos de bom grado a contra argumentação. Mas pelo mesmo preço, os rivais já nos dão painéis OLED e taxas de atualização superiores (mais importante em competição do que, por exemplo, a resolução). Ou então, monitores com características semelhantes custam cerca de 200 euros (quase 20%) menos. O Sony InZone M9 II tem os seus méritos – que vamos abordar já de seguida –, mas a relação qualidade/preço não é um deles."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/noticias-ei/jogos-ei/2025-04-17-ja-e-possivel-jogar-nas-consolas-xbox-sem-precisar-de-instalar-jogos",
+        "fonte": "Exame Informática",
+        "titulo": "Já é possível jogar nas consolas Xbox sem precisar de instalar jogos",
+        "resumo": "A Microsoft anunciou que os utilizadores do Game Pass Ultimate vão poder tirar partidos dos jogos que já compraram, mas via streaming diretamente na consola. Esta solução permite jogar mais rapidamente e poupar (muito) espaço de armazenamento",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/noticias-ei/jogos-ei/2025-04-17-ja-e-possivel-jogar-nas-consolas-xbox-sem-precisar-de-instalar-jogos",
+        "data_publicacao": "17.04.2025 às 10h54",
+        "data_extracao": "2026-04-29T09:25:41.630372",
+        "categoria": "Technology",
+        "tags": [
+            "Game Pass Ultimate",
+            "jogos",
+            "Streaming",
+            "Xbox"
+        ],
+        "texto_completo": "Os utilizadores da Xbox que têm o serviço Game Pass Ultimate vão poder tirar partido mais rápido dos jogos que já tenham comprado. A Microsoft anunciou uma funcionalidade que permite aos utilizadores jogar os seus jogos em streaming, sem terem de descarregar um pesado ficheiro e ocupar espaço em disco para o guardar. Entreos mais de cem jogos que podem ser desfrutados em streaming, estão títulos populares comoAssassin’s Creed Shadows,Animal Well,Baldur’s Gate 3eHogwarts Legacy. Os jogos que podem ser jogados em streaming aparecem na biblioteca com um ícone de uma nuvem e podem ser filtrados na pesquisa. A aplicação da Loja mostra também o ícone, permitindo jogar diretamente assim que a compra é efetuada. OEngadgetlembra que esta hipótese já estava ao alcance dos jogadores, mas em dispositivos que não as consolas Xbox, surgindo em equipamentos como televisores inteligentes, Amazon Fire TV ou Meta Quest VR e em aparelhos com navegadores, como computadores, tablets e smartphones. Os testes para a funcionalidade chegar à Xbox arrancaram em dezembro. Outra novidade neste domínio é que os jogos compatíveis da Xbox e da Xbox 360 também vão poder ser jogados em streaming nos aparelhos suportados, o que irá alargar significativamente o catálogo de jogos disponíveis."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/noticias-ei/brand-studio/2025-04-17-reparacoes-e-equipamentos-recondicionados-a-prestacoes-ja-e-possivel-na-iservices",
+        "fonte": "Exame Informática",
+        "titulo": "Reparações e equipamentos recondicionados a prestações? Já é possível na iServices!",
+        "resumo": "A iServices disponibiliza agora uma nova solução de pagamento fracionado em parceria com a FLOA, que permite aos clientes adquirir produtos e serviços com pagamentos em três ou quatro vezes, sem juros.",
+        "autor": "",
+        "url": "https://visao.pt/exameinformatica/noticias-ei/brand-studio/2025-04-17-reparacoes-e-equipamentos-recondicionados-a-prestacoes-ja-e-possivel-na-iservices",
+        "data_publicacao": "17.04.2025 às 16h57",
+        "data_extracao": "2026-04-29T09:25:42.036732",
+        "categoria": "Technology",
+        "tags": [
+            "equipamentos recondicionados",
+            "FLOA",
+            "iservices",
+            "reparações telemóveis"
+        ],
+        "texto_completo": "A iServices disponibiliza agora uma nova solução de pagamento fracionado em parceria com a FLOA, fintech do grupo BNP Paribas especializada emBuy Now, Pay Later(BNPL), que permite aos clientes adquirir produtos e serviços com pagamentos em três ou quatro vezes, sem juros. Esta solução de pagamentoBuy Now, Pay Laterestá agora disponível nas mais de 60 lojas físicas da iServices em Portugal e na loja online. O pagamento através da FLOA abrange serviços dereparação, compra derecondicionados, acessórios e gadgets, para valores totais entre 50€ e 2500€. A funcionalidade arrancou com um projeto piloto em 11 lojas iServices da Grande Lisboa e no Porto, mas o sucesso da fase inicial levou à expansão imediata para a rede nacional de lojas. O processo é simples, com a adesão a ser feita no momento da compra, oferecendo uma nova flexibilidade financeira aos consumidores. “Vendemos cerca de 150 mil equipamentos em 2024 com pagamento a pronto, mas temos consciência de que muitos dos nossos clientes gostariam de ter acesso a uma solução de pagamento em prestações e sem juros. AFLOAfoi a nossa escolha para prestar este serviço a partir de 2025 e acreditamos que será uma parceria de sucesso com uma evolução positiva nos próximos anos”, afirma Bruno Borges, CEO da iServices. Segundo dados de um estudo da FLOA em colaboração com a Kantar, apenas 16% dos consumidores portugueses já recorreram ao BNPL para adquirir produtos em segunda mão. A iServices pretende ajudar a alterar esse cenário, promovendo o acesso facilitado à reparação e reutilização de tecnologia, através de uma experiência de compra mais conveniente e acessível."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-02-23-um-carro-100-eletrico-de-preco-imbativel-ao-volante-do-citroen-e-c3",
+        "fonte": "Exame Informática",
+        "titulo": "Um carro 100% elétrico de preço imbatível: Ao volante do Citroën ë-C3",
+        "resumo": "Testamos o carro elétrico com uma relação qualidade/preço muito boa. Este Citroën ë-C3 deve tornar-se no primeiro carro elétrico de muitas famílias. É confortável a bordo, cumpre no desempenho e, mais do que isso, consegue surpreender",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-02-23-um-carro-100-eletrico-de-preco-imbativel-ao-volante-do-citroen-e-c3",
+        "data_publicacao": "23.02.2025 às 11h04",
+        "data_extracao": "2026-04-29T09:25:42.869592",
+        "categoria": "Technology",
+        "tags": [
+            "análise",
+            "Carro",
+            "Citroën",
+            "eletrico",
+            "teste"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/testes/2025-04-09-the-last-of-us-ii-remastered-em-teste-finalmente-em-bom-no-pc",
+        "fonte": "Exame Informática",
+        "titulo": "The Last of Us II Remastered em teste:  Finalmente, ‘em bom’ no PC",
+        "resumo": "A versão para PC The Last of Us II Remastered surpreende pela sofisticação técnica, que até permite correr este jogo graficamente complexo em máquinas com características relativamente modestas",
+        "autor": "Sérgio MagnoExame Informática",
+        "url": "https://visao.pt/exameinformatica/testes/2025-04-09-the-last-of-us-ii-remastered-em-teste-finalmente-em-bom-no-pc",
+        "data_publicacao": "09.04.2025 às 16h41",
+        "data_extracao": "2026-04-29T09:25:43.143347",
+        "categoria": "Technology",
+        "tags": [
+            "jogos",
+            "The Last of Us Parte II Remastered"
+        ],
+        "texto_completo": "The Last of Us Parte II Remasteredchega ao PC como uma redenção brilhante, apagando, com mérito, a sombra deixada pelo atribulado lançamento do primeiro título da saga nesta plataforma. A promessa da Sony e da Naughty Dog de proporcionar uma experiência digna foi não só cumprida, como superada — oferecendo-nos uma versão polida, emocionalmente devastadora e tecnicamente refinada. Cinco anos após os eventos marcantes da primeira jornada de Joel e Ellie, encontramos os protagonistas a tentarrem reconstruir uma vida pacata na comunidade de Jackson. Mas essa frágil normalidade é cruelmente interrompida por um ataque devastador, que empurra Ellie para uma espiral de dor e vingança. A narrativa, arrojada e sem medo de dividir opiniões, apresenta também a perspetiva de Abby — a autora do ataque — e desafia-nos a olhar para os dois lados de um conflito que é, acima de tudo, humano. Esta dualidade narrativa não só aprofunda o enredo, como coloca o jogador perante dilemas morais que raramente encontram espaço em jogos desta escala."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-02-11-peugeot-e-5008-um-carro-eletrico-muito-espacoso",
+        "fonte": "Exame Informática",
+        "titulo": "Peugeot e-5008: Um carro elétrico muito espaçoso",
+        "resumo": "Leve toda a família a bordo do novo SUV 100% elétrico da Peugeot. Conta com sete lugares, um design marcante, uma condução confortável e dinâmicas previsíveis. O sistema de infoentretenimento envolve o condutor num ecrã amplo e há ainda a possibilidade de carregar aparelhos sem fios ou através de ligações USB-C",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-02-11-peugeot-e-5008-um-carro-eletrico-muito-espacoso",
+        "data_publicacao": "11.02.2025 às 14h27",
+        "data_extracao": "2026-04-29T09:25:43.529685",
+        "categoria": "Technology",
+        "tags": [
+            "analise",
+            "e-5008",
+            "elétrico",
+            "EV",
+            "Peugeot",
+            "teste",
+            "Vídeo"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/testes/2025-04-15-niu-kqi-100p-em-teste-sofisticacao-a-bom-preco",
+        "fonte": "Exame Informática",
+        "titulo": "Niu KQi 100P em teste: Sofisticação a bom preço",
+        "resumo": "A KQi 100P posiciona-se como uma opção apelativa para quem procura entrar no universo da mobilidade elétrica urbana sem comprometer o orçamento. Considerando o preço, esta trotinete de ‘último quilómetro’ surpreende pela combinação de funcionalidades inteligentes, qualidade de construção e um design cuidado, rivalizando com modelos bastante mais caros",
+        "autor": "Sérgio MagnoExame Informática",
+        "url": "https://visao.pt/exameinformatica/testes/2025-04-15-niu-kqi-100p-em-teste-sofisticacao-a-bom-preco",
+        "data_publicacao": "15.04.2025 às 11h14",
+        "data_extracao": "2026-04-29T09:25:43.557618",
+        "categoria": "Technology",
+        "tags": [
+            "NIU",
+            "teste",
+            "trotinete"
+        ],
+        "texto_completo": "Apesar da sua colocação no segmento de entrada, a KQi 100P não se limita ao essencial. Destaca-se desde logo pela conectividade Bluetooth integrada, uma característica ainda pouco comum em modelos abaixo dos €500, e que abre a porta a uma série de possibilidades através da aplicação móvel da marca. A app, disponível para Android e iOS, permite bloquear remotamente o veículo e ativar um alarme sonoro em caso de tentativa de movimentação não autorizada. Além disso, oferece controlo sobre várias configurações do veículo, como definir a velocidade mínima do arranque do motor quando impulsionamos a trotinete, a intensidade da travagem regenerativa, a unidade de medida da velocidade, bem como a visualização precisa da carga da bateria e da autonomia estimada. É também possível definir um limite máximo percentual de carregamento, contribuindo para a longevidade da bateria."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2024-12-22-teste-em-video-ao-xpeng-g6",
+        "fonte": "Exame Informática",
+        "titulo": "Xpeng G6: O elétrico chinês que chega aos 500 km de autonomia",
+        "resumo": "Colocamos à prova a tecnologia a bordo do Xpeng G6, o veículo que assinala a chegada de mais uma marca chinesa ao segmento dos automóveis elétricos em Portugal. Este SUV elétrico tem um design aerodinâmico, um interior com um enorme ecrã tátil central onde há um sistema de infoentretenimento completo, mas com interface complexa. Com uma condução cuidada, é possível atingir os 500 quilómetros de autonomia",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2024-12-22-teste-em-video-ao-xpeng-g6",
+        "data_publicacao": "22.12.2024 às 10h47",
+        "data_extracao": "2026-04-29T09:25:44.795404",
+        "categoria": "Technology",
+        "tags": [
+            "análise",
+            "Carro",
+            "eletrico",
+            "G6",
+            "teste",
+            "video",
+            "XPENG"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/diretolab/2024-12-07-ficamos-agarrados-a-pista-com-o-alpine-a290",
+        "fonte": "Exame Informática",
+        "titulo": "Ficámos ‘agarrados’ à pista com o Alpine A290",
+        "resumo": "Conduzimos, em pista, o A290, um carro elétrico que mantém o carácter desportivo da marca francesa Alpine. No interior, é fácil perceber que estamos perante um carro de nova geração, com destaque para os controlos para ajustar a regeneração dos travões, um sistema de telemetria ou o computador de bordo com sistema operativo da Google",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/diretolab/2024-12-07-ficamos-agarrados-a-pista-com-o-alpine-a290",
+        "data_publicacao": "07.12.2024 às 10h53",
+        "data_extracao": "2026-04-29T09:25:44.852616",
+        "categoria": "Technology",
+        "tags": [
+            "Alpine A290",
+            "analise",
+            "Carro",
+            "elétrico",
+            "teste"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2024-11-30-teste-em-video-ao-novo-renault-5",
+        "fonte": "Exame Informática",
+        "titulo": "Teste em vídeo ao novo Renault 5",
+        "resumo": "Já conduzimos a nova versão de um automóvel clássico, agora 100% elétrico. É um carro ágil, tecnologicamente sofisticado e fácil de conduzir em cidade e em estradas de montanha. O sistema de infotenimento inclui ChatGPT, mas ainda não está disponível em português.",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2024-11-30-teste-em-video-ao-novo-renault-5",
+        "data_publicacao": "30.11.2024 às 17h11",
+        "data_extracao": "2026-04-29T09:25:45.947608",
+        "categoria": "Technology",
+        "tags": [
+            "analise",
+            "elétrico",
+            "Renault 5",
+            "teste",
+            "Vídeo",
+            "Volante"
+        ],
+        "texto_completo": " Renault 5"
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/revista-exame-informatica/2025-04-16-exame-informatica-no-355-os-melhores-carros-eletricos-ate-25-mil-euros",
+        "fonte": "Exame Informática",
+        "titulo": "Exame Informática nº 355: Os melhores carros elétricos até 25 mil euros",
+        "resumo": "Na Exame Informática nº 355, testámos sete carros elétricos até 25 mil euros. Mostramos-lhe o mais recente smartphone topo de gama da Xiaomi, as traduções em tempo real com o Vasco Translator E1, analisamos o super tablet Asus ROG Flow Z13 e dizemos-lhe o que vale a nova Nintendo Switch 2. Medimos ainda a pressão arterial com o Huawei Watch D2 e transformámos a sala lá de casa numa sala de cinema com o Samsung The Premiere 9. Explorámos a utilização da IA no vinho e contamos ainda a história de um aluno português que vai ser astronauta sem sair da Terra",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/revista-exame-informatica/2025-04-16-exame-informatica-no-355-os-melhores-carros-eletricos-ate-25-mil-euros",
+        "data_publicacao": "16.04.2025 às 16h25",
+        "data_extracao": "2026-04-29T09:25:46.731056",
+        "categoria": "Technology",
+        "tags": [
+            "capa exame informática 355",
+            "Exame Informática"
+        ],
+        "texto_completo": "A eletrificação dos carros veio para ficar. Se um dos grandes entraves iniciais era o elevado preço de aquisição de um veículo elétrico, hoje em dia já não é bem assim. Fomos à procura de carros elétricos até 25 mil euros e testámos sete máquinas diferentes — cada uma com a sua autonomia, estilo e características distintas. Este é o tema de capa daExame Informáticanº 355, no qual apresentamos uma gama variada de opções para quem não quer entrar em ‘loucuras’ por um carro elétrico novo. Mas, como pode ver em baixo, há muito mais nesta edição da Exame Informática que merece a sua atenção. Pode comprar a Exame Informática nº 355 nas bancas, em formatodigitalou aceder à versão exclusiva caso já seja assinante. O melhor carro elétrico até 25 mil euros: Dacia Spring 45, Dacia Spring 65, LeapMotor T03, Citroen ë-C3, Fiat Grande Panda Red e Dongfeng Box Pro Xiaomi 15 Ultra: Smartphone ou câmara fotográfica? Asus ROG Flow Z13: Um tablet mais poderoso que muitos portáteis Xiaomi Watch S4: Smartwatch equilibrado Asus ZenScreen Smart MS27UC: Monitor e televisor Sony WF-C710N: Auriculares funcionais Lenovo ThinkPad X9-14 Aura Edition: Um portátil completo HP Envy 6530E: Impressora multifunções Xiaomi Buds 5 Pro Samsung The Premiere LPU9: IMAX em casa Sony Alpha 1 II: Câmara profissional HP OmniStudio X 32-C0000NP: 2 em 1 Vasco Translator E1: Traduções na hora Huawei Watch D2: Pressão arterial controlada Lifestyle: Aspirador portátil Dyson Car+Boat, Bigscreen Beyond 2, Ufesa One Touch Duo Plus, iRobot Roomba Plus 505 Combo Robot Projeto Air4Health: Prever picos nas urgências Projeto Asclepios V: Ser astronauta em Terra IA no vinho: Do cultivo à degustação Cibersegurança O significado dos emojis Nintendo Switch 2: Primeiro contacto The Last Of Us Remastered II(PC) Two Point Museum"
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-01-05-um-carro-familiar-de-alta-performance-testamos-o-byd-sealion-7",
+        "fonte": "Exame Informática",
+        "titulo": "Um carro familiar de alta performance: Testámos o BYD Sealion 7",
+        "resumo": "O BYD Sealion 7 é um SUV de dimensões generosas e alta performance, conseguindo atingir os 215 km/h. O ecrã rotativo central tem uma nova barra de atalhos muito mais acessível. De uma forma global, trata-se de uma proposta tentadora para quem quer um SUV familiar espaçoso e carregado de tecnologia",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-01-05-um-carro-familiar-de-alta-performance-testamos-o-byd-sealion-7",
+        "data_publicacao": "05.01.2025 às 11h02",
+        "data_extracao": "2026-04-29T09:25:48.076312",
+        "categoria": "Technology",
+        "tags": [
+            "analise",
+            "BYD",
+            "Carro",
+            "elétrico",
+            "Sealion",
+            "SUV",
+            "teste",
+            "Vídeo"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-01-04-kia-ev3-um-100-eletrico-de-design-arrojado-e-autonomia-generosa",
+        "fonte": "Exame Informática",
+        "titulo": "Teste em vídeo ao Kia EV3: Um 100% elétrico de design arrojado e autonomia generosa",
+        "resumo": "Já conduzimos o muito aguardado Kia EV3, compacto e com muito espaço no interior. Na frente, o frunk ajuda a guardar os cabos de carregamento e no interior há dois ecrãs generosos, além de um terceiro dedicado à climatização. O sistema multimédia é fluido e intuitivo, e gostamos da condução equilibrada que este modelo proporciona",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-01-04-kia-ev3-um-100-eletrico-de-design-arrojado-e-autonomia-generosa",
+        "data_publicacao": "04.01.2025 às 11h11",
+        "data_extracao": "2026-04-29T09:25:49.776766",
+        "categoria": "Technology",
+        "tags": [
+            "análise",
+            "Carro",
+            "eletrico",
+            "Kia EV3",
+            "teste",
+            "video"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-01-30-passe-facilmente-ficheiros-do-smartphone-para-o-computador",
+        "fonte": "Exame Informática",
+        "titulo": "Passe facilmente ficheiros do smartphone para o computador",
+        "resumo": "Saiba como pode utilizar a Snapdrop para passar fotografias, vídeos e documentos do telemóvel para o computador, num processo simples e e rápido",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-01-30-passe-facilmente-ficheiros-do-smartphone-para-o-computador",
+        "data_publicacao": "30.01.2025 às 15h51",
+        "data_extracao": "2026-04-29T09:25:51.351907",
+        "categoria": "Technology",
+        "tags": [
+            "Computador",
+            "DICA",
+            "ficheiros",
+            "Snapdrop"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-02-02-como-criar-passwords-fortes-seguras-e-que-nao-precisa-de-memorizar",
+        "fonte": "Exame Informática",
+        "titulo": "Como criar passwords fortes, seguras e que não precisa de memorizar",
+        "resumo": "Faça uma gestão fácil e segura das palavras-passe para os serviços digitais com o Bitwarden, uma aplicação gratuita e de código aberto. A solução também alerta o utilizador caso a password apareça em bases de dados públicas",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-02-02-como-criar-passwords-fortes-seguras-e-que-nao-precisa-de-memorizar",
+        "data_publicacao": "02.02.2025 às 11h13",
+        "data_extracao": "2026-04-29T09:25:51.383795",
+        "categoria": "Technology",
+        "tags": [
+            "BitWarden",
+            "Criação",
+            "DICA",
+            "palavras-chave",
+            "Passwords",
+            "seguras"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-01-17-transforme-o-seu-smartphone-numa-consola",
+        "fonte": "Exame Informática",
+        "titulo": "Transforme o seu smartphone numa consola",
+        "resumo": "A portuguesa iS lançou um suporte para smartphones que promete melhorar a experiência de jogar no Android e iOS. O gadget tem um peso adequado e é de instalação simples, funcionando através da porta USB-C",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-01-17-transforme-o-seu-smartphone-numa-consola",
+        "data_publicacao": "17.01.2025 às 10h17",
+        "data_extracao": "2026-04-29T09:25:52.268835",
+        "categoria": "Technology",
+        "tags": [
+            "analise",
+            "Consola",
+            "IS",
+            "iservices",
+            "Smartphone",
+            "teste"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/tutoriais/2024-09-10-usar-chatgpt-google-gemini-estudar-inteligencia-artificial",
+        "fonte": "Exame Informática",
+        "titulo": "Como usar o ChatGPT e o Gemini para estudar (e conseguir melhores notas)",
+        "resumo": "Neste tutorial dizemos-lhe quais as instruções que deve usar no ChatGPT e no Gemini para rever textos, melhorar a qualidade de escrita, resolver equações, organizar os estudos e preparar os exames",
+        "autor": "Rui da Rocha Ferreira",
+        "url": "https://visao.pt/exameinformatica/tutoriais/2024-09-10-usar-chatgpt-google-gemini-estudar-inteligencia-artificial",
+        "data_publicacao": "10.09.2024 às 09h12",
+        "data_extracao": "2026-04-29T09:25:54.455840",
+        "categoria": "Technology",
+        "tags": [
+            "ChatGPT",
+            "Escola",
+            "Estudar",
+            "Estudo",
+            "Gemini",
+            "IA",
+            "INTELIGÊNCIA ARTIFICIAL",
+            "tutorial"
+        ],
+        "texto_completo": "Os sistemas de Inteligência Artificial como o ChatGPT e o Gemini podem ser parceiros de estudo valiosos, nos diferentes escalões de ensino. Aqui dizemos-lhe como tirar partido dos assistentes e outras ferramentas para organizar os estudos, resolver equações, preparar exames e fazer mais em menos tempo. Há quem veja a Inteligência Artificial como um perigo para o ensino – outros veem nesta tecnologia a oportunidade para que todos possam ter um tutor pessoal e melhores notas. Uma das formas mais úteis de usar os assistentes de IA é como ferramenta de apoio à revisão de textos. Imagine que tem um trabalho para entregar até ao final da semana. Assim que tiver o documento final, pode carregá-lo no ChatGPT ou Gemini e pedir uma análise ao texto. Como já dissemos noutras edições, quanto mais detalhada for a instrução (prompt) dada ao assistente, mais completa vai ser a ação. No caso da revisão de textos, pode usar a seguinte instrução como ponto de partida. “Analisa o seguinte documento/texto e identifica os erros de ortografia, pontuação, acentuação, sintaxe e concordância. Faz também sugestões de correção para os problemas encontrados“. É também possível fazer pedidos mais específicos, como “Sugere formas para melhorar a clareza desta frase” ou definir o tom do texto através de instruções como “Faz sugestões para tornar este parágrafo mais assertivo, considerando que o tema do trabalho é [inserir tema]” caso queira atribuir uma maior seriedade e credibilidade a um texto."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2024-08-04-dica-como-evitar-chamadas-e-mensagens-de-spam-no-smartphone",
+        "fonte": "Exame Informática",
+        "titulo": "Dica: Como evitar chamadas e mensagens de spam no smartphone",
+        "resumo": "Veja como em em poucos segundos consegue livrar-se de contactos indesejados, seja de empresas com propostas que não são do seu interesse ou até mesmo de burlas telefónicas",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2024-08-04-dica-como-evitar-chamadas-e-mensagens-de-spam-no-smartphone",
+        "data_publicacao": "04.08.2024 às 10h48",
+        "data_extracao": "2026-04-29T09:25:55.425469",
+        "categoria": "Technology",
+        "tags": [
+            "burlas",
+            "chamadas",
+            "DICA",
+            "dica ei",
+            "ei tv",
+            "exame informatica tv",
+            "Mensagens",
+            "spam"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/noticias-ei/aeroespacial/2025-04-09-pedro-rosado-vai-viver-duas-semanas-sem-luz-solar-e-com-temperaturas-negativas-objetivo-ser-astronauta",
+        "fonte": "Exame Informática",
+        "titulo": "Pedro Rosado vai viver duas semanas sem luz solar e com temperaturas negativas. Objetivo? Ser astronauta",
+        "resumo": "O estudante português de Engenharia Aeroespacial, Pedro Rosado, foi um dos nove alunos selecionados para integrar a missão análoga espacial Asclepios V, que decorrerá entre julho e agosto de 2025. A missão irá recriar, nos Alpes Suíços, as condições de um habitat lunar",
+        "autor": "Tiago Alexandre PereiraJornalista",
+        "url": "https://visao.pt/exameinformatica/noticias-ei/aeroespacial/2025-04-09-pedro-rosado-vai-viver-duas-semanas-sem-luz-solar-e-com-temperaturas-negativas-objetivo-ser-astronauta",
+        "data_publicacao": "09.04.2025 às 09h34",
+        "data_extracao": "2026-04-29T09:25:56.940240",
+        "categoria": "Technology",
+        "tags": [
+            "asclepios V",
+            "Astronauta",
+            "missão análoga asclepios V",
+            "pedro rosado"
+        ],
+        "texto_completo": "O Espaço sempre fascinou a humanidade, quer pela vastidão, quer pelos desafios que a sua exploração impõe. A construção do primeiro veículo espacial tripulado, o Vostok 1, teve início em 1958 e ficou concluída em 1961, quando Yuri Gagarin, da antiga União Soviética, se tornou o primeiro humano a viajar para o Espaço, a 12 de abril desse ano. Mais de 60 anos depois, com a Estação Espacial Internacional (ISS) em operação e o avanço recente dos veículos espaciais, sobretudo da SpaceX, o acesso ao Espaço tornou-se mais viável, ainda que limitado e restrito. No entanto, como escreveu o poeta português António Gedeão, pseudónimo de Rómulo de Carvalho, “o sonho comanda a vida”. E é precisamente esse sonho que move Pedro Rosado, licenciado em Engenharia Aeroespacial pelo Instituto Superior Técnico (IST) e, atualmente, a concluir o mestrado no Instituto Superior de Aeronáutica e do Espaço (ISAE-SUPAERO), em Toulouse, França, com especialização em Sistemas Espaciais. Com a ambição de se tornar astronauta, está prestes a dar o primeiro passo ao participar numa missão espacial análoga."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/noticias-ei/hardware/2025-02-19-teste-ao-huawei-matebook-d16-um-portatil-de-ecra-grande-e-bom-desempenho",
+        "fonte": "Exame Informática",
+        "titulo": "Teste ao Huawei Matebook D16: Um portátil de ecrã grande e bom desempenho",
+        "resumo": "O novo computador portátil da Huawei é uma boa escolha para quem procura versatilidade. Apesar de ter um ecrã de tamanho generoso, a Huawei conseguiu manter a espessura e peso reduzidos, oferecendo ainda um bom desempenho na maior parte dos cenários de produtividade",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/noticias-ei/hardware/2025-02-19-teste-ao-huawei-matebook-d16-um-portatil-de-ecra-grande-e-bom-desempenho",
+        "data_publicacao": "19.02.2025 às 15h18",
+        "data_extracao": "2026-04-29T09:25:58.088368",
+        "categoria": "Technology",
+        "tags": [
+            "analise",
+            "Huawei",
+            "matebook",
+            "Portátil",
+            "teste"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/noticias-ei/mercados/2025-04-01-marina-magro-sky-portugal-as-vezes-neste-pais-temos-a-mentalidade-muito-pequenina-de-que-nao-fazemos-bem-mas-somos-muito-bons-nesta-area-temos-engenheiros-de-sonho",
+        "fonte": "Exame Informática",
+        "titulo": "Marina Magro, Sky Portugal: “Às vezes, neste País temos a mentalidade muito pequenina de que não fazemos bem, mas somos muito bons nesta área. Temos engenheiros de sonho”",
+        "resumo": "A diretora-geral da Sky Portugal explica, em entrevista à Exame Informática,o trabalho desenvolvido pela empresa e destaca a importância da operação portuguesa no desenvolvimento das aplicações de streaming SkyShowtime e Peacock",
+        "autor": "Tiago Alexandre PereiraJornalista",
+        "url": "https://visao.pt/exameinformatica/noticias-ei/mercados/2025-04-01-marina-magro-sky-portugal-as-vezes-neste-pais-temos-a-mentalidade-muito-pequenina-de-que-nao-fazemos-bem-mas-somos-muito-bons-nesta-area-temos-engenheiros-de-sonho",
+        "data_publicacao": "01.04.2025 às 09h19",
+        "data_extracao": "2026-04-29T09:25:58.151894",
+        "categoria": "Technology",
+        "tags": [
+            "Marina Magro",
+            "Peacock",
+            "Sky",
+            "Sky Portugal",
+            "Skyshowtime"
+        ],
+        "texto_completo": "Marina Magro chegou à Sky Portugal em 2021 para assumir a liderança da área de Estratégias e Operações, trazendo consigo a experiência adquirida em empresas como McKinsey, CTT e Fidelidade. Em 2023, foi promovida a diretora-geral da Sky Portugal e, desde então, tem estado à frente da tecnológica no País, que conta com cerca de 500 trabalhadores. A Sky Portugal possui três polos tecnológicos localizados em Lisboa, Aveiro e Funchal. É através destas cidades que é desenvolvido o software para aplicações de streaming como o Peacock (nos Estados Unidos) e o SkyShowtime (na Europa). A empresa tem vindo a reforçar a equipa de engenheiros nos últimos anos e não pretende abrandar o ritmo de crescimento. Nesta quinta-feira, a Sky Portugal realiza um dia aberto (open day), dando aos estudantes a oportunidade de conhecerem melhor o trabalho desenvolvido pela empresa, bem como as ofertas disponíveis para estágios de verão. Marina Magro, diretora-geral da Sky Portugal, explica em entrevista àExame Informáticao percurso pessoal, o trabalho que tem feito na liderança da tecnológica e os planos futuros da empresa. Qual o percurso da Marina até chegar a diretora geral da Sky Portugal? Eu fiz uma licenciatura em Economia e um mestrado em Estratégia e Finanças, pelo que a minha carreira seguiu muito esta lógica, com uma vertente financeira também bastante acentuada. A parte da inovação surgiu mais tarde. Comecei a minha carreira na McKinsey & Company, na área do retalho, trabalhando com empresas como a Jerónimo Martins, e participei também num programa de voluntariado com as Nações Unidas. Depois do meu mestrado, decidi que o que queria mesmo era seguir consultoria estratégica, e foi então que trabalhei na McKinsey e na EY, sempre com foco na vertente estratégica. Mais tarde, fui convidada a integrar uma equipa responsável por repensar a estratégia dos CTT, analisando a evolução do negócio e a atuação da empresa no mercado. Passei ainda pela Fidelidade, na área da transformação, que se dedica ao desenvolvimento de novas startups e ideias de negócio fora do setor dos seguros. Por fim, cheguei à Sky Portugal como diretora de Estratégia e Operações e, há um ano e meio, fui promovida a diretora-geral. Sempre teve o objetivo pessoal de chegar a uma empresa tecnológica? A indústria em si é muito sexy. No entanto, a parte da tecnologia sempre esteve muito ligada à minha carreira, que esteve sempre muito próxima da inovação, e a inovação está quase sempre atrelada à tecnologia. A tecnologia sempre foi um setor onde vi que era por aí que iria encaminhar a minha carreira. Acho que estar na Sky Portugal faz todo o sentido e não me vejo a sair desta área. Como é liderar uma empresa desta dimensão? Tem os seus desafios [risos]. A Sky Portugal é uma empresa com 500 engenheiros e três escritórios –  Lisboa, Aveiro e Funchal –, sendo que a nossa sede, em Lisboa, conta com mais de 400 pessoas. A partir daqui, desenvolvemos software para milhões de clientes em todo o mundo, o que representa um grande desafio, tanto pela escala em que trabalhamos como pelo facto de sermos uma equipa de 500 pessoas. Até há pouco tempo, tínhamos muito pouca visibilidade em Portugal. As pessoas conheciam, por exemplo, a Sky News e a Sky Sports, mas a marca em si não era amplamente reconhecida pelos portugueses. O lançamento da plataforma de streaming Sky Showtime, em outubro de 2022, ajudou-nos a reforçar a nossa presença no mercado e permitiu-nos atuar como um empregador de referência na área da tecnologia e engenharia. Isso colocou-nos num patamar diferente e ajudou a superar um desafio que, até então, era bastante significativo. Lançámos o Peacock, nos EUA, em plena pandemia, em 2020. Tínhamos como objetivo integrá-lo nos Jogos Olímpicos de Tóquio, que acabaram por ser adiados, mas não parámos e conseguimos entregar o Peacock na mesma. Depois, entre 2022 e 2023, lançámos o Sky Showtime em mais de 20 países na Europa. Este lançamento trouxe desafios acrescidos, não só porque estávamos a entrar em diferentes mercados, com línguas, moedas e formas de pagamento distintas, mas também porque, mais recentemente, expandimos para 44 países africanos. Aqui, os desafios foram completamente diferentes, desde a diversidade de dispositivos móveis – que são muito distintos dos nossos – até à disparidade no acesso à Internet. Isso exigiu uma adaptação profunda da nossa plataforma para garantir robustez e conectividade, permitindo que funcione em todos os dispositivos, independentemente das condições de acesso. Os desafios são muitos, mas o que nos diferencia no mercado é a nossa capacidade de inovação. O streaming veio transformar a forma como as pessoas consomem conteúdos, e agora entramos numa nova era com os óculos de realidade virtual. Caminhamos para um futuro onde os utilizadores querem experiências mais imersivas, já não queremos ser apenas espetadores passivos, mas sim participantes ativos, interagindo com o conteúdo. É por isso que gostamos de dizer que estamos a construir a televisão do futuro, e essa construção é feita em Portugal, pelas mãos de engenheiros portugueses, que são de excelência. E isso é, sem dúvida, um grande motivo de orgulho para nós. Que tipo de pessoas mais procuram contratar na Sky Portugal? A Sky Portugal está sempre a crescer, nós estamos sempre a contratar, independentemente da situação em que nos encontremos enquanto país. Nós contratamos os melhores, e estamos a falar de engenheiros informáticos e não só. Temos também a parte de testes e de garantia da qualidade da nossa entrega e dos produtos, mas é na área da engenharia informática que mais recrutamos. Podemos dizer que o foco principal da Sky Portugal é o desenvolvimento de software? Sim, exatamente. Desenvolvemos software para a área de streaming, abrangendo aplicações e plataformas. Esse desenvolvimento de software para streaming funciona, de uma forma geral, para todos os territórios onde estamos presentes. A Sky Portugal é vista, dentro do grupo Sky e da Comcast, por quem fomos adquiridos em 2018 , como o hub especializado em streaming. Esse foi o ponto de viragem em que começámos a trabalhar no Peacock. Somos reconhecidos no grupo como os especialistas nesta área, e há uma visão clara de que a excelência no desenvolvimento de software para streaming é impulsionada a partir de Portugal para todos os nossos territórios. Temos um compromisso muito forte com a retenção de talento local. Num momento em que a emigração jovem está na ordem do dia, consideramos importante realçar que, na Sky Portugal, sentimos uma grande responsabilidade em criar oportunidades para portugueses que, de outra forma, poderiam ter saído do País. As pessoas aceitam os nossos desafios porque oferecemos um pacote salarial muito atrativo, permitindo-nos reter engenheiros altamente qualificados em Portugal. Além disso, estabelecemos diversas parcerias com instituições de ensino, como o Instituto Superior Técnico, a Universidade da Madeira e a Universidade de Aveiro. Aliás, assinámos recentemente um novo protocolo com a Universidade de Aveiro, o que reforça o nosso compromisso contínuo com a educação e a formação de talento jovem. Pretendemos apoiar os profissionais no início das suas carreiras e, nesse sentido, promovemos programas de estágios de verão todos os anos. Esta é uma oportunidade única para ajudar os jovens a dar os primeiros passos no mundo profissional e reafirmar o nosso compromisso com a formação. Nos últimos anos, já integrámos 200 estagiários. No próximo dia 3 de abril, realizaremos o nosso Open Day, onde abriremos as portas aos alunos para que possam conhecer melhor o nosso trabalho global e a nossa oferta de estágios de verão. Podemos dizer que sem o trabalho que é desenvolvido na Sky Portugal, os serviços de streaming do grupo teriam dificuldades? A Sky Portugal acaba por ser um ponto central de excelência. Nós somos vistos no grupo como os especialistas de desenvolvimento de software, e não há nada, mas absolutamente nada, na área do streaming que não passe pela mão dos engenheiros que cá estão [em Portugal], e isso é um motivo de muito orgulho para nós. Às vezes, temos a mentalidade em Portugal muito pequenina de que não fazemos bem, mas nós somos muito bons nesta área. Somos realmente dos melhores. Temos engenheiros de sonho na Sky Portugal, e esses engenheiros estão a tornar reais os sonhos dos nossos clientes em todo o mundo. Neste momento pensam em abrir mais algum centro tecnológico em Portugal? Para já, temos estes três: Lisboa, Aveiro e Funchal. Posso partilhar que, em breve, vamos abrir um novo escritório em Aveiro, uma necessidade resultante do nosso crescimento. Em relação à pergunta, neste momento não temos intenções claras, nem uma direção definida nesse sentido, mas, quem sabe, poderá vir a ser possível no futuro. Porquê o arquipélago da Madeira como o local escolhido para um abrir um centro tecnológico da Sky Portugal? É curioso porque na realidade antes da pandemia nós tínhamos algumas pessoas que trabalhavam connosco e eram da Madeira, e com esta situação toda que se gerou da pandemia as pessoas regressavam onde viviam e nós temos muitas pessoas altamente qualificadas a trabalhar na Madeira. Rapidamente percebemos que tínhamos muito talento regional interessante que teríamos de captar, e que se estivéssemos em Lisboa não iríamos conseguir, neste pós-pandemia, fazer com que as pessoas voltassem onde estavam antes e por isso o escritório da Madeira acabou por ser uma evolução muito orgânica disso. Não foi uma intenção de negócio inicial. Quais foram os maiores desafios em lançar uma plataforma de streaming? São muitos. Começando pelos primórdios do Peacock, um dos nossos pilares é a inovação, trazendo novas funcionalidades e quebrando recordes. Posso dar alguns exemplos. Chamamos ao lançamento do Peacock um verdadeiro ‘foguete’ para nós, porque foi a entrada num mercado altamente exigente em termos de consumidores. O mercado norte-americano tem um nível de consumo muito elevado e, além disso, já era um mercado bastante maduro. O streaming nos EUA existe há quase duas décadas, enquanto, em Portugal e na Europa, tem menos de uma. A maturidade dos mercados é, por isso, muito diferente, tanto na forma como os utilizadores interagem com as plataformas como na própria exigência do serviço. Isso, por si só, já representou um grande desafio, pois tínhamos de entrar num mercado competitivo e diferenciar-nos. Uma das formas de diferenciação foi o lançamento da plataforma com a opção gratuita. Inicialmente, algumas pessoas tinham acesso sem pagar nada, enquanto outras subscreviam planos pagos. Mais tarde, repensámos este modelo e introduzimos a opçãoad-freee a vertente com anúncios[ads], tornando-nos pioneiros nesta abordagem. Nunca ninguém tinha feito isto antes. Agora, outros concorrentes de mercado já adotaram esta dinâmica, e nós expandimos essa estratégia também para o SkyShowtime. Esta abordagem irreverente faz com que sejamos vistos como inovadores, aqueles que trazem sempre algo novo ao mercado. O desafio do Peacock foi precisamente esse: entrar num mercado maduro e trazer algo inovador, tanto pelos conteúdos como pela forma de entrada no mercado. Já o desafio do SkyShowtime é um desafio de escala, porque passámos de um único território para 22, e num curto período de tempo. Isto gerou desafios adicionais, como garantir que a nossa plataforma era suficientemente robusta para suportar todas as nuances desses mercados altamente complexos. Não falamos apenas da questão dos idiomas, mas também dos métodos de pagamento, da forma como os utilizadores navegam na plataforma e interagem com os conteúdos. Agora, no continente africano, o desafio é ainda maior, devido à enorme diversidade de dispositivos e à variabilidade da conectividade. Outra inovação nossa foi o lançamento do Peacock nos óculos Apple Vision Pro, no ano passado. Fizemos uma parceria com a Apple e, no momento em que os óculos chegaram ao mercado, a nossa plataforma já estava disponível, o que foi um passo inédito. Além disso, no ano passado, adquirimos os direitos televisivos da NFL (Liga profissional de futebol americano) para dois jogos, que tiveram mais de 20 milhões de espectadores e 10 milhões de dispositivos ligados em simultâneo. Não posso deixar de mencionar os Jogos Olímpicos, que representaram um enorme desafio para nós. Queríamos tornar o conteúdo mais personalizado e imersivo para os clientes. Os Jogos Olímpicos são, por natureza, eventos difíceis de acompanhar: são milhares de horas de transmissão, com até 60 eventos a acontecer em simultâneo e 300 ao longo de um dia. Para facilitar essa experiência, lançámos a Gold Zone, um ambiente dinâmico onde apresentávamos, em tempo real, os melhores momentos e as performances mais relevantes dos atletas. Pela primeira vez, também utilizámos a Inteligência Artificial, recriando resumos diários personalizados com a voz do icónico comentador desportivo Al Michaels. Esta personalização está a tornar-se uma grande tendência e será um fator-chave para muitas novas funcionalidades no futuro. Outra funcionalidade inovadora que introduzimos foi o Multiview, que permite assistir a vários eventos em simultâneo (até quatro). Esta tecnologia não se limitou aos Jogos Olímpicos: agora é aplicada também à Premier League, permitindo ver até quatro jogos ao mesmo tempo. Nas últimas eleições dos EUA, utilizámos o Multiview para acompanhar diferentes localizações e transmitir informações variadas em tempo real. Este ano, continuamos a apostar na inovação. Lançámos o formato de vídeo vertical, pensado para as gerações mais jovens, onde as redes sociais desempenham um papel central. Com a crescente massificação dos dispositivos móveis e a necessidade constante de conexão, queremos transformar-nos não apenas numa plataforma de streaming, mas num destino completo de entretenimento. Ou seja, além de séries, reality shows, notícias e eventos desportivos ao vivo, os utilizadores podem interagir com conteúdos mais curtos e acessíveis no formato vertical. Outra novidade recente foram os mini-jogos, inspirados nos nossos conteúdos. Agora, os utilizadores podem jogar um jogo baseado num reality show ou fazer predicts [previsões, em tradução livre] sobre determinados eventos. Deixámos de ser uma plataforma onde o utilizador tem um papel passivo para passarmos a uma experiência muito mais interativa. Uma das coisas mais importantes para nós é a experimentação. Cada utilizador pode ter acesso à aplicação do Peacock, mas a experiência pode ser personalizada de forma única, com base em dados reais de consumo. É esta abordagem inovadora e centrada no utilizador que nos permite continuar a crescer e a diferenciar-nos no mercado. Como é que estão a utilizar a Inteligência Artificial dentro da Sky Portugal? Eu acho que há um grande buzz à volta disto e nós, obviamente, tomamos todo o partido para alavancarmos todas as funcionalidades da IA, mas temos de garantir a máxima segurança dos nossos dados e de que atuamos sempre de acordo com as legislações europeias. Acho que temos de ter cuidado com a utilização da IA, mas, por outro lado, esta é uma tecnologia que nos traz um avanço na forma de trabalhar. Estamos a utilizá-la em muitas áreas, mas que eu ainda não posso partilhar, porque esta indústria vive muito do suspense e da surpresa. Mas posso partilhar que todas as novas funcionalidades que temos em vista para lançar neste e no próximo ano ‘bebem’ da IA. Obviamente, utilizamos IA todos os dias. Usamos ferramentas que nos ajudam na revisão de código, na avaliação do que estamos a fazer a nível de desenvolvimento das funcionalidades e na criação de  apresentações. Portanto, a IA está a tornar-se um parceiro que trabalha connosco diariamente e será ela a permitir-nos entregar novas funcionalidades aos clientes. Os clientes podem sentir diferenças com a aplicação da IA na plataforma de streaming? A IA vai trazer, certamente, mais possibilidades de personalização e funcionalidades sem a necessidade de uma interação humana ou editorial, digamos assim. Quando entramos no SkyShowtime, encontramos aqueles mosaicos, mas a IA serve para recomendar o que será melhor para o consumidor, de uma forma cada vez mais inteligente e conectada com aquilo que será o próximo passo. Vamos tentar dar novo conteúdo ao cliente, baseado nas categorias que ele mais visualiza. De certa forma, estes mecanismos já existem, mas vão tornar-se cada vez mais robustos e melhores. No entanto, acredito que a IA ainda vai desbravar caminho em muitas frentes que, por agora, não posso partilhar, e que irão muito além da recomendação e personalização. Quantos subscritores tem a SkyShowtime em Portugal? É uma informação confidencial, não partilhamos esse tipo de informação. Mas posso dizer que temos tido muito sucesso com a nossa plataforma, e a verdade é que acho que, no minuto em que os portugueses perceberem que a SkyShowtime é feita pela mão de engenheiros portugueses, em Portugal, ainda vamos ter mais sucesso. O grupo a que pertencemos é a Comcast, que em 2024 faturou 122 mil milhões de dólares, o que equivale, mais ou menos, à quantia que Portugal recebeu de fundos comunitários europeus desde a década de 80. O Peacock faturou, em 2024, 4,8 mil milhões de dólares, o que se traduz num crescimento de 46% em relação a 2023. E nós, obviamente, contribuímos para esses resultados, porque é a partir daqui que tudo se desenvolve. Os portugueses conhecem provavelmente, melhor, outras três grandes plataformas de streaming, como a Netflix, a HBO e a Amazon, como é que a Sky se posiciona entre estes concorrentes? A SkyShowtime acaba por diferenciar-se pela rapidez com que os conteúdos são colocados na nossa plataforma. Filmes comoTop GuneOppenheimerrapidamente apareceram na nossa plataforma, assim que saem do cinema, vão para a nossa plataforma. É uma rapidez muito grande. Nós temos um leque de conteúdos que serve toda a família, comoA Patrulha PataeGru Maldisposto. E depois, o Peacock é a plataforma que oferece mais funcionalidades, e sabemos que essas funcionalidades não estão disponíveis no SkyShowtime, mas nada impede que, amanhã ou depois, essa inovação chegue aqui também. Desde o Multiview, o Gold Zone dos Jogos Olímpicos, os vídeos verticais, os mini-jogos, isso poderá também vir para Portugal e outros territórios. Mas importa referir que a maturidade do mercado em Portugal é completamente diferente dos EUA. A forma como atuamos no mercado certamente caminhará por aí, mas ainda não estamos nesse ponto. E sobre conteúdos originais da Sky, têm muita oferta, tal como outras empresas de streaming? Temos conteúdos muito interessantes nossos, que ‘bebem’ da nossa família de marcas. Acho que isto é importante também partilhar: o grupo ao qual a Sky pertence tem também a DreamWorks Animation, a NBCUniversal, e isso permite-nos ter muitos conteúdos originais no Peacock. E existem também algumas séries do Peacock que já estão na SkyShowtime. O preço de subscrição da vossa plataforma de streaming é dos mais baixos em Portugal – €4,99. É uma estratégia vossa, ou consideram que a vossa oferta não é tão completa como a dos outros concorrentes? Eu acho que isto é uma aposta na forma como nós entrámos no mercado. Obviamente, aqui na Sky Portugal, o que estamos a fazer é o desenvolvimento da tecnologia e não a comercialização. A forma como entrámos no mercado tem mais a ver com a necessidade de fazermos uma abordagem ao mercado de uma forma mais rápida. Não tem de todo a ver com a qualidade da nossa plataforma e dos nossos produtos, que é altíssima e é vista nos EUA dessa forma, assim como no resto dos territórios onde estamos. O preço nada tem a ver com a qualidade, mas sim com a forma de nós chegarmos mais rapidamente aos nossos clientes, o que tem acontecido. Quais são os próximos grandes projetos que a Sky Portugal está a desenvolver e a trabalhar para lançar? Este ano, toda a inovação à volta dos minijogos e dos vídeos verticais acaba por ser reveladora daquilo que vamos trazer para a frente. Estamos a testar e vamos trazer novas funcionalidades para o mercado, para que elas possam ser experimentadas através de inovação e também da IA. Uma das coisas importantes que adquirimos foram os direitos de transmissão da NBA nos EUA, para o Peacock. Até agora, as bases tecnológicas das nossas plataformas não eram as mesmas, e neste momento estamos a migrar para uma única plataforma em todos os territórios. Tudo o que existe de funcionalidades nos EUA pode vir a estar disponível nas outras plataformas. Estamos a caminhar para que esta seja não só uma plataforma de streaming, mas sim um destino único e muito completo de entretenimento. Os clientes tanto podem ver televisão, como ver uma série ou jogar um videojogo, tudo dentro da nossa plataforma."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/tutoriais/2025-03-12-50-dicas-como-usar-chatgpt-deepseek-como-um-profissional",
+        "fonte": "Exame Informática",
+        "titulo": "50 dicas para fazer mais em menos tempo: Domine o ChatGPT e o DeepSeek como um profissional",
+        "resumo": "A provocação é sobejamente conhecida – a Inteligência Artificial não vai substituí-lo no trabalho, mas alguém que a saiba usar de forma eficaz, sim. Está, por isso, na hora de meter mãos à obra",
+        "autor": "Rui da Rocha Ferreira",
+        "url": "https://visao.pt/exameinformatica/tutoriais/2025-03-12-50-dicas-como-usar-chatgpt-deepseek-como-um-profissional",
+        "data_publicacao": "12.03.2025 às 09h56",
+        "data_extracao": "2026-04-29T09:25:58.265374",
+        "categoria": "Technology",
+        "tags": [
+            "ChatGPT",
+            "Comandos",
+            "DeepSeek",
+            "Dicas",
+            "Gemini",
+            "IA",
+            "Instruções",
+            "inteligencia artificial",
+            "Produtividade",
+            "prompt",
+            "Truques",
+            "tutorial"
+        ],
+        "texto_completo": "Saber tirar partido dos sistemas de Inteligência Artificial será essencial nos próximos anos. Do ponto de vista profissional, mas também pessoal. Compilamos 50 instruções para que possa ser mais produtivo, tomar melhores decisões, estruturar a informação de forma mais rápida, melhorar a criatividade e agilizar a resolução de problemas. Bem-vindo à revolução da IA. Devo ou não trocar de trabalho? Devo ou não comprar ações da Nvidia? Devo ou não investir num carro em segunda mão? Todos temos dilemas, mas nem sempre estamos preparados para enfrentar a complexidade do problema. Com os assistentes digitais é mais simples. Experimente a seguinte instrução (prompt): “Cria uma matriz de decisão na qual são pesados os prós, os contras e os fatores de risco para decisões bem ponderadas sobre [indicar problema]”. Em segundos, o sistema criará uma tabela com diferentes pontos de vista, aos quais pode atribuir classificações, que no final podem ajudá-lo a tomar uma decisão mais sólida."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/noticias-ei/ciencia-ei/2025-02-20-azulfy-a-empresa-portuguesa-que-analisa-a-poluicao-no-mar-rios-e-barragens",
+        "fonte": "Exame Informática",
+        "titulo": "Azulfy: A empresa portuguesa que analisa a poluição no mar, rios e barragens",
+        "resumo": "A Azulfy está a desenvolver um software direcionado para as Câmaras Municipais, permitindo-lhes monitorizar e agir rapidamente perante situações de poluição na água. O sistema, que utiliza imagens de satélite e algoritmos avançados, ainda está em fase de testes, mas estará brevemente disponível no mercado",
+        "autor": "Tiago Alexandre PereiraJornalista",
+        "url": "https://visao.pt/exameinformatica/noticias-ei/ciencia-ei/2025-02-20-azulfy-a-empresa-portuguesa-que-analisa-a-poluicao-no-mar-rios-e-barragens",
+        "data_publicacao": "20.02.2025 às 09h12",
+        "data_extracao": "2026-04-29T09:26:00.120605",
+        "categoria": "Technology",
+        "tags": [
+            "azulfy",
+            "empresa azulfy",
+            "poluição da água",
+            "poluição no mar"
+        ],
+        "texto_completo": "Ilhas de lixo, praias interditas, rios contaminados. Ninguém gosta de imaginar cenários como estes – e muitos mais poderiam ser mencionados. Mas a preocupação com a redução da poluição e da contaminação da água, do ar e dos solos tem vindo a crescer tanto entre a sociedade como entre as entidades administrativas. Foi neste contexto que nasceu a Azulfy, uma empresa portuguesa fundada em fevereiro de 2023 com o objetivo de fornecer soluções às Câmaras Municipais para monitorizar o mar, rios e barragens. Tudo começou em 2022, quando Fernando Bebiano Correia, diretor executivo (CEO) da empresa, participou numa maratona de programação (hackathon) organizada pelo Cassini, um fundo de investimento europeu dedicado ao setor espacial. Este evento, com a duração de 72 horas, reuniu programadores, designers e especialistas em negócios, desafiando-os a desenvolver e apresentar um projeto inovador num curto espaço de tempo."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-03-26-exame-informatica-tv-no-904-conheca-o-smartphone-triptico-da-huawei-e-o-portatil-solar-da-lenovo",
+        "fonte": "Exame Informática",
+        "titulo": "Exame Informática TV nº 904: Conheça o smartphone tríptico da Huawei e o portátil solar da Lenovo",
+        "resumo": "Neste programa continuamos pelo Mobile World Congress: damos-lhe a conhecer os novos smartphones acessíveis da Samsung, experimentamos o telemóvel tríptico da Huawei e explicamos como funciona o portátil da Lenovo que não precisa de ser ligado à tomada",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-03-26-exame-informatica-tv-no-904-conheca-o-smartphone-triptico-da-huawei-e-o-portatil-solar-da-lenovo",
+        "data_publicacao": "26.03.2025 às 09h38",
+        "data_extracao": "2026-04-29T09:26:01.141681",
+        "categoria": "Technology",
+        "tags": [
+            "ei tv",
+            "exame informatica",
+            "exame informatica tv",
+            "Huawei",
+            "huawei mate xt",
+            "Lenovo",
+            "lenovo solar",
+            "Mobile World Congress",
+            "mwc25",
+            "Samsung"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-03-21-exame-informatica-tv-no-903-smartphones-robos-e-supercarros-no-mwc25",
+        "fonte": "Exame Informática",
+        "titulo": "Exame Informática TV nº 903: Smartphones, robôs e supercarros no MWC25",
+        "resumo": "Neste programa especial, levamo-lo connosco a conhecer a maior feira de tecnologias móveis do mundo, o Mobile World Congress. De smartphones topo de gama, a supercarros e drones, passando por uma nova geração de robôs, vimos de tudo um pouco em Barcelona",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-03-21-exame-informatica-tv-no-903-smartphones-robos-e-supercarros-no-mwc25",
+        "data_publicacao": "21.03.2025 às 08h59",
+        "data_extracao": "2026-04-29T09:26:03.497553",
+        "categoria": "Technology",
+        "tags": [
+            "Barcelona",
+            "ei tv",
+            "exame informatica tv",
+            "Mobile World Congress",
+            "mwc25"
+        ],
+        "texto_completo": "Empty content."
+    },
+    {
+        "id_interno": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-02-13-aprenda-a-tocar-bateria-e-sem-chatear-os-vizinhos-com-a-aeroband-pocket-drum-2",
+        "fonte": "Exame Informática",
+        "titulo": "Aprenda a tocar bateria (e sem chatear os vizinhos) com a Aeroband Pocket Drum 2",
+        "resumo": "A Aeroband tem uma bateria virtual bastante prática. O kit inclui baquetas, pedais e um cartaz de calibração onde são representados os pratos, a tarola e os timbalões. O som produzido é agradável e a ’bateria’ oferece uma experiência satisfatória. Tudo isto sem incomodar quem está à nossa volta",
+        "autor": "Exame Informática",
+        "url": "https://visao.pt/exameinformatica/videos-ei/eitv/2025-02-13-aprenda-a-tocar-bateria-e-sem-chatear-os-vizinhos-com-a-aeroband-pocket-drum-2",
+        "data_publicacao": "13.02.2025 às 14h19",
+        "data_extracao": "2026-04-29T09:26:04.314226",
+        "categoria": "Technology",
+        "tags": [
+            "Aeroband",
+            "análise",
+            "Bateria",
+            "teste",
+            "virtual"
+        ],
+        "texto_completo": "Empty content."
     }
 ]
