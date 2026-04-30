@@ -1,4 +1,4 @@
-## Usage guide to run the project locally
+# Usage guide to run the project locally
 
 ### Requirements
 
