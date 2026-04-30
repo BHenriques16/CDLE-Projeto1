@@ -4,11 +4,3 @@ services:
     container_name: redis_cdle
     ports:
       - "6379:6379"
-
-  redis-insight:
-    image: redis/redisinsight:latest
-    container_name: redis_insight_cdle
-    ports:
-      - "8001:8001"
-    depends_on:
-      - redis
