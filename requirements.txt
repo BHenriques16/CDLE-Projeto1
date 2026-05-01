@@ -1,7 +1,3 @@
 requests
 bs4
-datetime
-time
-logging
-json
 redis
