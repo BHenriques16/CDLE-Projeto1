@@ -22,7 +22,7 @@ jobs:
       - name: Install
         run: pip install -r requirements.txt
 
-      - name: Run
+      - name: Run Scraper
         run: python src/main.py
 
       - name: Push
