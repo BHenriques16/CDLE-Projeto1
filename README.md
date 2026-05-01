@@ -28,7 +28,7 @@ docker compose up -d
 ### Configure python enviroment
 ```bash
 # Create virtual enviroment
-python -m venv venv
+python3 -m venv venv  # if you are testing on Windows, use: python -m venv venv 
 
 # Activate the venv 
 source venv/bin/activate    # if you are testing on Windows, use: venv\Scripts\activate
