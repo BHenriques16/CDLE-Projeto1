@@ -1,17 +1,21 @@
 import json
 import logging
 import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from exame_informatica_scraper import scrape_exame_informatica
 from pplware_scraper import scrape_pplware
 from sapo_scraper import scrape_sapo_tek
 
 # Configuration
-JSON_FILE = "data/articles.json"
-LOG_FILE  = "logs/extraction.log"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+JSON_FILE = os.path.join(BASE_DIR, "data", "articles.json")
+LOG_FILE  = os.path.join(BASE_DIR, "logs", "extraction.log")
 
-os.makedirs("logs", exist_ok=True)
-os.makedirs("data", exist_ok=True)
+os.makedirs(os.path.dirname(LOG_FILE), exist_ok=True)
+os.makedirs(os.path.dirname(JSON_FILE), exist_ok=True)
 
 logging.basicConfig(
     filename=LOG_FILE,
@@ -25,7 +29,6 @@ console.setLevel(logging.INFO)
 console.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 logging.getLogger().addHandler(console)
 
-# Scraper registry
 SCRAPERS = {
     "PPLWARE":  scrape_pplware,
     "SAPO TEK": scrape_sapo_tek,
@@ -55,10 +58,8 @@ def save_data(existing_data: list, new_articles: list[dict], json_file: str = JS
 
 def run_all():
 
-    # Load the database ONCE at the very beginning
     existing_data = load_existing_data()
-    
-    # Create a fast-lookup set of all URLs we already have
+
     existing_urls = {article['id_interno'].lower().rstrip('/') for article in existing_data if 'id_interno' in article}
     
     all_new_articles = []
@@ -67,11 +68,9 @@ def run_all():
     for name, scraper_fn in SCRAPERS.items():
         logging.info(f"[{name}] Starting extraction...")
         try:
-            # Pass the existing URLs to the scraper so it ignores old news
             articles = scraper_fn(existing_urls)
             all_new_articles.extend(articles)
             
-            # Add the newly found URLs to the set so the next scraper doesn't duplicate them
             for article in articles:
                 existing_urls.add(article['id_interno'])
                 
@@ -82,10 +81,8 @@ def run_all():
             results[name] = {"status": "ERROR", "message": str(e)}
             logging.error(f"[{name}] Failed: {e}")
 
-    # Save everything to the JSON file
     total_saved = save_data(existing_data, all_new_articles)
 
-    # Final execution summary
     logging.info("=" * 50)
     logging.info("EXECUTION SUMMARY")
     logging.info("=" * 50)
@@ -97,7 +94,6 @@ def run_all():
     logging.info(f"  → Total saved: {total_saved} new articles")
     logging.info("=" * 50)
 
-    # Exit with error code if any scraper failed
     failed = [n for n, r in results.items() if r["status"] == "ERROR"]
     if failed:
         raise SystemExit(f"The following scrapers failed: {', '.join(failed)}")
