@@ -11020,5 +11020,20 @@
             "vespa velutina"
         ],
         "texto_completo": "A vespa asiática (Vespa velutina) é uma espécie invasora que representa uma ameaça séria à apicultura e à biodiversidade em Portugal, e combatê-la começa precisamente por reportar a presença dos seus ninhos às autoridades.Até ao momento, o ICNF – Instituto da Conservação da Natureza e das Florestas tinha criado um portal para o efeito, oStopvespa, mas o feedback não tem sido o mais positivo. Foi por causa disso que Carlos Martins, um residente em Monchique, criou o Vespas.pt, uma plataforma cívica inteiramente gratuita que permite a qualquer cidadão alertar os Serviços Municipais de Proteção Civil da sua área em poucos segundos. O funcionamento é tão simples quanto eficaz, pois bastam dois cliques e uma fotografia tirada no local para registar o avistamento.A plataforma irá extrair automaticamente as coordenadas GPS do dispositivo, encaminhando toda a informação para os técnicos municipais competentes. Não é necessário preencher formulários extensos nem saber a morada exata, uma vez que a plataforma trata disso tudo, de forma automática. Após o reporte, a ocorrência fica imediatamente visível no mapa da plataforma.Esta foi também pensada para funcionar em condições adversas de terreno, ou seja, em locais sem cobertura de rede móvel. Isto porque o sistema armazena o avistamento localmente e envia-o automaticamente quando o sinal for recuperado. E em locais sem sinal de GPS, esta plataforma estima a localização por IP (GPS Assistido) para garantir que nenhum alerta se perde. Como não poderia deixar de ser, estão bem presentes das devidas precauções de segurança para lidar com a ocorrência.Nunca tente remover um ninho por conta própria, sendo recomendada uma distância mínima de segurança de 5 metros. Poderá reportar e consultar o mapa de ocorrências emvespas.pt."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/motores/vem-ai-o-novo-citroen-2cv-e-pode-custar-menos-de-15-mil-euros",
+        "fonte": "Pplware",
+        "titulo": "Vem aí o novo Citroën 2CV! E pode custar menos de 15 mil euros",
+        "resumo": "O lendário Citroën 2CV poderá regressar ao mercado numa versão totalmente reinventada, com foco na mobilidade acessível.",
+        "autor": "Pedro Pinto",
+        "url": "https://pplware.sapo.pt/motores/vem-ai-o-novo-citroen-2cv-e-pode-custar-menos-de-15-mil-euros",
+        "data_publicacao": "02 Mai 2026",
+        "data_extracao": "2026-05-02T10:58:51.448915",
+        "categoria": "Tecnologia",
+        "tags": [
+            "Citroën 2CV"
+        ],
+        "texto_completo": "02 Mai 2026·Motores/EnergiaComentar A Citroën prepara-se para recuperar um dos nomes mais icónicos da história automóvel: o lendário Citroën 2CV poderá regressar ao mercado numa versão totalmente reinventada, com foco na mobilidade acessível, design retro e preço competitivo.    Depois do sucesso de modelos compactos e elétricos como oCitroën ë-C3, a marca francesa poderá apostar numa nova interpretação moderna do clássico “dois cavalos”, trazendo de volta um automóvel simples, económico e pensado para as necessidades urbanas atuais. Segundo várias informações do setor automóvel, este novo modelo deverá posicionar-se como umaopção low-cost, com preço base abaixo dos 15 mil euros, tornando-se uma proposta bastante apelativa para quem procura um carro acessível numa altura em que os preços continuam a subir.  Inspirado nas linhas clássicas do original, o futuro 2CV deverá combinar: A estratégia da Citroën passa por oferecer mobilidade prática e económica, recuperando a nostalgia de um dos seus modelos mais emblemáticos. O modelo original, lançado em 1948, tornou-se um símbolo de acessibilidade e simplicidade. Agora, numa era dominada pela eletrificação e pela procura por veículos urbanos económicos, o regresso do 2CV pode revelar-se uma aposta certeira."
     }
 ]
