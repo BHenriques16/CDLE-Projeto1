@@ -11401,5 +11401,43 @@
             "Ubuntu"
         ],
         "texto_completo": "03 Mai 2026·Linux1 Comentário Com a guerra a decorrer no Irão, muito se passa fora do terreno. A prova disso vem com a Canonical, que está a ter problemas de acesso devido a um ataque DDoS orquestrado pela Team 313. Os downloads e atualizações do Ubuntu 26 estão a ser afetados e isso é um problema grave para os utilizadores.   A Canonical, empresa de desenvolvimento do Ubuntu Linux, sofreu um ciberataque em larga escala. Como resultado desta ação, uma parte significativa da infraestrutura da empresa está a apresentar problemas de acesso devido a um ataque massivo de negação de serviço distribuído (DDoS). O ataque foi reivindicado por um grupo conhecido como Equipa 313, ou Resistência Cibernética Islâmica, que opera a partir do Iraque. O grupo solicitou uma reunião virtual com os responsáveis ​​da Canonical, ameaçando que os ataques iriam continuar caso a sua exigência não fosse atendida. O ataque resultou na lentidão ou completa indisponibilidade do site principal da Canonical, bem como dos servidores de download e atualização do Ubuntu em todo o mundo. Os serviços relacionados, como o Launchpad, a Snap Store e o SSO da Canonical, também foram negativamente afetados.  Apesar das interrupções, não foram reportadas violações de segurança nos repositórios de pacotes ou nos ficheiros ISO. Os ficheiros são considerados seguros enquanto os utilizadores tiverem acesso aos pontos de download. Para os utilizadores que enfrentam dificuldades em aceder ao Ubuntu 26, às atualizações de pacotes ou à imagem do WSL2, existem várias soluções. É possível aceder aos ficheiros necessários através de centenas de servidores de imagem para além do da Canonical. Os utilizadores podem consultar a lista de servidores espelho no launchpad.net ou, caso estes links não funcionem, podem examinar os registos no Wayback Machine. Aceder às versões para desktop e servidor através de clientes de torrent é também uma alternativa. Embora alguns especialistas em tecnologia sugiram que este ataque possa estarligado à vulnerabilidade Copy Fail, estas afirmações ainda não foram confirmadas. Ubuntu terá IA integrada em 2026 e isso afetará todos os utilizadores "
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/motores/byd-mais-caro-da-historia-acaba-de-ser-vendido-por-mais-de-2-milhoes-de-euros",
+        "fonte": "Pplware",
+        "titulo": "BYD mais caro da história acaba de ser vendido por mais de 2 milhões de euros",
+        "resumo": "Um cliente pagou mais de 2.560.000 € pelo BYD Yangwang U9 Xtreme, que setorna o veículo de produção mais caro alguma vez fabricado pela marca",
+        "autor": "Pedro Simões",
+        "url": "https://pplware.sapo.pt/motores/byd-mais-caro-da-historia-acaba-de-ser-vendido-por-mais-de-2-milhoes-de-euros",
+        "data_publicacao": "03 Mai 2026",
+        "data_extracao": "2026-05-03T10:59:34.035724",
+        "categoria": "Tecnologia",
+        "tags": [
+            "BYD",
+            "U9",
+            "Yangwang"
+        ],
+        "texto_completo": "03 Mai 2026·Motores/EnergiaComentar Um cliente pagou mais de 2.560.000 € pelo BYD Yangwang U9 Xtreme, o que o torna o veículo de produção mais caro alguma vez fabricado pela marca chinesa. A venda ocorreu durante o recente Salão Automóvel de Pequim, onde o próprio presidente Wang Chuanfu entregou oficialmente o veículo.   Embora a maioria dos compradores associe este fabricante a veículos elétricos acessíveis, a divisão de luxo da Yangwang pretende agitar o mercado dos hipercarros de elite. Esta é uma clara declaração de intenções contra as marcas europeias já estabelecidas. Demonstra que o fabricante asiático possui o carro de produção mais rápido em várias pistas de corridas globais. Para justificar um preço milionário, é preciso olhar para debaixo do capot, onde se encontra uma arquitetura elétrica de 1.200 volts capaz de gerir mais de 3.000 cavalos de potência. Esta proeza técnica da BYD é suportada pelo sistema DiSus-X, uma suspensão totalmente ativa que mantém a estabilidade mesmo quando os discos de travão em carbono-cerâmica são levados ao limite.  É difícil acreditar que uma berlina elétrica de produção possa competir com os tempos por volta dos carros com motores de combustão, mas os números da pista não mentem. O U9 Xtreme registou 6:59.157 no Nürburgring, um tempo queestabelece o padrão absolutoentre os veículos elétricos produzidos em massa. A exclusividade do modelo é garantida por um plano de produção que prevê a existência de apenas 30 unidades desta besta elétrica. Isto explica porque é que o preço base de 230 mil euros aumenta dez vezes quando se trata de personalização extrema. A estratégia de exclusividade da Yangwang parece estar a dar resultados. A empresa registou quase 1.000 unidades no primeiro trimestre, conseguindo um aumento de 80% em relação ao ano anterior.  Ter um catálogo que abrange desde o citadino mais barato até um desportivo de dois milhões de euros é um feito que  poucas as empresas que conseguem. Este modelo detém recordes nos circuitos de Xangai e Zhuhai, consolidando o domínio tecnológico da BYD, uma empresa que já não se contenta em simplesmente vender automóveis para as deslocações diárias. É evidente que o velho continente encara este tipo de marcos com desconfiança. Tanto mais que a diferença no desempenho dos veículos eléctricos parece aumentar a cada ano. Ainda não sabemos se veremos o U9 Xtreme nas estradas espanholas , mas a sua simples existência deixa claro que o limite de gastos para os compradores de automóveis de luxo se deslocou para outro continente. Fomos à China experimentar o poderoso Yangwang U9 "
+    },
+    {
+        "id_interno": "https://tek.sapo.pt/extras/site-do-dia/artigos/tunejourney-leva-o-numa-viagem-a-volta-do-mundo-com-mais-de-70-mil-estacoes-de-radio-para-descobrir/",
+        "fonte": "SAPO Notícias / TEK",
+        "titulo": "TuneJourney leva-o numa viagem à volta do mundo com mais de 70 mil estações de rádio para descobrir",
+        "resumo": "Com mais de 70 mil estações de rádio em direto, a TuneJourney leva-o numa viagem à volta do mundo sem sair de casa. Através desta plataforma online, pode navegar por um globo 3D interativo e “saltar” de cidade em cidade para ouvir o que está a passar nas rádios locais.",
+        "autor": "Sapo Tek",
+        "url": "https://tek.sapo.pt/extras/site-do-dia/artigos/tunejourney-leva-o-numa-viagem-a-volta-do-mundo-com-mais-de-70-mil-estacoes-de-radio-para-descobrir/",
+        "data_publicacao": "3 Mai 2026 10:29",
+        "data_extracao": "2026-05-03T10:59:37.123163",
+        "categoria": "Technology",
+        "tags": [
+            "Site do dia",
+            "música",
+            "plataformas online",
+            "rádio",
+            "Site do Dia",
+            "TuneJourney",
+            "websites"
+        ],
+        "texto_completo": "No mapa interativo da TuneJourney, cada zona é composta por um vasto conjunto de pequenos pontos verdes que correspondem a estações de rádio.Ao clicar num dos pontos, pode ver que estações estão disponíveis para a zona em questão e começar a explorar. Se desejar, pode também aplicar filtros que permitemselecionar estações em países específicos ou em zonas que estejam no mesmo fuso horário do local onde se encontra, assim como por género musical ou idioma. De acordo com os criadores, a plataforma usa ummodelo de machine learning que corre localmente no browser para classificar o que está a ser transmitido por cada estação.Através deste sistema é possível ativar uma funcionalidade de “auto-skip” que muda automaticamente para outra estação quando é detetado, por exemplo, um bloco de publicidade. Mas há mais para descobrir na TuneJourney. Além de jogos, com omodo ISS Auto-Tune, a plataforma mostra em tempo real a posição da Estação Espacial Internacional sobre o nosso planeta e muda para a estação de rádio mais próxima do ponto que está a ser sobrevoado naquele momento.ATuneJourneyestá disponível gratuitamente e não precisa de criar uma conta para começar a usar.Se optar por criar uma conta pode aceder a mais opções que complementam a experiência, incluindo a possibilidade de guardar as suas estações favoritas ou de criar playlists personalizadas de rádios."
     }
 ]
