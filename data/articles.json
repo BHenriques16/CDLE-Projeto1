@@ -11439,5 +11439,76 @@
             "websites"
         ],
         "texto_completo": "No mapa interativo da TuneJourney, cada zona é composta por um vasto conjunto de pequenos pontos verdes que correspondem a estações de rádio.Ao clicar num dos pontos, pode ver que estações estão disponíveis para a zona em questão e começar a explorar. Se desejar, pode também aplicar filtros que permitemselecionar estações em países específicos ou em zonas que estejam no mesmo fuso horário do local onde se encontra, assim como por género musical ou idioma. De acordo com os criadores, a plataforma usa ummodelo de machine learning que corre localmente no browser para classificar o que está a ser transmitido por cada estação.Através deste sistema é possível ativar uma funcionalidade de “auto-skip” que muda automaticamente para outra estação quando é detetado, por exemplo, um bloco de publicidade. Mas há mais para descobrir na TuneJourney. Além de jogos, com omodo ISS Auto-Tune, a plataforma mostra em tempo real a posição da Estação Espacial Internacional sobre o nosso planeta e muda para a estação de rádio mais próxima do ponto que está a ser sobrevoado naquele momento.ATuneJourneyestá disponível gratuitamente e não precisa de criar uma conta para começar a usar.Se optar por criar uma conta pode aceder a mais opções que complementam a experiência, incluindo a possibilidade de guardar as suas estações favoritas ou de criar playlists personalizadas de rádios."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/motores/ultimo-dia-para-abastecer-mais-barato-gasoleo-e-gasolina-disparam-amanha",
+        "fonte": "Pplware",
+        "titulo": "Último dia para abastecer mais barato! Gasóleo e gasolina disparam amanhã",
+        "resumo": "Os preços dos combustíveis em Portugal vãi disparar já esta segunda-feira. Se tem o depósito nas \"lonas\" vá abastecer.",
+        "autor": "Pedro Pinto",
+        "url": "https://pplware.sapo.pt/motores/ultimo-dia-para-abastecer-mais-barato-gasoleo-e-gasolina-disparam-amanha",
+        "data_publicacao": "03 Mai 2026",
+        "data_extracao": "2026-05-03T13:39:11.602911",
+        "categoria": "Tecnologia",
+        "tags": [
+            "gasóleo",
+            "gasolina"
+        ],
+        "texto_completo": "03 Mai 2026·Motores/EnergiaComentar Os preços dos combustíveis em Portugal vão disparar já esta segunda-feira. Se tem o depósito nas \"lonas\", não se esqueça de ir abastecer.    Segundo as previsões do setor, os condutores deverão enfrentar mais uma subida nos preços por litro, numa altura em que os custos de mobilidade continuam a pesar no orçamento das famílias e empresas. A partir desta segunda-feira, o gasóleo sobe 10 cêntimos por litro e a gasolina sobe 6,5 cêntimos por litro.  Por forma a permitir a disponibilização ao público dos preços dos combustíveis praticados nos postos de abastecimento, e que o seu conhecimento possa constituir um fator de ponderação na opção do consumidor e, deste modo, dinamizar também a concorrência, foi criado oPortal Preços dos Combustíveis Online. Além dos preços, disponibiliza-se, igualmente, informação sobre a localização, horário de funcionamento e serviços existentes em cada posto de abastecimento. Este portal permite ainda apurar, diariamente e para cada combustível comercializado, os preços médios. "
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/internet/seguranca-social-ja-pode-simular-e-planear-o-pagamento-em-prestacoes",
+        "fonte": "Pplware",
+        "titulo": "Segurança Social: já pode simular e planear o pagamento em prestações",
+        "resumo": "A Segurança Social Direta passou a disponibilizar novas ferramentas que tornam mais simples o processo de regularização de dívidas",
+        "autor": "Pedro Pinto",
+        "url": "https://pplware.sapo.pt/internet/seguranca-social-ja-pode-simular-e-planear-o-pagamento-em-prestacoes",
+        "data_publicacao": "03 Mai 2026",
+        "data_extracao": "2026-05-03T13:39:14.010809",
+        "categoria": "Tecnologia",
+        "tags": [
+            "prestações",
+            "Segurança Social"
+        ],
+        "texto_completo": "03 Mai 2026·InternetComentar A Segurança Social Direta passou a disponibilizar novas ferramentas que tornam mais simples o processo de regularização de dívidas através de pagamentos em prestações.    A partir de agora, os cidadãos e empresas podem simular previamente um plano prestacional e acompanhar de forma mais clara todo o processo diretamente no portal. Quem tem valores em dívida à Segurança Social pode agora contar com uma experiência mais intuitiva e transparente no portal oficial. As novas funcionalidades permitem planear antecipadamente o pagamento faseado, ajudando a gerir melhor o orçamento e evitando surpresas. Entre as novidades destacam-se:  Esta atualização visa facilitar o acesso aos chamados Planos Prestacionais, uma solução que permite regularizar débitos de forma faseada, com maior previsibilidade financeira. Onde pedir o plano prestacional? O processo pode ser realizado através do portal da Segurança Social Direta, seguindo o percurso: Pagamentos e Dívidas > Valores a pagar à Segurança Social > Pagamentos > Pedir plano prestacional Com esta melhoria, a Segurança Social reforça a digitalização dos seus serviços, oferecendo aos utilizadores uma solução mais prática, transparente e eficiente para gerir obrigações financeiras. Se tem dívidas por regularizar, esta nova funcionalidade pode ser uma forma mais simples de organizar pagamentos sem comprometer demasiado o orçamento mensal."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/ciencia/bateria-de-ferro-pode-mudar-as-redes-eletricas-do-futuro-dura-16-anos-sem-degradacao",
+        "fonte": "Pplware",
+        "titulo": "Bateria de ferro pode mudar as redes elétricas do futuro: dura 16 anos sem degradação",
+        "resumo": "Investigadores desenvolveram uma bateria de fluxo totalmente baseada em ferro capaz de aguentar mais de 6000 ciclos de carga sem degradar.",
+        "autor": "Ana Sofia Neto",
+        "url": "https://pplware.sapo.pt/ciencia/bateria-de-ferro-pode-mudar-as-redes-eletricas-do-futuro-dura-16-anos-sem-degradacao",
+        "data_publicacao": "03 Mai 2026",
+        "data_extracao": "2026-05-03T13:39:16.676210",
+        "categoria": "Tecnologia",
+        "tags": [
+            "bateria",
+            "energia renovável",
+            "rede elétrica"
+        ],
+        "texto_completo": "03 Mai 2026·Ciência2 Comentários Investigadores chineses desenvolveram uma bateria de fluxo totalmente baseada em ferro capaz de aguentar mais de 6000 ciclos de carga sem qualquer degradação mensurável. A tecnologia promete ser mais barata, mais segura e mais durável do que as atuais baterias de iões de lítio, podendo ser a chave para armazenar energia renovável em grande escala.   As baterias de iões de lítio dominam o mercado do armazenamento de energia, mas estão longe de ser a solução perfeita. O custo elevado, os problemas na cadeia de abastecimento e o risco de incêndio tornam-nas pouco adequadas para armazenar energia à escala da rede elétrica. É precisamente estes problemas que uma nova solução desenvolvida por investigadores daAcademia Chinesa de Ciênciasprocura resolver: umabateria de fluxo alcalina totalmente baseada em ferro. O estudo sobre esta novidade foi publicado na revistaAdvanced Energy Materials. A promessa é ambiciosa:mais de 6000 ciclos de carga e descarga sem qualquer degradação mensurável da capacidade, o equivalente a cerca de16 anos de utilização diária, conforme citado pela imprensa nacional. O melhor de tudo é que a alternativa utiliza ferro, um dos materiais mais abundantes e baratos do planeta. O melhor de tudo é que a alternativa utiliza ferro, um dos materiais mais abundantes e baratos do planeta. O ferro custa cerca de80 vezes menosdo que o lítio em estado bruto. Isto não significa que uma bateria de fluxo de ferro seja automaticamente 80 vezes mais barata do que uma equivalente de iões de lítio. Ainda assim, reduzir drasticamente o preço da matéria-primaprincipalé um passo enorme, especialmente quando se fala de instalações de armazenamento à escala industrial, como as que complementam parques solares e eólicos. Ao contrário das baterias convencionais presentes em telemóveis, portáteis ou veículos elétricos, as baterias de fluxo utilizam eletrólitos líquidos armazenados em reservatórios externos. Para aumentar a capacidade de armazenamento, basta construir reservatórios maiores, uma vantagem enorme para aplicações de grande escala. As baterias de fluxo de ferro não são uma ideia nova. O problema é que, historicamente,sofriam de degradação acelerada,fraca reversibilidadeemigração de materiais ativos através da membrana, um fenómeno que compromete progressivamente o desempenho do sistema. Para contornar estes obstáculos, os investigadores abordaram o problemaredesenhando o eletrólito negativo a nível molecular. Começaram com12ligantes orgânicos, criaram11complexos de ferro e identificaram o composto mais estável. Com uma estrutura volumosa, protege o núcleo de ferro, enquanto os grupos com carga negativa ajudam a repelir o ataque do hidróxido e a reduzir o cruzamento.  Os resultados em laboratório mostram que a bateria operou a 80 mA cm⁻² durantemais de 6000 ciclos, com uma eficiência coulômbica média de 99,4%, sem qualquer perda mensurável de capacidade. Sob cargas mais exigentes, atingiu ainda uma densidade de potência de pico de 392,1 mW cm⁻², mantendo 78,5% de eficiência energética. Um dos argumentos mais fortes desta tecnologia é asegurança. O eletrólito é aquoso, à base de água, eliminando por completo o uso de solventes orgânicos inflamáveis, responsáveis pelos incêndios e explosões que por vezes afetam as baterias de lítio. Para instalações de grande escala em zonas residenciais ou próximas de infraestruturas críticas, esta característica importa. Conforme acontece com praticamente todas as descobertas nesta área, épreciso alguma cautela. Os resultados foram obtidosem laboratório, e a transição para sistemas comerciais de grande escala é sempre um processo complexo e demorado. Até ao momento, não existe qualquer projeto-piloto anunciado nem uma agenda de produção definida. Ainda assim, o potencial é inegável. Se a tecnologia se revelar escalável, o ferro, que é barato, abundante e seguro, poderá tornar-se uma das peças-chave na construção de redes elétricas verdadeiramente sustentáveis, capazes de armazenar energia solar e eólica mesmo quando o sol não brilha e o vento não sopra."
+    },
+    {
+        "id_interno": "https://tek.sapo.pt/mobile/equipamentos/artigos/lumia-2-brincos-inteligentes-pesam-menos-de-um-grama-e-prometem-monitorizar-a-saude-em-tempo-real/",
+        "fonte": "SAPO Notícias / TEK",
+        "titulo": "Lumia 2: Brincos inteligentes pesam menos de um grama e prometem monitorizar a saúde em tempo real",
+        "resumo": "Com um formato mais discreto do que os tipicos smartwatches, a nova geração de brincos inteligentes da Lumia Health usa biosensores em miniatura para monitorizar mais de 20 indicadores de saúde. No Kickstarter, o projeto arrecadou um financiamento acima dos 1,3 milhões de dólares em menos de uma semana.",
+        "autor": "Sapo Tek",
+        "url": "https://tek.sapo.pt/mobile/equipamentos/artigos/lumia-2-brincos-inteligentes-pesam-menos-de-um-grama-e-prometem-monitorizar-a-saude-em-tempo-real/",
+        "data_publicacao": "3 Mai 2026 13:12",
+        "data_extracao": "2026-05-03T13:39:20.060839",
+        "categoria": "Technology",
+        "tags": [
+            "Equipamentos",
+            "brincos",
+            "equipamentos",
+            "Kickstarter",
+            "Lumia",
+            "saúde",
+            "saúde digital",
+            "wearables"
+        ],
+        "texto_completo": "Os relógios, pulseiras e anéis inteligentes têm vindo a evoluir ao longo dos últimos anos, ganhando cada vez mais precisão quando se trata de monitorizar a saúde ou acompanhar a prática desportiva.No entanto, alguns equipamentos continuam a ser demasiado volumosos para serem usados confortavelmente no dia a dia.Agora, há um novo wearable que promete fazer face a este desafio. Desenvolvidos pela Lumia Health,os Lumia 2 são brincos inteligentes concebidos para monitorizar vários indicadores de saúde num formato mais discreto do que os típicos smartwatches ou pulseiras e anéis inteligentes. Como explica Daniel Lee, cofundador e CEO da Lumia Health,num vídeopartilhado pela empresa, os wearables tradicionais são usados nos pulsos ou nas mãos, porque é mais conveniente.“Mas há limitações significativas relativamente ao que pode ser medido nestas zonas”, indica, acrescentando que os movimentos podem também impactar a precisão dos sensores. Com umpeso inferior a um grama e dimensões cinco vezes menores do que uns AirPods, os Lumia 2 recorrem a biosensores em miniatura para monitorizar mais de 20 indicadores de saúde, do sono à atividade física passando ainda pela frequência cardíaca, temperatura, oxigénio no sangue e fluxo sanguíneo. A medição deste último indicador foi, aliás, um dos elementos que levou ao desenvolvimento do projeto. Como conta Daniel Lee, o seu pai sofreu um incidente grave cuja causa estava relacionada com a falta de fluxo sanguíneo suficiente até ao cérebro.“Devíamos ser capazes de medir o fluxo sanguíneo em tempo real para evitar algumas destas lesões catastróficas”, afirma. Os Lumia 2 estão disponíveis em três formatos, incluindo opções para quem não tem as orelhas furadas. Em qualquer um dos formatos,os sensores responsáveis pelas medições ficam sempre atrás da orelha, numa posição que, segundo a empresa, oferece maiores vantagens face a outros wearables por estar mais próxima do coração. Em vez de dependerem de carregamentos diários,estes brincos inteligentes recorrem a um sistema de baterias substituíveis, com autonomia de até sete dias, num modelo desenhado para manter a recolha contínua de dados, incluindo durante o sono. É possível aceder a toda a informação recolhida e processada pelos Lumia 2 através de uma aplicação para smartphone, compatível com Android e iOS. NoKickstarter, o projeto já ultrapassou o objetivo inicial de financiamento de 10 mil dólares,tendo arrecadado mais de 1,3 milhões de dólares em menos de uma semana após o lançamento na plataforma de crowdfunding. A primeira fase de lançamento do wearable no mercado norte-americano está prevista para setembro,com as primeiras encomendas a chegarem aos participantes do programa beta em dezembro. Os Lumia 2 têm um preço base de 249 dólares, ao qual acresce uma subscrição obrigatória, disponível em modalidades mensais e anuais."
     }
 ]
