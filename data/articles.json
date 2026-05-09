@@ -15261,5 +15261,66 @@
             "Site do Dia"
         ],
         "texto_completo": "Por vezes, a dimensão de certos conceitos astronómicos não é fácil de compreender através de diagramas, esquemas ou de outros tipos de representação visual a 2D.A AstroGrid é uma plataforma com um simulador 3D que permite explorar o Sistema Solar, acompanhar a órbita de planetas, observar galáxias, clusters de estrelas e outros objetos celestes à escala, tudo a partir do browser. A plataforma, que se baseia em dados disponibilizados pela NASA e por outras organizações e catálogos científicos, foiconcebida para ajudar a visualizar escalas e distâncias no Universo de forma mais simples e interativa. Na AstroGrid é possível, por exemplo,comparar diretamente a dimensão relativa de planetas e estrelas, percorrer distâncias astronómicas para perceber a verdadeira escala de diferentes corpos celestes, “acelerar” o tempo para observar órbitas em movimento e ganhar uma melhor compreensão de vários fenómenos espaciais. Para complementar a experiência, a AstroGrid conta com um conjunto de ferramentasque permitem ajustar a escala visual em Unidades Astronómicas, personalizar a visibilidade das órbitas ou adaptar o brilho das estrelas, bem como um modo de observação do céu noturno ou um simulador gravitacional. AAstroGridestá disponível gratuitamente e não precisa de criar uma conta para aceder.Caso se sinta um pouco “perdido” na sua viagem espacial, pode consultar oguia da plataforma."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/motores/tesla-esta-invencao-pode-aumentar-a-autonomia-dos-carros-eletricos-no-verao",
+        "fonte": "Pplware",
+        "titulo": "Tesla: esta invenção pode aumentar a autonomia dos carros elétricos no verão",
+        "resumo": "A Tesla revelou uma invenção para arrefecer o habitáculo. Em vez de combater o calor com frio, a marca americana propõe simplesmente extraí-lo",
+        "autor": "Pedro Simões",
+        "url": "https://pplware.sapo.pt/motores/tesla-esta-invencao-pode-aumentar-a-autonomia-dos-carros-eletricos-no-verao",
+        "data_publicacao": "09 Mai 2026",
+        "data_extracao": "2026-05-09T13:42:27.566348",
+        "categoria": "Tecnologia",
+        "tags": [
+            "calor",
+            "invenção",
+            "Tesla"
+        ],
+        "texto_completo": "09 Mai 2026·Motores/EnergiaComentar A Tesla revelou uma ideia inovadora para arrefecer o habitáculo. Em vez de combater o calor com frio, a marca americana propõe simplesmente extraí-lo. Isso pouparia ar condicionado e aumentaria a autonomia. Será que esta ideia tem futuro?   Com os verões a ficarem mais longos e quentes, muito está a mudar em todo o lado. Com as ondas de calor a tornarem-se infelizmente a norma, os sistemas de refrigeração dos automóveis também estão a trabalhar mais do que nunca. Isto para manter os componentes eletrónicos a uma temperatura aceitável, mas também para garantir o conforto dos passageiros. Isto leva os interiores dos automóveis a atingirem temperaturas elevadas, o que é ainda pior se tiver a combinação de bancos em pele preta e teto de abrir panorâmico. Os carros elétricos são menos suscetíveis a este problema, uma vez que é possível pré-condicionar o interior antes de entrar. Mas esta comodidade tem uma desvantagem. O veículo consome energia da bateria e perde autonomia se não estiver ligado à tomada durante o processo. Para evitar que o verão impacte significativamente a autonomia do veículo, a Tesla registou uma patente bastante inovadora. A ideia é arrefecer a cabine sem usar ar condicionado. O objetivo é direcionar bolsas de ar quente concentradas em áreas específicas. O sistema de aquecimento, ventilação e ar condicionado (AVAC) irá então extrair estas bolsas de ar quente através de uma unidade dedicada.  O objetivo é criar pressão negativa em espaços confinados para canalizar o ar quente para saídas de ar especialmente concebidas. Este ar será então condicionado com o ar ambiente antes de ser circulado por todo o carro. Em dias muito quentes, a cabine arrefeceria muito mais rapidamente. Isto reduziria significativamente o consumo de energia, com a Tesla a estimar uma redução de até 7,4%. Este valor traduzir-se-ia numa poupança de aproximadamente 127 watts quando a temperatura exterior for de 40°C. A potência necessária para o sistema de climatização diminuiria, portanto, de 1.720 para 1.593 watts. Melhor ainda, ao contrário do ar condicionado, que opera a nível global, este sistema de ventilação pode ser ativado seletivamente, direcionando o ar apenas para as áreas que realmente necessitam de refrigeração. Isto reduziria ainda mais o consumo de energia. Um estudo da empresa Recurrent demonstrou que a utilização do ar condicionado a uma temperatura de 38°C resultou numa perda de autonomia de até 18%. Esta ideia seria particularmente inteligente se fosse implementada, especialmente porque quase os modelos da Tesla possuem um teto panorâmico sem cobertura, com exceção do Model Y Standard."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/informacao/surge-a-dirty-frag-uma-vulnerabilidade-critica-no-linux-que-permite-assumir-controlo-total-do-sistema",
+        "fonte": "Pplware",
+        "titulo": "Dirty Frag, a vulnerabilidade crítica no Linux que permite assumir controlo total do sistema",
+        "resumo": "Foi descoberta uma nova falha no Linux. Denominada Dirty Frag, esta vulnerabilidade permite que qualquer utilizador se torne root",
+        "autor": "Pedro Simões",
+        "url": "https://pplware.sapo.pt/informacao/surge-a-dirty-frag-uma-vulnerabilidade-critica-no-linux-que-permite-assumir-controlo-total-do-sistema",
+        "data_publicacao": "09 Mai 2026",
+        "data_extracao": "2026-05-09T13:42:29.349904",
+        "categoria": "Tecnologia",
+        "tags": [
+            "Dirty Frag",
+            "falha",
+            "Linux",
+            "Segurança",
+            "vulnerabilidade"
+        ],
+        "texto_completo": "09 Mai 2026·Notícias1 Comentário Assim que a comunidade começava a se acalmar após a semana turbulenta causada pelavulnerabilidade Copy Fail, foi descoberta uma completamente nova. Denominada Dirty Frag, permite que qualquer utilizador, sem permissões, se torne root. Como se pode ver, é uma cópia fiel da Copy Fail.   A verdade é que oLinux não está a atravessar um bom momento, pois há alguns dias foi também revelado que o Quasar Linux (QLNX), um malware criado especificamente para atacar os programadores, administradores de sistemas e especialistas do setor, com o objetivo de infiltrar as suas contas, também estava a circular. O problema é queconseguiu infiltrar-se em repositórios de código como o npm, PyPI e GitHub, bem como em ambientes de cloud como AWS, Docker e Kubernetes. No Dirty Frag, o pior não é apenas aexistência da vulnerabilidade, mas a forma como a comunidade a descobriu. Normalmente, estes problemas são reportados aos programadores de forma rápida e discreta para que possam preparar uma correção antes que os hackers a explorem. Mas,no caso do Dirty Frag, alguém quebrou esse código de silêncioe a informação vazou para as pessoas erradas antes do tempo. Para piorar a situação, estafalha também está presente no código do Linux desde 2017. Isto significa que quase todas as versões que está a utilizar atualmente, desde o Ubuntu mais recente ao Arch, Fedora, RHEL ou mesmo ao sistema Linux a correr dentro do Windows (WSL2), são vulneráveis. Mas o que torna isto ainda mais perigoso é queafeta os módulos relacionados com ligações de rede seguras.  Tecnicamente, afalha explora uma função que deveria poupar trabalho ao processadorao transferir dados, mas, em vez disso, permite que um atacante escreva em áreas não autorizadas da memória do sistema. O pior é que existe uma prova de conceito disponível em sites como o GitHub, que qualquer pessoa pode descarregar e compilar. Felizmente, mesmo sem uma correção oficial, existe uma forma de resolver este problema. Avulnerabilidade reside nos módulos denominados esp4, esp6 e rxrpc. Estesmódulos são utilizados principalmente para VPNse comunicações muito específicas. A boa notícia é que a grande maioria dos servidores e computadores dos utilizadores não precisa deles para o funcionamento diário. Portanto, se quiser proteger-se agora,a melhor coisa a fazer é desativá-los manualmente. Para tal, basta executar um comando que bloqueie estes módulos. Entretanto, as principais equipas de segurança da Canonical, da Red Hat e o próprio Linus Torvalds estão a trabalhar para evitar problemas maiores. Considerando que estamos a falar de Linux, milhares de programadores em todo o mundo estão a rever o sistema em simultâneo. Não importa quão grave ou complexo seja um bug,assim que é detetado, toda a comunidade se mobiliza para o corrigir. Geralmente, isto acontece em questão de horas. Por fim, muitos perguntam-se porque é que uma falha permaneceu desconhecida durante tantos anos. Tal como no caso da outra vulnerabilidade mencionada,a IA é agora responsável por rever o código e descobrir todas estas falhas."
+    },
+    {
+        "id_interno": "https://tek.sapo.pt/mobile/equipamentos/artigos/uma-pulseira-inteligente-sem-ecra-e-botoes-google-aposta-no-minimalismo-com-a-fitbit-air/",
+        "fonte": "SAPO Notícias / TEK",
+        "titulo": "Uma pulseira inteligente sem ecrã e botões? Google aposta no minimalismo com a Fitbit Air",
+        "resumo": "Concebida para quem procura uma alternativa aos modelos mais tradicionais, a Fitbit Air aposta numa abordagem mais minimalista para monitorizar a saúde e a prática de exercício. Nos Estados Unidos, a nova pulseira inteligente da Google conta com um preço de 99,99 dólares.",
+        "autor": "Sapo Tek",
+        "url": "https://tek.sapo.pt/mobile/equipamentos/artigos/uma-pulseira-inteligente-sem-ecra-e-botoes-google-aposta-no-minimalismo-com-a-fitbit-air/",
+        "data_publicacao": "9 Mai 2026 13:24",
+        "data_extracao": "2026-05-09T13:42:32.557781",
+        "categoria": "Technology",
+        "tags": [
+            "Equipamentos",
+            "desporto",
+            "exercício",
+            "fitbit",
+            "Fitbit Air",
+            "gadgets",
+            "google",
+            "pulseiras inteligentes",
+            "saúde",
+            "sensores",
+            "wearables"
+        ],
+        "texto_completo": "Já imaginou uma pulseira inteligente sem ecrã ou até mesmo botões? A ideia não é nova e marcas como a Whoop têm vindo a apostar neste formato.Agora chega a vez da Google entrar neste segmento do mundo dos wearables com a Fitbit Air. Disponível em vários estilos e opções fabricadas em diferentes materiais,a Fitbit Air está equipada com sensores discretos que permitem monitorizar indicadores de saúde em tempo real, como frequência cardíaca, ritmo cardíaco com alertas de fibrilhação auricular, nível de oxigénio no sangue (SpO2), ou duração e fases do sono. Toda a informação recolhida e processada pelos sensores pode ser consultada na app Google Health.No que toca à prática desportiva, os utilizadores podeminiciar treinos diretamente na aplicação e seguir exercícios guiados por um treinador virtual, afirmaa Google. A pulseira também tem a capacidade de detetar treinos automaticamente, numa funcionalidade que, segundo a tecnológica, melhora com o tempo e adapta-se ao perfil dos utilizadores. A Fitbit Air promete até uma semana de autonomia e conta com suporte a carregamento rápido.De acordo com a Google, um carregamento de cinco minutos permite dar energia suficiente para um dia inteiro. Compatível com Android e iOS,a Fitbit Air conta com um preço de 99,99 dólares nos Estados Unidos, acompanhada por uma subscrição opcional de 10 dólares por mês para o serviço Google Health."
     }
 ]
