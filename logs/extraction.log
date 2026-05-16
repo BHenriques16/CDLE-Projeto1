@@ -2651,3 +2651,26 @@
 2026-05-16 19:16:36,286 - INFO - ==================================================
 2026-05-16 19:16:36,288 - INFO - --- JOB FINISHED ---
 
+2026-05-16 20:58:39,332 - INFO - --- JOB STARTED ---
+2026-05-16 20:58:39,364 - INFO - [PPLWARE] Starting extraction...
+2026-05-16 20:58:39,364 - INFO - Starting web scraping on Pplware...
+2026-05-16 20:58:56,664 - ERROR - Error accessing https://pplware.sapo.pt/apple/: HTTPSConnectionPool(host='pplware.sapo.pt', port=443): Read timed out. (read timeout=10)
+2026-05-16 20:59:07,225 - ERROR - Error accessing https://pplware.sapo.pt/android/: HTTPSConnectionPool(host='pplware.sapo.pt', port=443): Read timed out. (read timeout=10)
+2026-05-16 20:59:17,901 - ERROR - Error accessing https://pplware.sapo.pt/hardware/: HTTPSConnectionPool(host='pplware.sapo.pt', port=443): Read timed out. (read timeout=10)
+2026-05-16 20:59:49,120 - ERROR - Error accessing https://pplware.sapo.pt/redes_sociais/: HTTPSConnectionPool(host='pplware.sapo.pt', port=443): Read timed out. (read timeout=10)
+2026-05-16 20:59:52,162 - INFO - [PPLWARE] 1 new articles extracted successfully.
+2026-05-16 20:59:52,163 - INFO - [SAPO TEK] Starting extraction...
+2026-05-16 20:59:55,391 - INFO - [SAPO TEK] 0 new articles extracted successfully.
+2026-05-16 20:59:55,391 - INFO - [EXAME INFORMATICA] Starting extraction...
+2026-05-16 20:59:56,376 - INFO - [EXAME INFORMATICA] 0 new articles extracted successfully.
+2026-05-16 20:59:56,418 - INFO - Saved 1 new articles.
+2026-05-16 20:59:56,418 - INFO - ==================================================
+2026-05-16 20:59:56,418 - INFO - EXECUTION SUMMARY
+2026-05-16 20:59:56,418 - INFO - ==================================================
+2026-05-16 20:59:56,418 - INFO -  PPLWARE: 1 new articles extracted
+2026-05-16 20:59:56,418 - INFO -  SAPO TEK: 0 new articles extracted
+2026-05-16 20:59:56,418 - INFO -  EXAME INFORMATICA: 0 new articles extracted
+2026-05-16 20:59:56,418 - INFO -   → Total saved: 1 new articles
+2026-05-16 20:59:56,418 - INFO - ==================================================
+2026-05-16 20:59:56,419 - INFO - --- JOB FINISHED ---
+
