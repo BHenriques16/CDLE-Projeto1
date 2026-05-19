@@ -20697,5 +20697,29 @@
             "watchOS 26"
         ],
         "texto_completo": "18 Mai 2026·AppleComentar A Apple poderá estar prestes a dar mais um passo importante na área da saúde digital. Segundo novas informações, a empresa está a preparar uma nova funcionalidade relacionada com a deteção da tensão pressão arterial elevada no Apple Watch.    A novidade estará atualmente em fase de análise pela FDA, a entidade reguladora norte-americana responsável pela aprovação de dispositivos e funcionalidades médicas. Atualmente, o Apple Watchjá dispõe de notificações relacionadascomhipertensão em alguns mercados, como é o caso de Portugal. A funcionalidade, introduzida com owatchOS 26, utiliza o sensor ótico cardíacopara analisar a forma como os vasos sanguíneos reagem aos batimentos cardíacos ao longo de períodos de 30 dias. No entanto, o novo relatório sugere que a Apple está a trabalhar numa versão mais avançada e refinada desse sistema. A diferença concreta ainda não foi totalmente esclarecida, mas tudo aponta para uma melhoria da precisão e da capacidade de deteção precoce. Segundo o DigiTimes, esta nova funcionalidade já foi submetida à FDA para aprovação oficial. Isso poderá indicar que o lançamento está relativamente próximo.  A aposta da Apple na saúde tem sido cada vez mais evidente. Nos últimos anos, o Apple Watch passou a incluir funcionalidades como: A monitorização da hipertensão surge como mais uma peça desta estratégia. A hipertensão arterial continua a ser um dos maiores fatores de risco para AVC, enfartes e doenças renais, afetando milhares de milhões de pessoas em todo o mundo. Segundo a própria Apple, o sistema atual não mede diretamente a tensão arterial como uma braçadeira tradicional. Em vez disso, utiliza algoritmos e aprendizagem automática para identificar padrões associados àhipertensão através do sensor ótico cardíaco. Caso sejam detetados sinais consistentes de pressão arterial elevada, o utilizador recebe uma notificação recomendando acompanhamento médico e medições convencionais com equipamento certificado. A Apple refere ainda que osistema foi treinado com dados de mais de 100 mil participantese validado clinicamente em estudos com milhares de utilizadores.  Os rumores indicam que esta nova funcionalidade poderá chegar juntamente com o futuroApple Watch Ultra 4, esperado para o final de 2026. O modelo poderá também receber um redesign e novos sensores dedicados à saúde. Além da pressão arterial, a Apple continua igualmente a trabalhar emtecnologias de monitorização não invasiva da glicose, embora essa funcionalidade ainda pareça estar mais distante. Apesar do entusiasmo em torno destas tecnologias, vários especialistas alertam que os smartwatches ainda não substituem medições clínicas tradicionais. Alguns estudos recentes indicam que osalertas podem não detetar todos os casos de hipertensãoe também podem gerar falsas interpretações. Ainda assim, muitos profissionais consideram que este tipo de funcionalidade pode ajudar na deteção precoce de problemas cardiovasculares em pessoas que normalmente não realizam avaliações médicas regulares."
+    },
+    {
+        "id_interno": "https://tek.sapo.pt/mobile/android/artigos/ainda-se-lembra-da-snapseed-nova-versao-da-app-ja-esta-disponivel-para-android-com-mais-ferramentas-criativas/",
+        "fonte": "SAPO Notícias / TEK",
+        "titulo": "Ainda se lembra da Snapseed? Nova versão da app já está disponível para Android com mais ferramentas criativas",
+        "resumo": "A mais recente versão da Snapseed chega ao iOS e, finalmente, ao Android com uma interface renovada, mais funcionalidades de edição criativa e a possibilidade de captar fotos diretamente na app.",
+        "autor": "Sapo Tek",
+        "url": "https://tek.sapo.pt/mobile/android/artigos/ainda-se-lembra-da-snapseed-nova-versao-da-app-ja-esta-disponivel-para-android-com-mais-ferramentas-criativas/",
+        "data_publicacao": "19 Mai 2026 00:15",
+        "data_extracao": "2026-05-19T04:14:44.269141",
+        "categoria": "Technology",
+        "tags": [
+            "Android",
+            "android",
+            "aplicações",
+            "apps",
+            "criatividade",
+            "edição",
+            "fotografia",
+            "google",
+            "ios",
+            "snapseed"
+        ],
+        "texto_completo": "No ano passado, a Snapseed, que faz parte do portfólio da Google, ganhou uma grande atualização, porém limitada ao iOS. Vários meses depois,há uma nova versão disponível da popular aplicação de edição fotográfica, tanto para o ecossistema da Apple como para smartphones Android. Além de uma nova interface, a mais recente versão da Snapseed estreia umconjunto de funcionalidades que prometem tornar a experiência mais completa e intuitiva. Em destaque estáa possibilidade de captar fotos diretamente na app,permitindo aplicar estilos personalizados ou filtros que simulam o aspecto das fotografias clássicas em película. Há também espaço paraopções de seleção inteligente, para isolar automaticamente elementos específicos nas fotos,bem como a possibilidade de editar várias imagens de uma só vez, de trabalhar com ficheiros RAW e de reverter as alterações feitas a qualquer momento sem perder o original. A secção de utilitários da Snapseed conta com um vasto conjunto de ferramentas de edição, incluindo opções mais avançadas, para refinar e corrigir as imagens captadas, ou, simplesmente, para lhes dar um toque extra de criatividade com um estilo diferente. A Snapseed é gratuita e está disponível para Android, a partirda Play Store, e para iOS, atravésda App Store."
     }
 ]
