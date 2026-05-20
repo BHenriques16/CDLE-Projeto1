@@ -3206,3 +3206,23 @@
 2026-05-20 20:27:28,375 - INFO - ==================================================
 2026-05-20 20:27:28,376 - INFO - --- JOB FINISHED ---
 
+2026-05-20 23:19:23,018 - INFO - --- JOB STARTED ---
+2026-05-20 23:19:23,055 - INFO - [PPLWARE] Starting extraction...
+2026-05-20 23:19:23,055 - INFO - Starting web scraping on Pplware...
+2026-05-20 23:19:39,277 - INFO - [PPLWARE] 2 new articles extracted successfully.
+2026-05-20 23:19:39,278 - INFO - [SAPO TEK] Starting extraction...
+2026-05-20 23:19:43,866 - INFO - [SAPO TEK] 1 new articles extracted successfully.
+2026-05-20 23:19:43,866 - INFO - [EXAME INFORMATICA] Starting extraction...
+2026-05-20 23:19:54,229 - ERROR - [Exame Informática] Error accessing the site: HTTPSConnectionPool(host='visao.pt', port=443): Read timed out. (read timeout=10)
+2026-05-20 23:19:54,229 - INFO - [EXAME INFORMATICA] 0 new articles extracted successfully.
+2026-05-20 23:19:54,278 - INFO - Saved 3 new articles.
+2026-05-20 23:19:54,278 - INFO - ==================================================
+2026-05-20 23:19:54,278 - INFO - EXECUTION SUMMARY
+2026-05-20 23:19:54,278 - INFO - ==================================================
+2026-05-20 23:19:54,278 - INFO -  PPLWARE: 2 new articles extracted
+2026-05-20 23:19:54,278 - INFO -  SAPO TEK: 1 new articles extracted
+2026-05-20 23:19:54,278 - INFO -  EXAME INFORMATICA: 0 new articles extracted
+2026-05-20 23:19:54,278 - INFO -   → Total saved: 3 new articles
+2026-05-20 23:19:54,279 - INFO - ==================================================
+2026-05-20 23:19:54,280 - INFO - --- JOB FINISHED ---
+
