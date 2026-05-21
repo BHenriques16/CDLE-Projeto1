@@ -3226,3 +3226,23 @@
 2026-05-20 23:19:54,279 - INFO - ==================================================
 2026-05-20 23:19:54,280 - INFO - --- JOB FINISHED ---
 
+2026-05-21 04:23:07,616 - INFO - --- JOB STARTED ---
+2026-05-21 04:23:07,655 - INFO - [PPLWARE] Starting extraction...
+2026-05-21 04:23:07,655 - INFO - Starting web scraping on Pplware...
+2026-05-21 04:23:18,878 - INFO - [PPLWARE] 0 new articles extracted successfully.
+2026-05-21 04:23:18,878 - INFO - [SAPO TEK] Starting extraction...
+2026-05-21 04:23:20,798 - INFO - [SAPO TEK] 0 new articles extracted successfully.
+2026-05-21 04:23:20,798 - INFO - [EXAME INFORMATICA] Starting extraction...
+2026-05-21 04:23:30,817 - ERROR - [Exame Informática] Error accessing the site: HTTPSConnectionPool(host='visao.pt', port=443): Max retries exceeded with url: /exameinformatica/ (Caused by ConnectTimeoutError(<HTTPSConnection(host='visao.pt', port=443) at 0x7fdf2d8a33b0>, 'Connection to visao.pt timed out. (connect timeout=10)'))
+2026-05-21 04:23:30,817 - INFO - [EXAME INFORMATICA] 0 new articles extracted successfully.
+2026-05-21 04:23:30,818 - INFO - No new articles to save.
+2026-05-21 04:23:30,818 - INFO - ==================================================
+2026-05-21 04:23:30,818 - INFO - EXECUTION SUMMARY
+2026-05-21 04:23:30,818 - INFO - ==================================================
+2026-05-21 04:23:30,818 - INFO -  PPLWARE: 0 new articles extracted
+2026-05-21 04:23:30,818 - INFO -  SAPO TEK: 0 new articles extracted
+2026-05-21 04:23:30,818 - INFO -  EXAME INFORMATICA: 0 new articles extracted
+2026-05-21 04:23:30,818 - INFO -   → Total saved: 0 new articles
+2026-05-21 04:23:30,818 - INFO - ==================================================
+2026-05-21 04:23:30,818 - INFO - --- JOB FINISHED ---
+
