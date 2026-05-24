@@ -23807,5 +23807,122 @@
             "Site do Dia"
         ],
         "texto_completo": "Já está a sonhar com todos os destinos que quer visitar nas suas próximas férias?Se vai viajar para um país estrangeiro,saber algumas palavras ou expressões básicas no idioma local pode fazer a diferença, seja para pedir indicações, perceber o que está escrito à sua volta ou até para resolver um imprevisto. Se está a dar os primeiros passos numa nova língua, há uma proposta da Google que o pode ajudar.Chamada Little Language Lessons, esta ferramenta reúne três experiências que exploram o potencial da IA para a aprendizagem. As experiências, desenvolvidas com os modelos Gemini, têm como objetivo transformar situações do quotidiano em oportunidades para ganhar novos conhecimentos, numa abordagem mais dinâmica e personalizada. Na primeira das experiências, chamadaTiny Lesson, os utilizadores podem aprender palavras e expressões úteis, bem como dicas gramaticais, para situações específicas. Depois de selecionar o idioma, basta apresentar uma situação, como perder o passaporte ou fazer um pedido num restaurante. A ferramenta gera depois frases relevantes, incluindo possíveis respostas a perguntas. Já na experiênciaSlang Hang é possível explorar o lado mais casual da língua que está a estudar, com exemplos de conversas que incluem expressões idiomáticas e gíria. Por fim,com a Word Cam pode transformar a câmara do seu smartphone ou do computador para identificar objetos no idioma em questão, incluindo sugestões de palavras relacionadas com o que surge nas imagens. Como explica a Google,as experiências servem como um complemento aos métodos mais tradicionais de estudo, ajudando os utilizadores a criar hábitos, manter o interesse e integrar a aprendizagem no dia a dia. ALittle Language Lessonsestá disponível através do Google Labse conta com vários idiomas disponíveis."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/inteligencia-artificial/falha-critica-no-claude-code-coloca-em-risco-o-seu-pc-sem-que-saiba",
+        "fonte": "Pplware",
+        "titulo": "Falha crítica no Claude Code coloca em risco o seu PC sem que saiba",
+        "resumo": "Há uma falha de segurança no Claude Code. Permite aos atacantes executar comandos no PC, bastando abrir um link",
+        "autor": "Pedro Simões",
+        "url": "https://pplware.sapo.pt/inteligencia-artificial/falha-critica-no-claude-code-coloca-em-risco-o-seu-pc-sem-que-saiba",
+        "data_publicacao": "24 Mai 2026",
+        "data_extracao": "2026-05-24T11:21:20.107180",
+        "categoria": "Tecnologia",
+        "tags": [
+            "atacantes",
+            "Claude Code",
+            "link",
+            "Projeto",
+            "Segurança"
+        ],
+        "texto_completo": "24 Mai 2026·Inteligência ArtificialComentar Um investigador de segurança descobriu uma falha grave no Claude Code. Permite  aos atacantes executar comandos no PC, bastando abrir um link. A análise inicial revela que um hacker pode injetar instruções na linha de comandos. A Anthropic já lançou a versão 2.1.118, que corrige o problema. É urgente que seja feita a atualização.   Joern \"Joernchen\" Schneeweisz, engenheiro de segurança do GitLab,publicoua descoberta. De acordo com a análise técnica, o problema tem origem na forma como o Claude Code processa determinados parâmetros de configuração quando é iniciado. A ferramenta possui um mecanismo que lê as definições antes do programa terminar de iniciar. O problema é que o Claude Code confia demasiado e procura estas definições em qualquer ponto do comando de arranque. Isto sem verificar se o que encontra é de facto uma instrução legítima ou um texto que faz parte de outro parâmetro. Esta falta de verificação abre caminho aos ataques. O Claude Code permite que projetos sejam abertos através de links especiais, que podem incluir texto para pré-carregar a prompt da ferramenta. Joernchen sublinha que um atacante pode inserir instruções de configuração maliciosas neste texto, e o Claude Code interpreta-as como comandos legítimos sem questionar. Isto permite configurar a ferramenta para executar qualquer comando no seu computador assim que fizer login. O exemplo publicado pelo investigador como prova de conceito abriu a aplicação Calculator no macOS e gravou um ficheiro no disco contendo informação do sistema.  Um dos aspetos mais perigosos desta falha envolve uma segunda vulnerabilidade relacionada. O Claude Code apresenta normalmente um aviso quando tenta abrir um projeto não reconhecido, dando-lhe a oportunidade de decidir se confia nele. No entanto, se o link malicioso incluir o nome de um projeto que já guardou e marcou como seguro no PC, este aviso desaparece por completo. Um atacante que saiba que projetos foram descarregados pode criar um link especificamente concebido para contornar essa proteção. Depois pode distribuí-lo por qualquer canal e confiar que o sistema não irá exibir qualquer aviso. O problema fundamental é que o Claude Code não distinguia corretamente entre uma instrução real e um texto que apenas se assemelhava a uma. Esta falha de projeto pode parecer insignificante noutro contexto, mas, combinada com a capacidade de executar comandos no seu sistema, as consequências são graves. A boa notícia é que a Anthropic corrigiu a vulnerabilidade na versão 2.1.118 do Claude Code. Quem utiliza esta ferramenta, pode verificar a sua versão executando o seguinte comando claude --version no terminal. Se o número for inferior a 2.1.118, deve atualizar para evitar ficar vulnerável."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/apple/apple-prepara-o-site-genai-apple-com-as-portas-do-seu-evento-wwdc-2026",
+        "fonte": "Pplware",
+        "titulo": "Apple prepara o site “genai.apple.com” às portas do seu evento WWDC 2026",
+        "resumo": "Com maior pressão para mostrar resultados, a expectativa é que a WWDC deste ano marque finalmente uma mudança de ritmo.",
+        "autor": "Vítor M.",
+        "url": "https://pplware.sapo.pt/apple/apple-prepara-o-site-genai-apple-com-as-portas-do-seu-evento-wwdc-2026",
+        "data_publicacao": "24 Mai 2026",
+        "data_extracao": "2026-05-24T11:21:22.437787",
+        "categoria": "Tecnologia",
+        "tags": [
+            "genai.apple.com",
+            "IA",
+            "inteligência artificial",
+            "keynote 2026",
+            "WWDC 2026"
+        ],
+        "texto_completo": "24 Mai 2026·AppleComentar Se há área onde a Apple precisa acelerar, é na inteligência artificial. Entre o Apple Intelligence e a evolução da Siri, a empresa de Cupertino continua a dar sinais de estar atrás de alguns rivais na IA generativa. Com maior pressão para mostrar resultados, a expectativa é que a WWDC deste ano marque finalmente uma mudança de ritmo. Pelo menos, é isso que os indícios apontam.    A Appleintensifica os preparativospara a WWDC 2026ao criar o subdomínio genai.apple.com. Segundo informações, estenovo site dedicado à inteligência artificial generativafoi integrado nos servidores de domínio da Apple há algumas semanas, embora ainda não esteja ativo. Esta escolha de nome («Gen AI» para Generative AI) confirma claramente a ambição da Apple de comunicar de forma mais forte os seus avanços em inteligência artificial, área popularizada pelo ChatGPT e Claude. A Apple já dispõe de uma página oficial dedicada ao Apple Intelligence. O futuro site genai.apple.com deverá, assim, colocar o foco nas funcionalidades de IA generativa e nas novidades que serão apresentadas durante a conferência para programadores. AWWDC 2026terá início na segunda-feira, 8 de junho de 2026, às 19h00 (hora de Paris), com a muito aguardada apresentação de abertura. Uma das grandes novidades do evento de junho é a \"nova cara\" à frente da Apple. O novo CEO, John Ternus, será, a partir deste evento, quem anuncia o que a empresa de Cupertino coloca no seu universo. Uma das grandes novidades do evento de junho é a \"nova cara\" à frente da Apple. O novo CEO, John Ternus, será, a partir deste evento, quem anuncia o que a empresa de Cupertino coloca no seu universo. As próximas atualizações de software (iOS 27, iPadOS 27 e macOS 27) deverão integrar várias melhorias: Após anos de atraso face à concorrência, aApple acelera claramente na IA generativa. A criação do site genai.apple.com deixa antever anúncios importantes e uma comunicação mais assertiva sobre este tema estratégico durante a WWDC. Manter-vos-emos informados sobre as novidades reveladas durante a keynote de 8 de junho, através da nossa cobertura, que dará todas as novidades em português."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/motores/investigadores-criam-bateria-de-litio-que-carrega-mais-de-85-em-apenas-6-minutos",
+        "fonte": "Pplware",
+        "titulo": "Investigadores criam bateria de lítio que carrega mais de 85% em apenas 6 minutos",
+        "resumo": "Carregar as baterias dos carros elétricos em poucos minutos continua a ser uma das metas mais ambiciosas da indústria automóvel.",
+        "autor": "Vítor M.",
+        "url": "https://pplware.sapo.pt/motores/investigadores-criam-bateria-de-litio-que-carrega-mais-de-85-em-apenas-6-minutos",
+        "data_publicacao": "24 Mai 2026",
+        "data_extracao": "2026-05-24T11:21:24.607099",
+        "categoria": "Tecnologia",
+        "tags": [
+            "bateria de lítio"
+        ],
+        "texto_completo": "24 Mai 2026·Motores/Energia1 Comentário Carregar um carro elétrico em poucos minutos continua a ser uma das metas mais ambiciosas da indústria automóvel. Embora a autonomia tenha melhorado bastante nos últimos anos, o tempo necessário para recarregar continua a ser uma das maiores barreiras à adoção em massa dos veículos elétricos. Contudo, essa \"barreira\" deverá cair em breve... com esta novidade para as baterias de lítio.    Uma equipa de investigadores daUniversidade de Adelaideapresentou uma abordagem que pode aproximar a experiência de carregamento da rapidez do abastecimento tradicional. Falamos deuma bateria de lítio capaz de atingir mais de 85% da carga em apenas seis minutos. O trabalho foi liderado pelo professor Shi-Zhang Qiao.  Durante anos, o desafio das baterias não foi apenas aumentar a capacidade energética. O verdadeiro obstáculo tem sidoconseguir carregamentos rápidos sem degradar rapidamente as células. Quando a velocidade de carregamento aumenta demasiado, osiões de lítio deixam de circular de forma estável. Surgem depósitos metálicos indesejados, aumenta a temperatura interna e aparecem tensões que aceleram o envelhecimento da bateria. Este problema torna-se ainda mais crítico em baterias com ânodos de silício. O silício é visto como um dosmateriais mais promissores para substituir o grafite, porque consegue armazenar muito mais energia. No entanto, expande e contrai significativamente durante os ciclos de carga e descarga, provocando fissuras e perda gradual de desempenho. Até agora, muitas tentativas para resolver este problema passavam poralterar completamente a composição química do eletrólito, o que frequentemente reduz a eficiência ou aumenta os custos de produção.  A solução australiana segue uma abordagem diferente. Em vez de modificar toda a bateria, osinvestigadores atuaram apenas na zona onde ocorre a reação mais crítica: a interface entre o elétrodo e o eletrólito. Para isso utilizaram um mecanismo conhecido como catálise interfacial de redução aniónica. Na prática, a superfície do elétrodo passa a incorporar pontos catalíticos que atraem aníons para essa região. Esse processo favorece a formação de uma camada inorgânica extremamente estável. Essacamada funciona como um escudo químico. Protege a bateria contra reações indesejadas, reduz o aquecimento e permite que os iões continuem a mover-se rapidamente durante o carregamento. O resultado é particularmente interessante porque a proteção surge apenas onde é necessária, sem comprometer o funcionamento global da célula. Os números apresentados chamam a atenção. A equipa conseguiu alcançar: São valores relevantes porque muitas tecnologias de carregamento rápido conseguem reduzir os tempos,mas sacrificam fortemente a longevidade da bateria. Ainda assim, estes testes foram realizados em ambiente controlado. O próximo passo será validar o comportamento em condições reais, incluindo temperaturas extremas, ciclos incompletos, vibrações e utilização intensiva.  A indústria automóvel está a entrar numa nova fase. Já não basta colocar baterias maiores nos automóveis. O foco está agora na velocidade de carregamento, estabilidade e custo. Fabricantes comoBYD, Zeekr, Hyundai e Porsche têm vindo a apostar em arquiteturas de 800 voltse potências superiores a 350 kW para reduzir tempos de espera. Mas existe um limite físico: muitas baterias atuais simplesmente não toleram carregamentos extremos repetidos. Se esta tecnologia conseguir chegar à produção industrial, poderá reduzir uma das maiores preocupações dos utilizadores: o receio de degradar rapidamente a bateria ao utilizar carregamento rápido com frequência. A investigação em baterias está particularmente intensa. Equipas na Coreia do Sul, Japão, China e na Europa estão a explorar tecnologias semelhantes através deeletrólitos sólidos, lítio metálico, silício avançado e novos materiais. O desafio continua a ser o mesmo, itos é,transformar bons resultados de laboratório em produção em massa. Ainda assim, esta abordagem australiana tem uma vantagem relevante. Não exige uma arquitetura completamente nova e poderá adaptar-se com mais facilidade às linhas de produção existentes. Seis minutos de carregamento não resolvem todos os desafios da mobilidade elétrica. Mas podem mudar significativamente a forma como as pessoas olham para o carro elétrico."
+    },
+    {
+        "id_interno": "https://tek.sapo.pt/mobile/apps/artigos/brickit-a-inteligencia-artificial-que-transforma-uma-pilha-de-lego-numa-fonte-de-inspiracao-infinita/",
+        "fonte": "SAPO Notícias / TEK",
+        "titulo": "Brickit: a inteligência artificial que transforma uma pilha de LEGO numa fonte de inspiração infinita",
+        "resumo": "Espalhe as peças no chão, aponte a câmara e deixe a aplicação trabalhar. O Brickit usa inteligência artificial para identificar cada peça que tem à sua disposição e sugerir centenas de construções possíveis, criando instruções passo a passo.",
+        "autor": "Sapo Tek",
+        "url": "https://tek.sapo.pt/mobile/apps/artigos/brickit-a-inteligencia-artificial-que-transforma-uma-pilha-de-lego-numa-fonte-de-inspiracao-infinita/",
+        "data_publicacao": "27 Mar 2026 21:04",
+        "data_extracao": "2026-05-24T11:21:28.439574",
+        "categoria": "Technology",
+        "tags": [
+            "Apps",
+            "android",
+            "aplicação",
+            "app",
+            "app do dia",
+            "Brickit",
+            "ios",
+            "LEGO",
+            "smartphone"
+        ],
+        "texto_completo": "Se for como nós, o mais provável é ter uma caixa cheia de peças deLEGOem casa, muitas delas provenientes de conjuntos diferentes que já perderam as instruções originais.Existe uma forma de resolver o problema, que é usar a base de dados de instruções doRebrickablepara encontrar as instruções desses conjuntos antigos. Caso já não se recorde a que conjuntos as peças correspondem, então só há uma solução: usar o Brickit. A forma de funcionamento destaaplicaçãoé simplesmente genial. Apenas precisa de espalhar as peças no chão ou numa superfície plana, apontar a câmara dosmartphonee deixar a aplicação trabalhar.Em segundos, aappanalisa a pilha de peçaseidentifica cada uma individualmente, seja pela forma, tamanho e cor.Desta forma, ela consegue gerar uma lista de centenas de construções possíveis com base exactamente naquilo que tem à sua frente. E o melhor é que estas não são sugestões genéricas.O Brickit reconhece e indica a localização exata de cada peça de que vai precisar na pilha, passo a passo, para construir o modelo escolhido.Não só o reconhecimento das peças é praticamente imediato, mesmo em pilhas com centenas de blocos, como as instruções são apresentadas de forma clara e sequencial. Existe ainda uma vertente social que permite submeter as suas criações e ver o que outros utilizadores constroem com os mesmos materiais, transformando a aplicação numa comunidade criativa global. O Brickit está disponível paraiOSeAndroid, com acesso gratuito, existindo ainda uma versão adaptada para o ensino, oBrickit for Classes."
+    },
+    {
+        "id_interno": "https://tek.sapo.pt/how-to/artigos/descubra-como-remover-todas-as-funcionalidades-de-ia-do-chrome-edge-e-firefox-com-esta-ferramenta-gratuita/",
+        "fonte": "SAPO Notícias / TEK",
+        "titulo": "Descubra como remover todas as funcionalidades de IA do Chrome, Edge e Firefox com esta ferramenta gratuita",
+        "resumo": "Lembra-se de quando o seu browser era um simples navegador? Descobrimos uma ferramenta gratuita que lhe permite recuperar essa simplicidade, removendo as funcionalidades de IA, os anúncios e outros extras intrusivos.",
+        "autor": "Sapo Tek",
+        "url": "https://tek.sapo.pt/how-to/artigos/descubra-como-remover-todas-as-funcionalidades-de-ia-do-chrome-edge-e-firefox-com-esta-ferramenta-gratuita/",
+        "data_publicacao": "6 Fev 2026 18:16",
+        "data_extracao": "2026-05-24T11:21:29.427303",
+        "categoria": "Technology",
+        "tags": [
+            "How To Tek",
+            "Chrome",
+            "definições",
+            "edge",
+            "Firefox",
+            "Funcionalidaes",
+            "How to",
+            "How to TEK",
+            "ia",
+            "inteligência artificial",
+            "registo",
+            "windows"
+        ],
+        "texto_completo": "Com a explosão dainteligência artificial(IA), e a implementação de cada vez mais funcionalidades com base em IA, os browsers estão a ficar cada vez mais apetrechados, o que tem implicações na sua utilização.Estão cada vez mais pesados para o seu computador, e mais complicados de usar. Mas existe uma maneira de lhes devolver a simplicidade de outrora, usando uma simples extensão. O autor dessa extensão é Corbin Davenport,um programador independente que decidiu fazer algo quanto a isso e criou oJust The Browser, uma ferramenta gratuita que remove todas estas funcionalidades adicionais dos três browsers mais populares do mercado, oChrome, oEdgee oFirefox.Esta ferramenta funciona através de um pequeno script que altera as definições do navegador, sendo possível aplicar nas versões paraWindows,MaceLinux, quando disponíveis. É importante salientar queo Just The Browser não remove as funcionalidades de IA dos sites que visita, apenas do próprio navegador.Por exemplo, a pesquisa no Google continuará a apresentar resumos gerados por IA nas pesquisas, mas pelo menos o navegador deixará de o bombardear com sugestões e pop-ups baseados em inteligência artificial. A lista é extensa e varia ligeiramente entre navegadores. No Firefox, elimina as sugestões de agrupamento de separadores com IA, mantendo, no entanto, a funcionalidade de tradução de páginas por ser algo realmente útil.No Edge da Microsoft, remove a integração doCoPilot. Outros extras que vai remover são os rastreadores de preços e sistemas integrados de pagamento diferido,bem como as sugestões de sites patrocinados e artigos sugeridos na página de novo separador, os pop-ups que pedem para mudar o navegador predefinido,e os ecrãs de boas-vindas que aparecem na primeira execução pedindo para importar dados. O script também desactiva as funcionalidades de telemetria que recolhem dados, excepto os relatórios de erros, que podem ajudar os programadores a identificar problemas. Para instalar o Just The Browser, basta aceder ao site oficial emjustthebrowser.come copiar o script apropriado para o seu sistema operativo.Poderá encontrar as instruções detalhadas, assim como o scrips para cada sistema operativo, a partir das seguintes ligações:Microsoft Edge,Google Chrome,Mozilla Firefox. O processo de instalação do JustTheBrowser no Windows é extremamente simples de executar, sendo apenas necessário guardar um ficheiro de registo no PC e executa-lo através do Editor de Registo do Windows. O How To TeK é a rubrica do TEK Notícias que pretende ajudar todos os utilizadores em tarefas simples (mas que parecem complexas) na utilização de computadores e telemóveis. Se tiver sugestões de truques que quer ver esclarecidos envie um email parageral@tek.sapo.pt."
+    },
+    {
+        "id_interno": "https://tek.sapo.pt/extras/site-do-dia/artigos/squoosh-use-tecnologia-da-google-para-comprimir-imagens-no-browser-sem-instalar-nada-no-computador/",
+        "fonte": "SAPO Notícias / TEK",
+        "titulo": "Squoosh: Use tecnologia da Google para comprimir imagens no browser sem instalar nada no computador",
+        "resumo": "Desenvolvida pela Google Chrome Labs e completamente gratuita e de código aberto, a Squoosh permite comprimir, converter e comparar imagens diretamente no browser, dando ao utilizador controlo total sobre a qualidade da compressão, e com total respeito pela privacidade.",
+        "autor": "Sapo Tek",
+        "url": "https://tek.sapo.pt/extras/site-do-dia/artigos/squoosh-use-tecnologia-da-google-para-comprimir-imagens-no-browser-sem-instalar-nada-no-computador/",
+        "data_publicacao": "24 Mar 2026 08:30",
+        "data_extracao": "2026-05-24T11:21:30.424263",
+        "categoria": "Technology",
+        "tags": [
+            "Site do dia"
+        ],
+        "texto_completo": "Qualquer pessoa que trabalhe com conteúdos na internet sabe que um dos problemas mais irritantes está associado ao impacto que o peso das imagens tem no carregamento das páginas.Ou seja, quanto mais pesadas as imagens, mais lenta será a abertura das páginas.Para evitar esse problema deverá editar as imagens antes de publicar, mas isso implica usar ferramentas próprias que ou são pagas, ou exigem instalação no PC, ou enviam os ficheiros para servidores desconhecidos.A Squoosh promete resolver tudo isso. Desenvolvida pela equipa da Google Chrome Labs e disponibilizada como projeto de código aberto (open source), a Squoosh funciona inteiramente nobrowser. Basta arrastar uma imagem para a página e a ferramenta faz todo o trabalho localmente, no próprio dispositivo.As imagens nunca saem do computador, o que torna a Squoosh particularmente apelativa para quem trabalha com conteúdos sensíveis ou simplesmente não quer depender de serviços externos. Quando abre uma imagem, a interface da ferramenta divide o ecrã em dois painéis com um cursor de comparação ao centro. À esquerda encontra-se a imagem original, e à direita a versão comprimida, em tempo real, usando as definições em vigor.É possível ajustar o nível de qualidade, redimensionar, reduzir a paleta de cores e escolher entre uma vasta lista de formatos modernos como WebP, AVIF, MozJPEG e OxiPNG, cada um com as suas vantagens em termos de compatibilidade e compressão. Nos testes que a própria Google utiliza como termo de comparação, uma imagem de 2,79 MB pode chegar aos 861 KB sem diferenças visíveis a olho nu. A Squoosh funciona ainda como uma aplicação web progressiva, o que significa que pode ser usada sem ligação à internet depois de ter sido carregada uma primeira vez.Para quem produz conteúdo regularmente, é uma das ferramentas mais úteis que existem, e uma daquelas que, uma vez descobertas, passam a fazer parte do fluxo de trabalho para sempre. Poderá experimentar gratuitamente emsquoosh.app."
     }
 ]
