@@ -4044,3 +4044,23 @@
 2026-05-26 21:52:57,587 - INFO - ==================================================
 2026-05-26 21:52:57,588 - INFO - --- JOB FINISHED ---
 
+2026-05-26 23:15:51,803 - INFO - --- JOB STARTED ---
+2026-05-26 23:15:51,845 - INFO - [PPLWARE] Starting extraction...
+2026-05-26 23:15:51,845 - INFO - Starting web scraping on Pplware...
+2026-05-26 23:16:05,112 - INFO - [PPLWARE] 0 new articles extracted successfully.
+2026-05-26 23:16:05,112 - INFO - [SAPO TEK] Starting extraction...
+2026-05-26 23:16:08,095 - INFO - [SAPO TEK] 1 new articles extracted successfully.
+2026-05-26 23:16:08,095 - INFO - [EXAME INFORMATICA] Starting extraction...
+2026-05-26 23:16:18,709 - ERROR - [Exame Informática] Error accessing the site: HTTPSConnectionPool(host='visao.pt', port=443): Read timed out. (read timeout=10)
+2026-05-26 23:16:18,709 - INFO - [EXAME INFORMATICA] 0 new articles extracted successfully.
+2026-05-26 23:16:18,764 - INFO - Saved 1 new articles.
+2026-05-26 23:16:18,764 - INFO - ==================================================
+2026-05-26 23:16:18,764 - INFO - EXECUTION SUMMARY
+2026-05-26 23:16:18,765 - INFO - ==================================================
+2026-05-26 23:16:18,765 - INFO -  PPLWARE: 0 new articles extracted
+2026-05-26 23:16:18,765 - INFO -  SAPO TEK: 1 new articles extracted
+2026-05-26 23:16:18,765 - INFO -  EXAME INFORMATICA: 0 new articles extracted
+2026-05-26 23:16:18,765 - INFO -   → Total saved: 1 new articles
+2026-05-26 23:16:18,765 - INFO - ==================================================
+2026-05-26 23:16:18,765 - INFO - --- JOB FINISHED ---
+
