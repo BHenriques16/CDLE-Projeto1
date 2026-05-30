@@ -27600,5 +27600,80 @@
             "mundial"
         ],
         "texto_completo": "30 Mai 2026·High TechComentar A tecnologia connected ball revolucionou a forma como os árbitros analisam lances polémicos no futebol. Desenvolvida pela FIFA em parceria com a adidas, esta permite recolher dados em tempo real diretamente da bola durante os jogos.    A chamada \"connected ball technology\" é umsistema avançadocriadopara aumentar a precisão das decisões de arbitragem no futebol. A solução foi desenvolvida pela FIFA em colaboração com aadidase consiste na integração de sensores eletrónicosno interior da bola oficial dos jogos. Graças a esta tecnologia, torna-se possível obter informações extremamente detalhadas sobre os movimentos da bola em tempo real. Entre os dados recolhidos estão a velocidade, a trajetóriae o instante exato em que ocorre o contacto com um jogador. Estas informações são especialmente importantes para apoiar o VAR em lances de fora de jogo e noutras situações decisivas. Além do impacto na arbitragem, a tecnologia também contribui para uma experiência mais completa para os adeptos,permitindo uma análise mais detalhada das jogadas e remates. Antes de ser utilizada em grandes torneios internacionais, a tecnologia connected ball passou por vários testes entre 2020 e 2022. O objetivo era garantir a precisão dos dados recolhidos e assegurar a integração correta com os sistemas de arbitragem em vídeo. Antes de ser utilizada em grandes torneios internacionais, a tecnologia connected ball passou por vários testes entre 2020 e 2022. O objetivo era garantir a precisão dos dados recolhidos e assegurar a integração correta com os sistemas de arbitragem em vídeo. Um dos maiores desafios na implementação do fora de jogo semiautomático estava relacionado com a identificação precisa do momento do passe. Quando a análise dependia apenas das imagens de vídeo,o processo podia tornar-se mais lento e menos rigoroso. Para resolver esta limitação, a FIFA procurou uma solução capaz de indicar automaticamente o instante exato em que a bola era tocada. A connected ballsurgiu precisamente para responder a essa necessidade. Com o tempo, percebeu-se também que esta tecnologia poderia ser útil noutras situações, incluindo possíveis lances de mão, onde as imagens tradicionaisnem sempre são suficientes para esclarecer o que aconteceu.  No interior da bola encontra-se um pequeno sensor denominado IMU, sigla para unidade de medição inercial. Este componente consegue recolher dados cerca de 500 vezes por segundo,monitorizando aceleração e movimentos em diferentes direções. Sempre que existe um toque na bola, o sistema identifica esse momento e envia imediatamente a informação para a sala de operações de vídeo. Depois, os dados da bola são combinados com o sistema de rastreamento dos jogadoresatravés das câmaras instaladas no estádio. A combinação destas tecnologias permite ao VAR tomar decisões mais rápidas e rigorosas, sobretudo em lances de fora de jogo semiautomático. O sistema também pode ser utilizado para analisar penáltis, desviose outros contactos relevantes durante o encontro.  Leia também: Quanto custa acabar a caderneta de cromos do Mundial 2026? "
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/internet/google-colab-a-plataforma-gratuita-da-google-para-programar-na-cloud",
+        "fonte": "Pplware",
+        "titulo": "Google Colab: a plataforma gratuita da Google para programar na cloud",
+        "resumo": "Desenvolvido pela Google, o Colab, abreviação de “Colaboratory\", permite executar código Python diretamente no browser.",
+        "autor": "Pedro Pinto",
+        "url": "https://pplware.sapo.pt/internet/google-colab-a-plataforma-gratuita-da-google-para-programar-na-cloud",
+        "data_publicacao": "30 Mai 2026",
+        "data_extracao": "2026-05-30T11:27:14.869057",
+        "categoria": "Tecnologia",
+        "tags": [
+            "Google Colab"
+        ],
+        "texto_completo": "30 Mai 2026·InternetComentar O Google Colab tornou-se uma das ferramentas mais populares para quem pretende programar, analisar dados ou explorar projetos de Inteligência Artificial sem necessidade de um computador potente.    Desenvolvido pela Google, o Colab, abreviação de “Colaboratory\", permite executar código Python diretamente no browser, sem instalação de software. A plataforma funciona na cloud e oferece acesso gratuito a recursos computacionais, incluindo GPUs e TPUs, bastante úteis para tarefas de machine learning e ciência de dados. Uma das grandes vantagens do Google Colab é a integração com o Google Drive, permitindo guardar notebooks automaticamente e partilhar projetos de forma simples com outras pessoas. Além disso, a interface é bastante semelhante ao Jupyter Notebook, tornando a adaptação fácil para estudantes, programadores e investigadores.  A plataforma suporta bibliotecas populares como TensorFlow, PyTorch, Pandas, NumPy e Matplotlib, o que faz do Colab uma solução muito utilizada em cursos online, projetos académicos e desenvolvimento de modelos de IA.  Apesar das vantagens, o Google Colab também possui algumas limitações na versão gratuita, como restrições de tempo de utilização, menor prioridade no acesso a recursos e encerramento automático de sessões inativas. Ainda assim, para muitos utilizadores, o Colab continua a ser uma das formas mais simples e acessíveis de começar a programar na cloud e experimentar ferramentas de Inteligência Artificial. O acesso pode ser feito através do site oficial do Google Colab, bastando uma conta Google para começar a utilizar a plataforma. Google Colab"
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/motores/so-23-considera-que-os-cidadaos-com-mais-de-75-anos-devem-ser-proibidos-de-conduzir",
+        "fonte": "Pplware",
+        "titulo": "Só 23% considera que os cidadãos com mais de 75 anos devem ser proibidos de conduzir",
+        "resumo": "Perante uma petição que propunha a proibição da condução automóvel a partir dos 75 anos, procurámos conhecer a perspetiva de quem nos lê.",
+        "autor": "Ana Sofia Neto",
+        "url": "https://pplware.sapo.pt/motores/so-23-considera-que-os-cidadaos-com-mais-de-75-anos-devem-ser-proibidos-de-conduzir",
+        "data_publicacao": "30 Mai 2026",
+        "data_extracao": "2026-05-30T11:27:17.257888",
+        "categoria": "Tecnologia",
+        "tags": [
+            "conduzir",
+            "petição",
+            "questão semanal"
+        ],
+        "texto_completo": "30 Mai 2026·Motores/Energia1 Comentário Perante uma petição que propunha a proibição da condução automóvel a partir dos 75 anos, procurámos conhecer a perspetiva de quem nos lê. Eis os resultados!   Reunidas as quase três mil respostas, é hora de perceber o que pensam os2940leitores que votaram na última questão. Desse universo, apenas23%, ou seja, 684pessoas, considera que os cidadãos com mais de 75 anos devem ser proibidos de conduzir. Por sua vez,2256 leitores (77%)não consideram que a proibição faça sentido, sendo o argumento mais levantado o de que a capacidade de conduzir não deve medir-se apenas pela idade do condutor. Para uma melhor perceção visual, segue o gráfico com os resultados desta questão.  Pode, também, ver as opiniões deixadas na secção decomentáriosdo artigo onde foi colocada a questão. Participe na nossa questão desta semana   Concorda com a proibição da publicidade a jogos e apostas online?  Ver Resultados Nesta rubrica, colocamos uma questão sobre temas pertinentes, atuais e úteis, para conhecer a opinião e tendências dos nossos leitores no mundo da tecnologia, sobretudo no nosso país. Assim, caso queiram ver algum tema votado nas nossas questões semanais, basta deixarem um comentário com o mesmo ou enviem para marisa.pinto@pplware.com."
+    },
+    {
+        "id_interno": "https://pplware.sapo.pt/smartphones-tablets/tudo-o-que-se-sabe-sobre-o-smartphone-da-openai-que-competira-com-o-iphone",
+        "fonte": "Pplware",
+        "titulo": "Tudo o que se sabe sobre o smartphone da OpenAI que “competirá com o iPhone”",
+        "resumo": "A OpenAI está a desenvolver secretamente um smartphone focado inteiramente em IA para competir diretamente com o iPhone da Apple.",
+        "autor": "Rui Neto",
+        "url": "https://pplware.sapo.pt/smartphones-tablets/tudo-o-que-se-sabe-sobre-o-smartphone-da-openai-que-competira-com-o-iphone",
+        "data_publicacao": "30 Mai 2026",
+        "data_extracao": "2026-05-30T11:27:19.177977",
+        "categoria": "Tecnologia",
+        "tags": [
+            "Apple",
+            "IA",
+            "inteligência artificial",
+            "OpenAI",
+            "Sam Altman",
+            "smartphone"
+        ],
+        "texto_completo": "30 Mai 2026·Apple1 Comentário A OpenAI está a desenvolver secretamente um smartphone focado inteiramente em inteligência artificial (IA) para competir diretamente com o iPhone da Apple.    De acordo comrevelaçõesrecentes do analista Ming-Chi Kuo, o dispositivo não será um smartphone convencional baseado em aplicações individuais. Em vez disso, será um telemóvel de agentes de IA estruturado em torno de uma interfaceconsciente do contexto do utilizador. Kuo salienta que o smartphone é o único dispositivo capaz de captar o estado do utilizador em tempo real, incluindo a localização, as atividades e as comunicações diárias,tornando-o ideal para a execução de agentes inteligentes. Esta abordagem promete alterar a forma como interagimos com os smartphones, desviando o foco da abertura de aplicações isoladaspara a conclusão de tarefas complexas de forma fluida. https://t.co/Qqi64OWBM3 — 郭明錤｜Ming-Chi Kuo (@mingchikuo)April 27, 2026  No que toca ao hardware, as informações apontam para a utilização de um processador personalizado da MediaTek, especificamente o Dimensity 9600, produzido através do processo N2P da TSMCna segunda metade de 2026. Embora a Qualcomm tenha sido inicialmente considerada, a MediaTek parece estar melhor posicionadapara ser a fornecedora exclusiva de chips. O grande destaque técnico reside no processador de sinal de imagem, que trará melhorias na captura do mundo real através da câmara, além de contar com dois processadores de IA dedicados a tarefas paralelas devisão computacional e linguagem natural.  Anteriormente, a OpenAI tinha focado as suas ambições de hardware em formatos sem ecrã, em parceria com Jony Ive,o antigo designer-chefe da Apple. O primeiro produto desta colaboração será uma coluna inteligente com câmara integrada, prevista para o início de 2027,seguindo-se outros dispositivos como óculos inteligentes e auriculares. Para suportar este ecossistema, a OpenAI tem contratado agressivamente engenheiros e designers da Apple, tendo já recrutadomais de 40 antigos colaboradores da marca da maçã. Esta fuga de talentos levou a Apple a oferecer bónus de retenção enormespara evitar a perda de quadros qualificados.  Inicialmente previsto para 2028, a produção em massa deste smartphone foi antecipada para a primeira metade de 2027. Esta aceleração poderá estar relacionada com os planos de entrada em bolsa da OpenAI,onde um produto físico forte ajudaria a consolidar o interesse dos investidores. Caso o calendário se mantenha, as previsões apontam para que as vendas combinadas de 2027 e 2028atinjam os 30 milhões de unidades. Se este portfólio se concretizar, a OpenAI passará a ser uma concorrente direta da Appleem múltiplas frentes de hardware. Curiosamente, no dia em que estes detalhes foram revelados, Sam Altmansugeriupublicamente a necessidadede repensar totalmente o design dos sistemas operativos e das interfaces de utilizador.  Leia também: Leaker revela imagens das novas cores do iPhone 18 Pro "
+    },
+    {
+        "id_interno": "https://tek.sapo.pt/extras/site-do-dia/artigos/obras-iconicas-de-matisse-ganham-vida-numa-nova-experiencia-interativa-com-ia-da-google/",
+        "fonte": "SAPO Notícias / TEK",
+        "titulo": "Obras icónicas de Matisse ganham vida numa nova experiência interativa com IA da Google",
+        "resumo": "A mais recente experiência do Google Arts & Culture usa o modelo de geração de vídeo Veo para ir além dos limites da tela e animar quatro das mais famosas pinturas de Henri Matisse.",
+        "autor": "Sapo Tek",
+        "url": "https://tek.sapo.pt/extras/site-do-dia/artigos/obras-iconicas-de-matisse-ganham-vida-numa-nova-experiencia-interativa-com-ia-da-google/",
+        "data_publicacao": "30 Mai 2026 11:27",
+        "data_extracao": "2026-05-30T11:27:21.537466",
+        "categoria": "Technology",
+        "tags": [
+            "Site do dia",
+            "arte",
+            "experiência",
+            "google",
+            "Google Arts & Culture",
+            "ia",
+            "inteligência artificial",
+            "Site do Dia",
+            "Veo"
+        ],
+        "texto_completo": "Desenvolvida pelo Google Arts & Culture em parceria com o Museu de Arte Moderna de São Francisco (SFMOMA),Matisse: The Wild Palette é uma nova experiência interativa que usa IA para recriar o universo das pinturas de Henri Matisse. Como explica a Google, a experiênciarecorre ao modelo de geração de vídeo Veo para animar quatro pinturas do artista francês que pertencem à coleção do SFMOMA, incluindo a obra“Femme au chapeau”. Apresentada no Salon d’Automne de 1905, em Paris, a peça tornou-se uma das obras mais emblemáticas da carreira do artista. Na época, a pintura chocou o público devido ao uso de cores fortes e pouco realistas, bem pelo estilo que rompia com as convenções artísticas da altura. A abordagem acabaria porajudar a definir o Fauvismo, movimento artístico do qual Matisse se tornou uma das principais figuras. Em Matisse: The Wild Palette, é possívelir além dos limites da tela e explorar interpretações animadas dos cenários e personagens retratados por Matisse, numa experiênciaacompanhada por narração que ajuda a obras e a explicar a sua importância na história da arte moderna. A experiência estádisponível tanto no sitedo Google Arts & Culture, como na sua aplicação, disponível para Android e iOS. "
     }
 ]
