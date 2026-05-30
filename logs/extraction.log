@@ -4369,3 +4369,22 @@
 2026-05-30 04:05:08,383 - INFO - ==================================================
 2026-05-30 04:05:08,384 - INFO - --- JOB FINISHED ---
 
+2026-05-30 08:36:06,999 - INFO - --- JOB STARTED ---
+2026-05-30 08:36:07,047 - INFO - [PPLWARE] Starting extraction...
+2026-05-30 08:36:07,047 - INFO - Starting web scraping on Pplware...
+2026-05-30 08:36:24,358 - INFO - [PPLWARE] 3 new articles extracted successfully.
+2026-05-30 08:36:24,358 - INFO - [SAPO TEK] Starting extraction...
+2026-05-30 08:36:27,166 - INFO - [SAPO TEK] 0 new articles extracted successfully.
+2026-05-30 08:36:27,166 - INFO - [EXAME INFORMATICA] Starting extraction...
+2026-05-30 08:36:27,984 - INFO - [EXAME INFORMATICA] 0 new articles extracted successfully.
+2026-05-30 08:36:28,050 - INFO - Saved 3 new articles.
+2026-05-30 08:36:28,050 - INFO - ==================================================
+2026-05-30 08:36:28,050 - INFO - EXECUTION SUMMARY
+2026-05-30 08:36:28,050 - INFO - ==================================================
+2026-05-30 08:36:28,050 - INFO -  PPLWARE: 3 new articles extracted
+2026-05-30 08:36:28,050 - INFO -  SAPO TEK: 0 new articles extracted
+2026-05-30 08:36:28,050 - INFO -  EXAME INFORMATICA: 0 new articles extracted
+2026-05-30 08:36:28,050 - INFO -   → Total saved: 3 new articles
+2026-05-30 08:36:28,050 - INFO - ==================================================
+2026-05-30 08:36:28,051 - INFO - --- JOB FINISHED ---
+
